@@ -7,3 +7,5 @@ Hi. My name is Kadir Jun Ayhan.
 I am an Assistant Professor of International Relations at Ewha Womans University Graduate School of International Studies.
 
 Welcome to my personal website.
+
+![](kf_pd_week.png){fig-align="center" width="60%"}

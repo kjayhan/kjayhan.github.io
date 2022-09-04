@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Kadir Jun Ayhan"
+  navbar:
+    right:
+      #- text: Blog
+      #  href: blog.qmd 
+      - icon: github
+        href: https://github.com/kjayhan
+      - icon: twitter
+        href: https://twitter.com/kadirayhan
+      - icon: archive
+        href: https://www.researchgate.net/profile/Kadir-Ayhan
+      - icon: google
+        href: https://scholar.google.co.kr/citations?user=TdrkBOUAAAAJ&hl=en
+    
+    left:
+      - href: index.qmd
+        text: "Home"
+        file: index.qmd
+      - text: "About"
+        file: about.qmd
+      - text: "Publications"
+        file: research.qmd
+      - text: "Teaching"
+        file: teaching.qmd
+      - text: "CV"
+        file: cv.qmd
+      - text: "Ongoing Research"
+        file: ongoing.qmd
+      - text: "Special Lectures - 특강"
+        file: lecture.qmd
+      - text: "Media"
+        file: media.qmd
+      - text: "Blog"
+        file: blog.qmd
+      - text: "Links"
+        file: links.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
