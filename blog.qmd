@@ -1,0 +1,12 @@
+---
+title: "Blog"
+editor: visual
+---
+
+If I decide to blog one day, it will appear here.
+
+# What am I up to these days?
+
+I am usually busy with admin work (writing grants, Ph.D. Director at Ewha GSIS), consultation with students (15 graduate students as my advisees), answering emails, teaching, research, special lectures etc.
+
+In addition, these days, I am also busy learning more about R, and Bayesian data analysis.
