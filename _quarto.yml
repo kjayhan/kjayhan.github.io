@@ -27,8 +27,8 @@ website:
         file: research.qmd
       - text: "Teaching"
         file: teaching.qmd
-      #- text: "CV"
-       # file: cv.qmd
+      - text: "CV"
+        file: cv.qmd
       - text: "Ongoing Research"
         file: ongoing.qmd
       - text: "Special Lectures - 특강"
