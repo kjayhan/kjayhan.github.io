@@ -2,7 +2,7 @@
 title: "Dr. Kadir Jun Ayhan's Website"
 ---
 
-![](profiles/kf_pd_week.png){style="float:right;padding: 0 0 0 10px;" fig-alt="Dr. Kadir Jun Ayhan at KF 3rd PD Week" width="33mm" height="50mm"}
+![](profiles/kf_pd_week_small.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Dr. Kadir Jun Ayhan at KF 3rd PD Week" width="348"}
 
 Hi. My name is Kadir Jun Ayhan.
 
