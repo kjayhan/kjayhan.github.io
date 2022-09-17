@@ -1,10 +1,59 @@
 [
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
     "section": "",
-    "text": "Graduate School of International Studies, Ewha Womans University\nWriting and Publishing a Journal Article (Fall 2021, Fall 2022)\nSoft Power in World Politics (Fall 2021)\nInternational Security (Spring 2021, Spring 2022)\nInternational Relations of East Asia (Spring 2021, Spring 2022)\n\n\nEwha Womans University\nIntroduction to International Politics (Division of International Studies) (Fall 2022)\nPublic Diplomacy (International Summer College 2022)\n\n\nCenter for Teaching and Learning, Hankuk University of Foreign Studies\nDigital Active Learning Pedagogy (Fall 2020)\n\n\nDivision of International Studies, Hankuk University of Foreign\nStudies\nInternational Relations Theory (Spring / Fall 2018, Spring 2020)\nPublic Diplomacy (Spring 2017, Spring 2020)\nPower in World Politics (Fall 2020)\nInternational Relations of Asia (Fall 2020)\nTransnational Actors in World Politics (Fall 2017 / 2018)\nGlobal Governance and NGOs (Fall 2019, Fall 2020)\n\n\nGraduate School of International and Area Studies, Hankuk University of Foreign Studies\nTheory and Practice of Public Diplomacy (Fall 2017, Fall 2018, Fall, 2019)\nSoft Power and International Development Cooperation (Fall 2017, Spring 2019)\nGlobal Governance and NGOs (Spring 2017-2019)\nTransnational Issues and Actors in World Politics (Spring 2017, Spring 2018, Fall 2019)\nPolicy Analysis Workshop (Fall 2018)\nProfessional Development Seminar (Fall 2018, Spring 2019)\n\n\nGraduate School of International Studies, Seoul National University\nTheory and Practice of Public Diplomacy (Spring / Fall 2016)\nGlobal Governance and NGOs (co-teaching, Fall 2015)\n\n\nGraduate School of International Studies, Ajou University\nGlobal Governance and NGOs (Fall 2016)\n\n\nTeaching-Related Certificates\n2020, Participation Certificate, ISA-IPC Pandemic Pedagogy Workshop, Online (Zoom)\n2018, Participation Certificate, International Studies Association Innovative Pedagogy Conference, St. Louis\n2018,Participation Certificate, International Studies Association International Politics and Innovative Learning (IPIL) Network Working Group: Change in the Higher Education Landscape: The Power of Intercultural Networks in Innovative Learning"
+    "text": "Contact\nYou can contact me via email or via Twitter DM."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "What am I up to these days?\nI am usually busy with admin work (writing grants, Ph.D. Director at Ewha GSIS), consultation with students (15 graduate students as my advisees), answering emails, teaching, research, special lectures etc.\nIn addition, these days, I am also busy learning more about R, and Bayesian data analysis."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Updated: 5 September 2022"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dr. Kadir Jun Ayhan’s Website",
+    "section": "",
+    "text": "Hi. My name is Kadir Jun Ayhan.\nI am an Assistant Professor of International Relations at Ewha Womans University Graduate School of International Studies.\nMy main research interests include public diplomacy, power in world politics, Korean foreign policy, status and reputation, and international student mobility. I serve as the Editor-in-chief of Journal of Public Diplomacy.\nI regularly consult for governmental public diplomacy projects in Korea, including as a member of Korea Foundation Steering Advisory Committee for Empowerment of Cultural Exchanges and Cooperation. I served as a member of the Korean Presidential (Transition Panel) National Unity Committee in 2022.\nI received my Ph.D. (2016) and M.I.S. (2010) from Seoul National University in International Studies and Bachelor of Commerce (2008) in Economics and International Trade from the University of Auckland.\nI published peer-reviewed articles in numerous journals such as International Studies Perspectives, Korea Observer, Asia Pacific Education Review, Politics & Policy, Place Branding and Public Diplomacy, and Asian International Studies Review among others."
+  },
+  {
+    "objectID": "lecture.html",
+    "href": "lecture.html",
+    "title": "Special Lectures - 특강",
+    "section": "",
+    "text": "Clips\nHere is my interview with Joseph Nye for Korea Foundation’s 3rd Public Diplomacy Week.\nThis is a lecture I recorded for Korea Foundation on public diplomacy of various countries (in Korean).\nI will add more later.\n\n\nContact - 연락\nYou can contact me via email for special lecture inquiries.\n강의 의뢰는 이메일로 연락하시기를 바랍니다."
+  },
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Useful Links",
+    "section": "",
+    "text": "I may add some useful links here later."
+  },
+  {
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "Media",
+    "section": "",
+    "text": "My appointment as a Member of the Presidential (Transition Panel) National Unity Committee\n尹 인수위에 노태우 아들 노재헌, 터키 귀화인 카디르, 김민전 합류\nEx-president’s son, Turkey-born professor included in transition panel on national unity\nI will add other news stories later.\nFor media inquires contact me via email."
+  },
+  {
+    "objectID": "ongoing.html",
+    "href": "ongoing.html",
+    "title": "Ongoing Research",
+    "section": "",
+    "text": "The determinants of U.S. public diplomacy spending: I created a dataset (panel data) with U.S. public diplomacy spending and information on the host countries (trade with the US, trade dependence on Russia and China, terrorist attacks, US troops, UNGA voting similarity with the US etc.). I am currently writing a journal article based on my analysis of this data.\nThe determinants of U.S. overseas missions’ budget: I am currently building a dataset (panel data) with U.S. overseas missions’ budget as the main variable of interest and information on the host countries (trade with the US, trade dependence on Russia and China, terrorist attacks, US troops, UNGA voting similarity with the US etc.). This dataset is complementary to the aforementioned U.S. public diplomacy spending dataset.\nThe determinants of Korea’s COVID-19 humanitarian aid. I wrote a [working paper for KEI](\nSouth Korea’s Public Diplomacy during the COVID-19 Pandemic: Seeking Status as an Authority in Global Governance) on this topic. Now, I updated the dataset, and currently working with Dr. Ryu Jeheung (Ewha Womans University) on a journal article.\nThe determinants of Korea’s high level diplomatic visits: I created a dataset (panel data) of Korean president and prime ministers’ diplomatic visits abroad, and plan to run cross-sectional time-series logistic regression models of South Korean presidents’ and prime ministers’ bilateral diplomatic visits since the country's foundation in 1948. (I may add foreign ministers’ visits as well). I am particularly interested in the differences between different time periods (Cold War, post-Cold War) and how much this is linked to the country’s status-seeking abroad (global vs. regional status hierarchy).\nPublic Diplomacy in Other Words: Very exciting project I am organizing for Journal of Public Diplomacy (still accepting interested scholars to join the project).\nI have a few other paused, pending or upcoming research projects with a few colleagues."
   },
   {
     "objectID": "research.html",
@@ -49,59 +98,10 @@
     "text": "In Preparation\nAyhan, K. J.*, The Determinants of US Public Diplomacy: Countering Adversary Influence All the Way\nAyhan, K. J.*, Determinants of Korea’s COVID-19 Humanitarian Aid\nAyhan, K. J.*, From Korean Peninsula to Omnidirectional Diplomacy: An Analysis of Korea’s High-Level Visits\nAyhan, K. J.*, South Korea in a Multiplex World Order: Seeking Status to Survive\nAyhan, K. J.*, International Student Mobility Programs’ Place in International Relations Theory: From Micro-politics to Macro-politics"
   },
   {
-    "objectID": "ongoing.html",
-    "href": "ongoing.html",
-    "title": "Ongoing Research",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "The determinants of U.S. public diplomacy spending: I created a dataset (panel data) with U.S. public diplomacy spending and information on the host countries (trade with the US, trade dependence on Russia and China, terrorist attacks, US troops, UNGA voting similarity with the US etc.). I am currently writing a journal article based on my analysis of this data.\nThe determinants of U.S. overseas missions’ budget: I am currently building a dataset (panel data) with U.S. overseas missions’ budget as the main variable of interest and information on the host countries (trade with the US, trade dependence on Russia and China, terrorist attacks, US troops, UNGA voting similarity with the US etc.). This dataset is complementary to the aforementioned U.S. public diplomacy spending dataset.\nThe determinants of Korea’s COVID-19 humanitarian aid. I wrote a [working paper for KEI](\nSouth Korea’s Public Diplomacy during the COVID-19 Pandemic: Seeking Status as an Authority in Global Governance) on this topic. Now, I updated the dataset, and currently working with Dr. Ryu Jeheung (Ewha Womans University) on a journal article.\nThe determinants of Korea’s high level diplomatic visits: I created a dataset (panel data) of Korean president and prime ministers’ diplomatic visits abroad, and plan to run cross-sectional time-series logistic regression models of South Korean presidents’ and prime ministers’ bilateral diplomatic visits since the country's foundation in 1948. (I may add foreign ministers’ visits as well). I am particularly interested in the differences between different time periods (Cold War, post-Cold War) and how much this is linked to the country’s status-seeking abroad (global vs. regional status hierarchy).\nPublic Diplomacy in Other Words: Very exciting project I am organizing for Journal of Public Diplomacy (still accepting interested scholars to join the project).\nI have a few other paused, pending or upcoming research projects with a few colleagues."
-  },
-  {
-    "objectID": "lecture.html",
-    "href": "lecture.html",
-    "title": "Special Lectures - 특강",
-    "section": "",
-    "text": "Clips\nHere is my interview with Joseph Nye for Korea Foundation’s 3rd Public Diplomacy Week.\nThis is a lecture I recorded for Korea Foundation on public diplomacy of various countries (in Korean).\nI will add more later.\n\n\nContact - 연락\nYou can contact me via email for special lecture inquiries.\n강의 의뢰는 이메일로 연락하시기를 바랍니다."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Dr. Kadir Jun Ayhan’s Website",
-    "section": "",
-    "text": "I am an Assistant Professor of International Relations at Ewha Womans University Graduate School of International Studies.\nMy main research interests include public diplomacy, power in world politics, Korean foreign policy, status and reputation, and international student mobility. I serve as the Editor-in-chief of Journal of Public Diplomacy.\nI regularly consult for governmental public diplomacy projects in Korea, including as a member of Korea Foundation Steering Advisory Committee for Empowerment of Cultural Exchanges and Cooperation. I served as a member of the Korean Presidential (Transition Panel) National Unity Committee in 2022.\nI received my Ph.D. (2016) and M.I.S. (2010) from Seoul National University in International Studies and Bachelor of Commerce (2008) in Economics and International Trade from the University of Auckland.\nI published peer-reviewed articles in numerous journals such as International Studies Perspectives, Korea Observer, Asia Pacific Education Review, Politics & Policy, Place Branding and Public Diplomacy, and Asian International Studies Review among others."
-  },
-  {
-    "objectID": "media.html",
-    "href": "media.html",
-    "title": "Media",
-    "section": "",
-    "text": "My appointment as a Member of the Presidential (Transition Panel) National Unity Committee\n尹 인수위에 노태우 아들 노재헌, 터키 귀화인 카디르, 김민전 합류\nEx-president’s son, Turkey-born professor included in transition panel on national unity\nI will add other news stories later.\nFor media inquires contact me via email."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About me",
-    "section": "",
-    "text": "Contact\nYou can contact me via email or via Twitter DM."
-  },
-  {
-    "objectID": "links.html",
-    "href": "links.html",
-    "title": "Useful Links",
-    "section": "",
-    "text": "I may add some useful links here later."
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "Updated: 5 September 2022"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "What am I up to these days?\nI am usually busy with admin work (writing grants, Ph.D. Director at Ewha GSIS), consultation with students (15 graduate students as my advisees), answering emails, teaching, research, special lectures etc.\nIn addition, these days, I am also busy learning more about R, and Bayesian data analysis."
+    "text": "Graduate School of International Studies, Ewha Womans University\nWriting and Publishing a Journal Article (Fall 2021, Fall 2022)\nSoft Power in World Politics (Fall 2021)\nInternational Security (Spring 2021, Spring 2022)\nInternational Relations of East Asia (Spring 2021, Spring 2022)\n\n\nEwha Womans University\nIntroduction to International Politics (Division of International Studies) (Fall 2022)\nPublic Diplomacy (International Summer College 2022)\n\n\nCenter for Teaching and Learning, Hankuk University of Foreign Studies\nDigital Active Learning Pedagogy (Fall 2020)\n\n\nDivision of International Studies, Hankuk University of Foreign\nStudies\nInternational Relations Theory (Spring / Fall 2018, Spring 2020)\nPublic Diplomacy (Spring 2017, Spring 2020)\nPower in World Politics (Fall 2020)\nInternational Relations of Asia (Fall 2020)\nTransnational Actors in World Politics (Fall 2017 / 2018)\nGlobal Governance and NGOs (Fall 2019, Fall 2020)\n\n\nGraduate School of International and Area Studies, Hankuk University of Foreign Studies\nTheory and Practice of Public Diplomacy (Fall 2017, Fall 2018, Fall, 2019)\nSoft Power and International Development Cooperation (Fall 2017, Spring 2019)\nGlobal Governance and NGOs (Spring 2017-2019)\nTransnational Issues and Actors in World Politics (Spring 2017, Spring 2018, Fall 2019)\nPolicy Analysis Workshop (Fall 2018)\nProfessional Development Seminar (Fall 2018, Spring 2019)\n\n\nGraduate School of International Studies, Seoul National University\nTheory and Practice of Public Diplomacy (Spring / Fall 2016)\nGlobal Governance and NGOs (co-teaching, Fall 2015)\n\n\nGraduate School of International Studies, Ajou University\nGlobal Governance and NGOs (Fall 2016)\n\n\nTeaching-Related Certificates\n2020, Participation Certificate, ISA-IPC Pandemic Pedagogy Workshop, Online (Zoom)\n2018, Participation Certificate, International Studies Association Innovative Pedagogy Conference, St. Louis\n2018,Participation Certificate, International Studies Association International Politics and Innovative Learning (IPIL) Network Working Group: Change in the Higher Education Landscape: The Power of Intercultural Networks in Innovative Learning"
   }
 ]
