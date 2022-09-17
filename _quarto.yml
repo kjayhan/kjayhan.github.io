@@ -33,14 +33,14 @@ website:
         file: cv.qmd
       - text: "Ongoing Research"
         file: ongoing.qmd
-      - text: "Special Lectures - 특강"
-        file: lecture.qmd
-      - text: "Media"
-        file: media.qmd
-      - text: "Blog"
-        file: blog.qmd
-      - text: "Links"
-        file: links.qmd
+      #- text: "Special Lectures - 특강"
+      #  file: lecture.qmd
+      #- text: "Media"
+      #  file: media.qmd
+      #- text: "Blog"
+      #  file: blog.qmd
+      #- text: "Links"
+      #  file: links.qmd
 
 format:
   html:
