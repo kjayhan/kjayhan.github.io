@@ -25,7 +25,7 @@ website:
     
     left:
       - href: index.qmd
-        text: "About"
+        #text: "About"
         file: index.qmd
       - text: "Publications"
         file: research.qmd
