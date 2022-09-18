@@ -3,34 +3,16 @@ title: "Ongoing Research"
 editor: visual
 ---
 
-I am currently working on a few exciting projects. Here is a few of them without much details. If you are interested in any one of them feel, free to reach out to me.
+I am currently working on a few exciting projects. Here is a few of them without much details. If you are interested in any one of them, feel free to reach out to me.
 
 -   The determinants of U.S. public diplomacy spending: I created a dataset (panel data) with U.S. public diplomacy spending and information on the host countries (trade with the US, trade dependence on Russia and China, terrorist attacks, US troops, UNGA voting similarity with the US etc.). I am currently writing a journal article based on my analysis of this data.
 
 -   The determinants of U.S. overseas missions' budget: I am currently building a dataset (panel data) with U.S. overseas missions' budget as the main variable of interest and information on the host countries (trade with the US, trade dependence on Russia and China, terrorist attacks, US troops, UNGA voting similarity with the US etc.). This dataset is complementary to the aforementioned U.S. public diplomacy spending dataset.
 
--   The determinants of Korea's COVID-19 humanitarian aid. I wrote a [working paper for KEI](
+-   The determinants of Korea's COVID-19 humanitarian aid. I created a dataset for this research project, and wrote a [working paper for KEI](https://keia.org/publication/south-koreas-public-diplomacy-during-the-covid-19-pandemic-seeking-status-as-an-authority-in-global-governance/) on a similar topic. Our abstract with Dr. Ryu Jeheung (Ewha Womans University) is accepted for ISA 2023 Annual Conference in Montreal. Before that, we plan to present the article first at Korean Association for Public Diplomacy and Korean Association for International Studies annual conferences later this year (2022).
 
+-   The determinants of Korea's high level diplomatic visits: I created a dataset (panel data) of Korean president and prime ministers' diplomatic visits abroad, and plan to run cross-sectional time-series logistic regression models of South Korean presidents' and prime ministers' bilateral diplomatic visits since the country's foundation in 1948. (I may add foreign ministers' visits as well). I am particularly interested in the differences between different time periods (Cold War, post-Cold War) and how much this is linked to the country's status-seeking abroad (global vs. regional status hierarchy). This abstract is also accepted for ISA 2023 Annual Conference in Montreal.
 
+-   [Public Diplomacy in Other Words](https://twitter.com/kadirayhan/status/1562422487442284544?s=20&t=c-JCdpNqVYkoyCRzJ3-mHw): Very exciting project I am organizing for [Journal of Public Diplomacy](https://www.journalofpd.com/). (We are still accepting interested scholars to join the project).
 
-
-
-
-
-
-
-
-
-
-
-
-
-    South Korea’s
-    Public Diplomacy during the COVID-19 Pandemic: Seeking Status as an Authority
-    in Global Governance) on this topic. Now, I updated the dataset, and currently working with Dr. Ryu Jeheung (Ewha Womans University) on a journal article.
-
--   The determinants of Korea's high level diplomatic visits: I created a dataset (panel data) of Korean president and prime ministers' diplomatic visits abroad, and plan to run cross-sectional time-series logistic regression models of South Korean presidents' and prime ministers' bilateral diplomatic visits since the country\'s foundation in 1948. (I may add foreign ministers' visits as well). I am particularly interested in the differences between different time periods (Cold War, post-Cold War) and how much this is linked to the country's status-seeking abroad (global vs. regional status hierarchy).
-
--   [Public Diplomacy in Other Words](https://twitter.com/kadirayhan/status/1562422487442284544?s=20&t=c-JCdpNqVYkoyCRzJ3-mHw): Very exciting project I am organizing for [Journal of Public Diplomacy](https://www.journalofpd.com/) (still accepting interested scholars to join the project).
-
--   I have a few other paused, pending or upcoming research projects with a few colleagues.
+-   I have a few other paused or upcoming research projects with a few colleagues.

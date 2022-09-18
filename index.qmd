@@ -1,5 +1,5 @@
 ---
-title: "Dr. Kadir Jun Ayhan's Website"
+title: "About me"
 ---
 
 ![](profiles/kf_pd_week_small.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Dr. Kadir Jun Ayhan at KF 3rd PD Week" width="348"}
