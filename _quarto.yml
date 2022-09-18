@@ -4,6 +4,9 @@ project:
 
 website:
   title: "Dr. Kadir Jun Ayhan"
+  page-footer:
+    left: "© 2022 Kadir Jun Ayhan"
+    center: "Prepared with [Quarto](https://quarto.org)"
   navbar:
     right:
       #- text: Blog
@@ -25,7 +28,7 @@ website:
     
     left:
       - href: index.qmd
-        #text: "About"
+        text: "About"
         file: index.qmd
       - text: "Publications"
         file: research.qmd
@@ -43,7 +46,7 @@ website:
       #  file: blog.qmd
       #- text: "Links"
       #  file: links.qmd
-
+ 
 format:
   html:
     theme: flatly
