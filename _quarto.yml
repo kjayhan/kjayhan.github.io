@@ -46,7 +46,6 @@ website:
       #  file: blog.qmd
       #- text: "Links"
       #  file: links.qmd
- 
 format:
   html:
     theme: flatly
