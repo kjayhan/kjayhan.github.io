@@ -18,15 +18,16 @@ website:
         href: mailto:ayhan@ewha.ac.kr 
       - icon: github
         href: https://github.com/kjayhan
+      - text: "{{< ai researchgate >}}"
+        href: https://www.researchgate.net/profile/Kadir-Ayhan
+      - text: "{{< ai google-scholar >}}"
+        href: https://scholar.google.co.kr/citations?user=TdrkBOUAAAAJ&hl=en
+      - text: "{{< ai orcid >}}"
+        href: https://orcid.org/0000-0001-8052-1938
       - icon: twitter
         href: https://twitter.com/kadirayhan
-      - icon: {{< fa researchgate >}}
-        href: https://www.researchgate.net/profile/Kadir-Ayhan
-      - icon: google
-        href: https://scholar.google.co.kr/citations?user=TdrkBOUAAAAJ&hl=en
-      - icon: {{< fa orcid >}}
-        href: https://orcid.org/0000-0001-8052-1938
-    
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kadirjunayhan/
     left:
       - href: index.qmd
         text: "About"
@@ -52,7 +53,6 @@ format:
     theme: flatly
     css: 
     - styles.css
-    #- academicons.css
     toc: true
 
 editor: visual
