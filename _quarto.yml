@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  google-analytics: "G-W257WPSHMV"
   title: "Dr. Kadir Jun Ayhan"
   page-footer:
     left: "© 2022 Kadir Jun Ayhan"
@@ -19,11 +20,11 @@ website:
         href: https://github.com/kjayhan
       - icon: twitter
         href: https://twitter.com/kadirayhan
-      - icon: archive-fill
+      - icon: {{< fa researchgate >}}
         href: https://www.researchgate.net/profile/Kadir-Ayhan
       - icon: google
         href: https://scholar.google.co.kr/citations?user=TdrkBOUAAAAJ&hl=en
-      - icon: paperclip
+      - icon: {{< fa orcid >}}
         href: https://orcid.org/0000-0001-8052-1938
     
     left:

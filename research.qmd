@@ -1,6 +1,9 @@
 ---
 title: "Publications"
 editor: visual
+listing:
+  contents: posts
+  type: table
 ---
 
 ## Journal Articles
