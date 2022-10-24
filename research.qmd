@@ -1,34 +1,34 @@
 ---
 title: "Publications"
 editor: visual
-listing:
-  contents: posts
-  type: table
+#listing:
+  #contents: posts
+  #type: table
 ---
 
 ## Journal Articles
 
-Forthcoming   **Ayhan, K. J.\***, Jang, S., Inter-Korean People-to-People Diplomacy: Social and Cultural Exchanges across the 38th Parallel. *The Hague Journal of Diplomacy* (SCOPUS)
+Forthcoming **Ayhan, K. J.\***, Jang, S., Inter-Korean People-to-People Diplomacy: Social and Cultural Exchanges across the 38th Parallel. *The Hague Journal of Diplomacy* (SCOPUS)
 
-2022 **Ayhan, K. J.\***, Gouda, M., Lee, H., [Exploring Global Korea Scholarship as a Public Diplomacy Tool](https://doi.org/10.1177/00219096211035800). *Journal of Asian and African Studies*, 57(4): 872-893. (SSCI)
+2022 **Ayhan, K. J.\***, Gouda, M., Lee, H., [Exploring Global Korea Scholarship as a Public Diplomacy Tool](https://doi.org/10.1177/00219096211035800). *Journal of Asian and African Studies*, 57(4): 872-893. (SSCI)
 
-2022 **Ayhan, K. J.\***, [An English School of International Relations Approach to Public Diplomacy: A Public Diplomacy Framework for Global Governance Issues](mailto:https://doi.org/10.23045/jpd.2022.2.1.7?10.23045/jpd.2022.2.1.7). *Journal of Public Diplomacy*, 2(1): 1-4.
+2022 **Ayhan, K. J.\***, [An English School of International Relations Approach to Public Diplomacy: A Public Diplomacy Framework for Global Governance Issues](mailto:https://doi.org/10.23045/jpd.2022.2.1.7?10.23045/jpd.2022.2.1.7). *Journal of Public Diplomacy*, 2(1): 1-4.
 
-2022 **Ayhan, K. J.\*,** [South Korea's Public Diplomacy during the COVID-19 Pandemic: Seeking Status as an Authority in Global Governance](https://keia.org/publication/south-koreas-public-diplomacy-during-the-covid-19-pandemic-seeking-status-as-an-authority-in-global-governance/). *Korea Economic Institute of America Academic Paper Series*.
+2022 **Ayhan, K. J.\*,** [South Korea's Public Diplomacy during the COVID-19 Pandemic: Seeking Status as an Authority in Global Governance](https://keia.org/publication/south-koreas-public-diplomacy-during-the-covid-19-pandemic-seeking-status-as-an-authority-in-global-governance/). *Korea Economic Institute of America Academic Paper Series*.
 
-2022 **Ayhan, K.**, Sevin, E., [Moving Public Diplomacy Research Forward: Methodological Approaches](https://doi.org/10.1057/s41254-022-00263-5). *Place Branding and Public Diplomacy*, 18(1): 201-203. (SCOPUS)
+2022 **Ayhan, K.**, Sevin, E., [Moving Public Diplomacy Research Forward: Methodological Approaches](https://doi.org/10.1057/s41254-022-00263-5). *Place Branding and Public Diplomacy*, 18(1): 201-203. (SCOPUS)
 
-2022 Varpahovskis, E. and **Ayhan, K. J.**\*, [Impact of Country Image on Relationship Maintenance: A Case Study of Korean Government Scholarship Program Alumni](https://doi.org/10.1057/s41254-020-00177-0). *Place Branding and Public Diplomacy*, 18(2): 52-64. (SCOPUS)
+2022 Varpahovskis, E. and **Ayhan, K. J.**\*, [Impact of Country Image on Relationship Maintenance: A Case Study of Korean Government Scholarship Program Alumni](https://doi.org/10.1057/s41254-020-00177-0). *Place Branding and Public Diplomacy*, 18(2): 52-64. (SCOPUS)
 
-2021 **Ayhan, K.**\*, [Journal of Public Diplomacy: Sunrise of a New Interdisciplinary Journal for the Emerging Academic Field](https://doi.org/10.23045/jpd.2021.1.1.001). *Journal of Public Diplomacy*, 1(1): 1-4.
+2021 **Ayhan, K.**\*, [Journal of Public Diplomacy: Sunrise of a New Interdisciplinary Journal for the Emerging Academic Field](https://doi.org/10.23045/jpd.2021.1.1.001). *Journal of Public Diplomacy*, 1(1): 1-4.
 
-2021 **Ayhan, K. J.\***, Gouda, M., [Determinants of Global Korea Scholarship: Students' word-of-mouth about Korea](http://doi.org/10.1007/s12564-020-09648-8). *Asia Pacific Education Review*.22: 15-29. (SSCI)
+2021 **Ayhan, K. J.\***, Gouda, M., [Determinants of Global Korea Scholarship: Students' word-of-mouth about Korea](http://doi.org/10.1007/s12564-020-09648-8). *Asia Pacific Education Review*.22: 15-29. (SSCI)
 
-Ayhan, K.J., Gouda, M. [Correction to: Determinants of Global Korea Scholarship students' word‑of‑mouth about Korea](https://doi.org/10.1007/s12564-021-09712-x). *Asia Pacific Education Review*. 22: 579--582.
+**Ayhan, K.J.**, Gouda, M. [Correction to: Determinants of Global Korea Scholarship students' word‑of‑mouth about Korea](https://doi.org/10.1007/s12564-021-09712-x). *Asia Pacific Education Review*. 22: 579--582.
 
 2021 **Ayhan, K. J.\***, Snow, N., [Introduction to the Special Issue: Global Korea Scholarship as Public Diplomacy](https://doi.org/10.1111/polp.12440), *Politics and Policy*. 49(6): 1282-1291.(SCOPUS)
 
-2021 Tam, L., **Ayhan, K. J.**\*, [Evaluations of People, Affection and Recommendation for a Host Country: A Study of Global Korea Scholarship (GKS) Recipients](https://doi.org/10.1111/polp.12438), *Politics and Policy*. 49(6): 1292-1307. (SCOPUS)
+2021 Tam, L., **Ayhan, K. J.**\*, [Evaluations of People, Affection and Recommendation for a Host Country: A Study of Global Korea Scholarship (GKS) Recipients](https://doi.org/10.1111/polp.12438), *Politics and Policy*. 49(6): 1292-1307. (SCOPUS)
 
 2021 Jon, J., **Ayhan, K. J.**\*, [Satisfied or dissatisfied: Uncovering the determinants of GKS participant's satisfaction with life in Korea](https://doi.org/10.1111/polp.12437), *Politics and Policy*. 49(6): 1391-1414. (SCOPUS)
 
@@ -36,43 +36,43 @@ Ayhan, K.J., Gouda, M. [Correction to: Determinants of Global Korea Scholarship 
 
 2021 Hong, M. S., Jeon, M.\*, **Ayhan, K. J.**, [International Scholarship for Social Change? Re-contextualizing Global Scholarship Alumni's Perceptions of Diversity and Justice in South Korea](https://doi.org/10.1111/polp.12435), *Politics and Policy*. 49(6): 1353-1390. (SCOPUS)
 
-2021 Sevin, E.\*, **Ayhan, K. J.**, Ingenhoff, D., [Capturing Country Images: A Methodological Approach](https://doi.org/10.1080/13216597.2021.1903965). *Journal of International Communication*, 27(2): 237-257(SCOPUS)
+2021 Sevin, E.\*, **Ayhan, K. J.**, Ingenhoff, D., [Capturing Country Images: A Methodological Approach](https://doi.org/10.1080/13216597.2021.1903965). *Journal of International Communication*, 27(2): 237-257(SCOPUS)
 
 2020 **Ayhan, K.**\*, [Transferring Knowledge to Narrative Worlds: Applying Power Taxonomy to Science Fiction Films](https://doi.org/10.1093/isp/ekz024). *International Studies Perspectives*, 21(3): 258-274. (SSCI)
 
 2020 **Ayhan,K.**\*, [An Exploration of Korean Discourses on Public Diplomacy](https://doi.org/10.17477/jcea.2020.19.1.031). *Journal of Contemporary Eastern Asia*, 19(1): 31-42. (SCOPUS)
 
-2020 Sevin,E.\*, **Ayhan, K. J.**, Ingenhoff, D., [Analyzing Country Images through Networks: Case of South Korea](https://doi.org/10.16934/isr.21.2.202012.95). *Asian International Studies Review*, 21(2): 95-119(SCOPUS)
+2020 Sevin,E.\*, **Ayhan, K. J.**, Ingenhoff, D., [Analyzing Country Images through Networks: Case of South Korea](https://doi.org/10.16934/isr.21.2.202012.95). *Asian International Studies Review*, 21(2): 95-119(SCOPUS)
 
 2019 **Ayhan, K.**\*, [The Boundaries of Public Diplomacy and Non-State Actors: A Taxonomy of Perspectives](https://doi.org/10.1093/isp/eky010). *International Studies Perspectives*, 20(1): 63-83. (SSCI)
 
 2019 **Ayhan, K.**\*, [Rethinking Korean Middle Power Diplomacy as a Nation Branding Project](http://dx.doi.org/10.29152/KOIKS.2019.50.1.1). *Korea Observer,* 50(1): 1-24. (SSCI)
 
-2019Choi, S., Tam L., **Ayhan, K.**\* and Lee, D., [Why and How Do Sojourners Talk about Macao? Effects of Perceived Risk and Expected Benefit](http://doi.org/10.16934/isr.20.2.201912.29). *Asian International Studies Review*, 20(1): 29-51. (SCOPUS)
+2019 Choi, S., Tam L., **Ayhan, K.**\* and Lee, D., [Why and How Do Sojourners Talk about Macao? Effects of Perceived Risk and Expected Benefit](http://doi.org/10.16934/isr.20.2.201912.29). *Asian International Studies Review*, 20(1): 29-51. (SCOPUS)
 
 2018 **Ayhan, K.**\*, [Branding Korea as "My Friend's Country": The Case of VANK](http://dx.doi.org/10.29152/KOIKS.2018.49.1.51). *Korea Observer,* 49(1): 51-81. (SSCI)
 
 2018 **Ayhan, K.**\*, [Editorial for Special Issue: Soft Power and Public Diplomacy in East Asia](https://doi.org/10.17477/jcea.2018.17.1.001). *Journal of Contemporary Eastern Asia,* 17(1): 1-4. (SCOPUS)
 
-2015Lee, G., **Ayhan, K.\***, [Why Do We Need Non-state Actors in Public Diplomacy?: Theoretical Discussion of Relational, Networked and Collaborative Public Diplomacy](https://www.jstor.org/stable/43490280). *Journal of International and Area Studies, 22*(1): 57-77. (KCI)
+2015 Lee, G., **Ayhan, K.\***, [Why Do We Need Non-state Actors in Public Diplomacy?: Theoretical Discussion of Relational, Networked and Collaborative Public Diplomacy](https://www.jstor.org/stable/43490280). *Journal of International and Area Studies, 22*(1): 57-77. (KCI)
 
 ## Book Chapters
 
-Forthcoming **Ayhan, K.**\*, South Korean Public Diplomacy vis-à-vis the United States: Finding Support for Policies in Washington DC, In Mitchell Lerner (ed.), *Divided America, Divided Korea: U.S.-Korean Relations During and After the Trump Years*, Cambridge University Press
+Forthcoming **Ayhan, K.**\*, South Korean Public Diplomacy vis-à-vis the United States: Finding Support for Policies in Washington DC, In Mitchell Lerner (ed.), *Divided America, Divided Korea: U.S.-Korean Relations During and After the Trump Years*, Cambridge University Press
 
-2021 **Ayhan, K. J.\***, Kim, Y., [Ideas Matter in Inter-Korean Relations: Shifts in South Korea's Foreign Policy Interests and Behavior vis-à-vis North Korea](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003148890-2/ideas-matter-inter-korean-relations-kadir-jun-ayhan-yuree-kim). In Mason Richey, Jagannath P. Panda and David A. Tizzard (eds.). *The Future of the Korean Peninsula: Korea 2032 and Beyond*, Routledge.
+2021 **Ayhan, K. J.\***, Kim, Y., [Ideas Matter in Inter-Korean Relations: Shifts in South Korea's Foreign Policy Interests and Behavior vis-à-vis North Korea](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003148890-2/ideas-matter-inter-korean-relations-kadir-jun-ayhan-yuree-kim). In Mason Richey, Jagannath P. Panda and David A. Tizzard (eds.). *The Future of the Korean Peninsula: Korea 2032 and Beyond*, Routledge.
 
-2021 Sevin, E., & **Ayhan, K. J.\***. Evaluation in Public Diplomacy. In D. Spry (Ed.), [*Communicating with Purpose and Value: ASEF Public Diplomacy Handbook*](https://asef.org/publications/asef-public-diplomacy-handbook/) (pp. 61-68), Asia-Europe Foundation (ASEF).
+2021 Sevin, E., & **Ayhan, K. J.\***. Evaluation in Public Diplomacy. In D. Spry (Ed.), [*Communicating with Purpose and Value: ASEF Public Diplomacy Handbook*](https://asef.org/publications/asef-public-diplomacy-handbook/) (pp. 61-68), Asia-Europe Foundation (ASEF).
 
-2021 Lee, H., Jang, S., **Ayhan, K. J.**\*[News Coverage about the U.S. in Korea during Bush, Obama and Trump Administration: Trump as an Outlier](https://rowman.com/ISBN/9781538142417/Global-Media-Perceptions-of-the-United-States-The-Trump-Effect)?, In Yahya R. Kamalipour (Ed.), *Global Media Perceptions of the United States: The Trump Effect*. Rowman & Littlefield Publishing, pp. 175-188.
+2021 Lee, H., Jang, S., **Ayhan, K. J.**\*[News Coverage about the U.S. in Korea during Bush, Obama and Trump Administration: Trump as an Outlier](https://rowman.com/ISBN/9781538142417/Global-Media-Perceptions-of-the-United-States-The-Trump-Effect)?, In Yahya R. Kamalipour (Ed.), *Global Media Perceptions of the United States: The Trump Effect*. Rowman & Littlefield Publishing, pp. 175-188.
 
-2021 **Ayhan, K. J.\***, & Sevin, E., [Non-Coercive Influence in World Politics: Intersection with State Inclusive Index](https://www.kipa.re.kr/site/mblk/research/selectBaseView.do?gubun=CO&seqNo=BASE_000000000000634). In J. Park & H.-S. Lyu (Eds.), Developing State Inclusiveness Index: Conceptualization and Measurement (pp. 419-435). National Research Council for Economics, Humanities and Social Sciences.
+2021 **Ayhan, K. J.\***, & Sevin, E., [Non-Coercive Influence in World Politics: Intersection with State Inclusive Index](https://www.kipa.re.kr/site/mblk/research/selectBaseView.do?gubun=CO&seqNo=BASE_000000000000634). In J. Park & H.-S. Lyu (Eds.), Developing State Inclusiveness Index: Conceptualization and Measurement (pp. 419-435). National Research Council for Economics, Humanities and Social Sciences.
 
 2021 **Ayhan, K. J.\***, Sevin, E., [세계정치에서의 비강압적 영향력: 국가포용성지수와의 교차점](https://www.kipa.re.kr/site/mblk/research/selectBaseView.do?gubun=CO&seqNo=BASE_000000000000634). 박준 편. 국가포용성지수 개발 연구 (pp. 327-341). 경제･인문사회연구회.
 
-2020 [민간분야의 공공외교 \[People-to-People Diplomacy\]](http://www.kf.or.kr/archives/ebook/ebook_view.do?p_cidx=3250&p_cfidx=113206). In Korea Foundation (ed.), *처음 만나는 공공외교 \[Introduction to Public Diplomacy\]* (pp. 93-132). Korea Foundation.
+2020 [민간분야의 공공외교 \[People-to-People Diplomacy\]](http://www.kf.or.kr/archives/ebook/ebook_view.do?p_cidx=3250&p_cfidx=113206). In Korea Foundation (ed.), *처음 만나는 공공외교 \[Introduction to Public Diplomacy\]* (pp. 93-132). Korea Foundation.
 
-2019Sevin, E.\*, **Ayhan, K. J.**, Jang, W., Lee, H., [Assessing Propaganda Effectiveness in North Korea: A Limited Access Case Study](http://dx.doi.org/10.4135/9781526477170.n14), In Nicholas O'Shaughnessy, Paul Baines and Nancy Snow (Eds.), *SAGE Handbook of Propaganda* (pp. 205-222). SAGE.
+2019 Sevin, E.\*, **Ayhan, K. J.**, Jang, W., Lee, H., [Assessing Propaganda Effectiveness in North Korea: A Limited Access Case Study](http://dx.doi.org/10.4135/9781526477170.n14), In Nicholas O'Shaughnessy, Paul Baines and Nancy Snow (Eds.), *SAGE Handbook of Propaganda* (pp. 205-222). SAGE.
 
 2017 **Ayhan, K.**\*, Korea's Soft Power and Public Diplomacy Under Moon Jae-In Administration: A Window of Opportunity. In K. Ayhan (Ed.), *Korea's Soft Power and Public Diplomacy* (pp. 13-32). Hangang Network.
 
@@ -84,13 +84,11 @@ Forthcoming **Ayhan, K.**\*, South Korean Public Diplomacy vis-à-vis the Unite
 
 2016 **Ayhan, K.**\* (Ed.), *Korea's Public Diplomacy*, Hangang Network.
 
-2012Lee, H., Kang, S., Choi, S., **Ayhan, K.**, Park, H., \*사회정책과 사회통합의 국가비교: 아시아 국가를 중심으로 1 (터키)\*\*\[Country Comparisons of Social Policies and Social Integration: The Case of Asian Countries 1 (Turkey)\]\*.Korea Institute for Health and Social Affairs.
-
 ## In Submission
 
-**Ayhan, K.**\*, Rethinking Soft Power: Appealing to Fear, Appetite or Spirit. *Asian International Studies Review* (SCOPUS)
+**Ayhan, K.**\*, Rethinking Soft Power: Appealing to Fear, Appetite or Spirit.
 
-**Ayhan, K. J.**, Park, S., Bier, L., Park, H., The Ripple Effects of Inter-Korean Social and Cultural Exchanges? An Experimental Study on Superordinate Korean Identity. *Journal of African and Asian Studies* (SSCI) (R&R)
+**Ayhan, K. J.**, Park, S., Bier, L., Park, H., The Ripple Effects of Inter-Korean Social and Cultural Exchanges? An Experimental Study on Superordinate Korean Identity.
 
 ## Book Reviews
 
@@ -98,7 +96,7 @@ Forthcoming **Ayhan, K.**\*, South Korean Public Diplomacy vis-à-vis the Unite
 
 2019 [Review of the book \[Scott A. Snyder (2018). *South Korea at the Crossroads: Autonomy and Alliance in an Era of Rival Powers*. Columbia University Press\]](https://doi.org/10.1093/ia/iiz115), *International Affairs*, 95(4): 961-962. (SSCI)
 
-2019 [Review of the book \[James Pamment and Karin Gwinn Wilkins (Eds.) (2018), Communicating National Image Through Development and Diplomacy: The Politics of Foreign Aid, Palgrave Macmillan\]](https://ijoc.org/index.php/ijoc/article/view/12076), *International Journal of Communication*. 13: 2351-2354. (SSCI)
+2019 [Review of the book \[James Pamment and Karin Gwinn Wilkins (Eds.) (2018), Communicating National Image Through Development and Diplomacy: The Politics of Foreign Aid, Palgrave Macmillan\]](https://ijoc.org/index.php/ijoc/article/view/12076), *International Journal of Communication*. 13: 2351-2354. (SSCI)
 
 2018 [Connecting Public Diplomacy and Foreign Policy](https://doi.org/10.1093/isr/viy041), *International Studies Review*, 20(3): 539-540. (SSCI)
 
@@ -108,7 +106,7 @@ Forthcoming **Ayhan, K.**\*, South Korean Public Diplomacy vis-à-vis the Unite
 
 **Ayhan, K. J.\***, The Determinants of US Public Diplomacy: Countering Adversary Influence All the Way
 
-**Ayhan, K. J.\***, Determinants of Korea's COVID-19 Humanitarian Aid
+**Ayhan, K. J.\*** and Jeheung Ryu, What Drives South Korea's COVID-19 Humanitarian Aid? Not the Severity of COVID-19 in the Host Countries
 
 **Ayhan, K. J.\***, From Korean Peninsula to Omnidirectional Diplomacy: An Analysis of Korea's High-Level Visits
 

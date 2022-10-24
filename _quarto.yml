@@ -37,7 +37,7 @@ website:
       - text: "Teaching"
         file: teaching.qmd
       - text: "CV"
-        file: cv.qmd
+        file: contents/cv/Kadir_Jun_Ayhan_CV.pdf
       - text: "Ongoing Research"
         file: ongoing.qmd
       #- text: "Special Lectures - 특강"
