@@ -1,0 +1,57 @@
+---
+title: "Diplomacy Game Guidelines"
+subtitle: "Ewha GSIS Spring 2023: International Security"
+author: Dr. Kadir Jun Ayhan
+---
+
+::: border
+"At the beginning of the 20th century, Europe was a complicated cauldron of political intrigue. You are about to travel back to those times and change the course of history in your favor." -- Diplomacy Rulebook
+:::
+
+# Instructions and Information[^1]
+
+[^1]: Much of this content is adapted from the supplamentary file provided by [Eric R Rittinger](https://www.salisbury.edu/faculty-and-staff/errittinger). I appreciate him for making these materials available for adaptation.
+
+    Rittinger, E. R. (2020). Inspiring students to think theoretically about international relations through the game of diplomacy. *Journal of Political Science Education*, *16*(1), 41-56. doi: [10.1080/15512169.2018.1516556](https://doi.org/10.1080/15512169.2018.1516556).
+
+1.  There are seven countries representing the European great powers of the early 20th century: England, Germany, France, Russia, Austria, Italy, and Turkey.
+
+2.  We will use an online platform to play the game (http://www.playdiplomacy.com/). I will distribute id's and passwords to all team members.
+
+3.  Everyone must study the game rules, which are available [here](http://www.playdiplomacy.com/help.php?sub_page=Game_Rules).
+
+    The instructions on using the online point and click interface are [here](http://www.playdiplomacy.com/forum/viewtopic.php?f=291&t=19671).
+
+    You can find clips that explain the game on [Youtube](https://www.youtube.com/results?search_query=diplomacy+game) or other platforms. Here are two examples:
+
+    [1](https://www.youtube.com/watch?v=S-sSWsBdbNI), [2](https://www.youtube.com/watch?v=efu2nHmS_S8).
+
+4.  Knowing the rules is essential to winning the game.
+
+5.  You will play both in and outside of class. In-class game sessions will progress at a much quicker pace. Outside the class, you will make moves every 24 hours.
+
+6.  Make sure to communicate with other teams, using the in-game messaging.
+
+7.  Please take note of your individual experiences playing the game. The notes need not be long. These notes will be useful when you answer my guiding questions for the mid-term essay.
+
+8.  For the mid-term, I will give you guiding questions for you to reflect upon.
+
+9.  The bonus point scheme is as follows:
+
+-   1 winner: 6 points
+
+-   2 winners: 6 points to be allocated among the winners
+
+-   3 winners: 6 points to be allocated among the winners
+
+-   4 winners: 7 points to be allocated among the winners
+
+-   5 winners: 7 points to be allocated among the winners
+
+-   6 winners: 8 points to be allocated among the winners
+
+-   7 winners: 8 points to be allocated among the winners
+
+-   The allocation of points will be written in the final agreement when finalizing the game and will be signed by the winners.
+
+-   The points can only be non-negative integers (i.e., 1, 2, 3 etc.)

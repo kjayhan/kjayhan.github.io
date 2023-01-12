@@ -11,7 +11,7 @@ Writing and Publishing a Journal Article (Fall 2021, Fall 2022)
 
 [Soft Power in World Politics (Fall 2021, Spring 2023)](syllabi/soft-syllabus.qmd)
 
-International Security (Spring 2021, Spring 2022, Spring 2023)
+[International Security (Spring 2021, Spring 2022, Spring 2023)](syllabi/security-syllabus.qmd)
 
 International Relations of East Asia (Spring 2021, Spring 2022)
 
