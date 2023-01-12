@@ -1,0 +1,32 @@
+---
+title: "South Korean Public Diplomacy vis-à-vis the United States: Finding Support for Policies in Washington DC"
+date: 2023-07
+author:
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+categories: [Korea, international relations, foreign policy, public diplomacy, 2023]
+pub-info:
+  reference: >-
+    <strong>Kadir Jun Ayhan</strong> (2023), “South Korean Public Diplomacy vis-à-vis the United States: Finding Support for Policies in Washington DC,” in Mitchell Lerner (ed.) <em>Divided America, Divided Korea: U.S.-Korean Relations During and After the Trump Years</em> (pp. 203-235), Cambridge University Press
+---
+
+## Information
+
+The book is forthcoming in Summer 2023.
+
+## BibTeX citation
+
+``` bibtex
+@incollection{ayhan_south_2023,
+	title = {South Korean Public Diplomacy vis-à-vis the United States: Finding Support for Policies in Washington {DC}},
+	pages = {203--235},
+	booktitle = {Divided America, Divided Korea: U.S.-Korean Relations During and After the Trump Years},
+	publisher = {Cambridge University Press},
+	author = {Ayhan, Kadir Jun},
+	editor = {Lerner, Mitchell},
+	date = {2023},
+	note = {Type: Book Section},
+}
+```

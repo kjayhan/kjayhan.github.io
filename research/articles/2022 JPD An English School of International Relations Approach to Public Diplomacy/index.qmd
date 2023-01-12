@@ -1,0 +1,36 @@
+---
+title: "An English School of International Relations Approach to Public Diplomacy: A Public Diplomacy Framework for Global Governance Issues"
+date: 2022-06
+author:
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+categories: [international relations, development cooperation, public diplomacy, 2022]
+pub-info:
+  reference: >-
+    <strong>Kadir Jun Ayhan</strong> (2022), “An English School of International Relations Approach to Public Diplomacy: A Public Diplomacy Framework for Global Governance Issues,” <em>Journal of Public Diplomacy</em>: 2(1): 1-4, doi: <a href="https://doi.org/10.23045/jpd.2022.2.1.7"><code>10.23045/jpd.2022.2.1.7</code></a>
+doi: 10.23045/jpd.2022.2.1.7
+#image:
+#draft: true
+---
+
+## Abstract
+
+Throughout the six decades evolution of the public diplomacy concept, international relations approaches have remained at the margins of the field. An important international relations theory that has been virtually non-existent in the public diplomacy literature is the English School of international relations. This theory has been the centerpiece of literature in diplomatic studies, but curiously, has not been applied to public diplomacy. In this editorial, I outline a public diplomacy framework for global governance issues that builds on the English School and Pamment's framework on the intersection of international development and public diplomacy.
+
+## BibTeX citation
+
+``` bibtex
+@article{ayhan_english_2022,
+    title = {An English School of International Relations Approach to Public Diplomacy: A Public Diplomacy Framework for Global Governance Issues},
+    volume = {2},
+    doi = {10.23045/jpd.2022.2.1.7},
+    pages = {1--4},
+    number = {1},
+    journaltitle = {Journal of Public Diplomacy},
+    author = {Ayhan, Kadir Jun},
+    date = {2022},
+    note = {Type: Journal Article},
+}
+```

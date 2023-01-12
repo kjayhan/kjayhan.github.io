@@ -1,0 +1,32 @@
+---
+title: "Comprehensive Peacebuilding on the Korean Peninsula: Internal Dynamics in North Korea and South Korean Approaches"
+date: 2023-07
+author:
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+  - name: Brendan M. Howe
+    url: https://hufs.academia.edu/%EC%8B%9C%EC%97%B0%EC%9E%A5
+    orcid: 0000-0001-9603-2792
+    affiliation: Ewha Womans University Graduate School of International Studies
+categories: [Korea, Inter-Korean, international relations, foreign policy, 2023]
+pub-info:
+  reference: >-
+    <strong>Kadir Jun Ayhan</strong> and Brendan M. Howe (2023), <em>Comprehensive Peacebuilding on the Korean Peninsula: Internal Dynamics in North Korea and South Korean Approaches</em>, Palgrave Macmillan
+---
+
+## Information
+
+The book is forthcoming in Summer 2023.
+
+## BibTeX citation
+
+``` bibtex
+@collection{ayhan_comprehensive_2023,
+	title = {Comprehensive Peacebuilding on the Korean Peninsula: Internal Dynamics in North Korea and South Korean Approaches},
+	publisher = {Palgrave Macmillan},
+	editor = {Ayhan, Kadir Jun and Howe, Brendan M.},
+	date = {2023},
+}
+```

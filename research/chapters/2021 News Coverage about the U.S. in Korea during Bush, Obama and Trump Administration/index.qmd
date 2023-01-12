@@ -1,0 +1,39 @@
+---
+title: "News Coverage about the U.S. in Korea during Bush, Obama and Trump Administration: Trump as an Outlier"
+date: 2021-01
+author:
+  - name: Hyelim Lee
+    url: https://scholar.google.co.kr/citations?user=GnvwjTUAAAAJ&hl=en
+    orcid: 0000
+    affiliation: University of Oklahoma
+  - name: Seulgi Jang
+    url: https://scholar.google.co.kr/citations?user=-Sn2BXYAAAAJ&hl=ko
+    orcid: 0000
+    affiliation: Seoul National University
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+categories: [Korea, 2021]
+pub-info:
+  reference: >-
+    Hyelim Lee, Seulgi Jang, and <strong>Kadir Jun Ayhan*</strong> (2021), “News Coverage about the U.S. in Korea during Bush, Obama and Trump Administration: Trump as an Outlier,” in Yahya R. Kamalipour (ed.) <em>Global Media Perceptions of the United States: The Trump Effect</em> (pp. 175-178), Rowman & Littlefield Publishing <a href="https://rowman.com/ISBN/9781538142417/Global-Media-Perceptions-of-the-United-States-The-Trump-Effect"><code>link</code></a>
+#image:
+#draft: true
+---
+
+## BibTeX citation
+
+``` bibtex
+@incollection{lee_news_2021,
+    title = {News Coverage about the U.S. in Korea during Bush, Obama and Trump Administration: Trump as an Outlier},
+    url = {https://rowman.com/ISBN/9781538142417/Global-Media-Perceptions-of-the-United-States-The-Trump-Effect},
+    pages = {175--188},
+    booktitle = {Global Media Perceptions of the United States: The Trump Effect},
+    publisher = {Rowman \& Littlefield Publishing},
+    author = {Lee, Hyelim and Jang, Seulgi and Ayhan, Kadir Jun},
+    editor = {Kamalipour, Yahya R.},
+    date = {2021},
+    note = {Type: Book Section},
+}
+```

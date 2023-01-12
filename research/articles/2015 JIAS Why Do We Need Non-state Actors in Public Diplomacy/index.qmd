@@ -1,0 +1,40 @@
+---
+title: "Why Do We Need Non-state Actors in Public Diplomacy?: Theoretical Discussion of Relational, Networked and Collaborative Public Diplomacy"
+date: 2015-06
+author:
+  - name: Geun Lee
+    url: https://gsis.snu.ac.kr/professor?professor=109
+    orcid: 0000
+    affiliation: Seoul National University
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+categories: [public diplomacy, people-to-people diplomacy, non-state actors, 2015]
+pub-info:
+  reference: >-
+    Geun Lee and <strong>Kadir Jun Ayhan*</strong> (2015), “Why Do We Need Non-state Actors in Public Diplomacy?: Theoretical Discussion of Relational, Networked and Collaborative Public Diplomacy,” <em>AJournal of International and Area Studies</em>: 22(1): 57-77, doi: <a href="https://doi.org/10.23071/jias.2015.22.1.57"><code>10.23071/jias.2015.22.1.57</code></a>
+doi: 10.23071/jias.2015.22.1.57
+#image:
+#draft: true
+---
+
+## Abstract
+
+As a consequence of changing domestic and international socio-political environment, public diplomacy policies require relational, networked and collaborative approaches for more effective and long-term outcomes. This article explores the relevance of non-state actors to public diplomacy and suggests why and how collaboration takes place between state and non-state actors. Furthermore, the article develops a typology of collaboration between state and non-state actors for public diplomacy initiatives based on two dimensions: whose objectives are prioritized in the collaboration and who proposes collaboration. The article suggests that non-state actors' potential for public diplomacy can be tapped by state when state approaches non-state actors for collaboration as well as opening its channels for collaboration opportunities coming from non-state actors.
+
+## BibTeX citation
+
+``` bibtex
+@article{lee_why_2015,
+    title = {Why Do We Need Non-state Actors in Public Diplomacy?: Theoretical Discussion of Relational, Networked and Collaborative Public Diplomacy},
+    volume = {23},
+    doi = {10.23071/jias.2015.22.1.57},
+    pages = {57--77},
+    number = {1},
+    journaltitle = {Journal of International and Area Studies},
+    author = {Lee, Geun and Ayhan, Kadir Jun},
+    date = {2015},
+    note = {Type: Journal Article},
+}
+```

@@ -1,0 +1,39 @@
+---
+title: "Journal of Public Diplomacy: Sunrise of a New Interdisciplinary Journal for the Emerging Academic Field"
+date: 2021-06
+author:
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+categories: [public diplomacy, Korea, 2021]
+pub-info:
+  reference: >-
+    <strong>Kadir Jun Ayhan</strong> (2021), “Journal of Public Diplomacy: Sunrise of a New Interdisciplinary Journal for the Emerging Academic Field,” <em>Journal of Public Diplomacy</em>: 1(1): 1-4, doi: <a href="https://doi.org/10.23045/jpd.2021.1.1.001"><code>10.23045/jpd.2021.1.1.001</code></a>
+doi: 10.23045/jpd.2021.1.1.001
+#image:
+#draft: true
+---
+
+## Introduction
+
+Around the time when public diplomacy research began to take off, Bruce Gregory (2008) called our attention to the sunrise of public diplomacy as an emerging academic field. In the same year, Eytan Gilboa (2008) surveyed the potential of interdisciplinary research in this field in search of a public diplomacy theory. In a more systematic literature review, Sevin et al. (2019) found that public diplomacy has become multidisciplinary despite the lack of interdisciplinary engagement between political scientists and communication scholars.
+
+...
+
+## BibTeX citation
+
+``` bibtex
+@article{ayhan_journal_2021,
+    title = {Journal of Public Diplomacy: Sunrise of a New Interdisciplinary Journal for an Emerging Academic Field},
+    volume = {1},
+    issn = {2765-768X},
+    doi = {10.23045/jpd.2021.1.1.001},
+    pages = {1--4},
+    number = {1},
+    journaltitle = {Journal of Public Diplomacy},
+    author = {Ayhan, Kadir Jun},
+    date = {2021},
+    note = {Type: Journal Article},
+}
+```

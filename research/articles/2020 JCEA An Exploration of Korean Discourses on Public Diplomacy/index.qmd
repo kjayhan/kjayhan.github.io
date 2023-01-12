@@ -1,0 +1,36 @@
+---
+title: "An Exploration of Korean Discourses on Public Diplomacy"
+date: 2020-07
+author:
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+categories: [Scopus, Korea, public diplomacy, 2020]
+pub-info:
+  reference: >-
+    <strong>Kadir Jun Ayhan</strong> (2020), “An Exploration of Korean Discourses on Public Diplomacy,” <em>Journal of Contemporary Eastern Asia</em>: 19(1): 31-42, doi: <a href="https://doi.org/10.17477/jcea.2020.19.1.031"><code>10.17477/jcea.2020.19.1.031</code></a>
+doi: 10.17477/jcea.2020.19.1.031
+#image:
+#draft: true
+---
+
+## **Abstract**
+
+There is great confusion over what constitutes public diplomacy (PD), who its actors are, and the relevance of non-state actors. In the Korean context, in addition to the general fuzziness of the concept, linguistic peculiarities of the terms gonggong and gongjung both of which refer to public, waegyo, which is interchangeably used for international affairs, foreign policy and diplomacy, and juche which is simultaneously used for actor and agent, add more layers of confusion. While the term PD in Korea is based almost entirely on Western conceptualization, these linguistic peculiarities prevent fruitful conversations among scholars and practitioners on PD. Against this background, this research note explores and addresses conceptual ambiguities that pertains to PD and the policy discourse on the topic, particularly on non-state PD in Korea. The paper draws on Korean government's PD-related policy documents and Diplomatic White Papers and all relevant academic articles found in Korean-language journals registered in the Korean Citation Index (KCI), which are analysed to gain an understanding of the PD-related policy discourse in Korea.
+
+## BibTeX citation
+
+``` bibtex
+@article{ayhan_exploration_2020,
+    title = {An Exploration of Korean Discourses on Public Diplomacy},
+    volume = {19},
+    doi = {10.17477/jcea.2020.19.1.031},
+    pages = {31--42},
+    number = {1},
+    journaltitle = {Journal of Contemporary Eastern Asia},
+    author = {Ayhan, Kadir Jun},
+    date = {2020},
+    note = {Type: Journal Article},
+}
+```

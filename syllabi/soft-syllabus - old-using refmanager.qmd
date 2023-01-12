@@ -1,0 +1,310 @@
+---
+title: "Soft Power in World Politics"
+number-sections: false
+toc: true
+toc_float: true
+mainfont: Times New Roman
+monofont: Times New Roman
+editor: visual
+execute:
+  echo: false
+  warning: false
+  error: false
+  output: true
+---
+
+```{r}
+
+library(lubridate) 
+library(tidyverse)
+library(tinytex)
+library(kableExtra)
+library(RefManageR)
+
+Week <- 1:17 
+df <- as.data.frame(Week)
+
+posixct.in <- parse_date_time(x = "2023-03-02", orders = "ymd", tz = "Asia/Seoul")
+
+df$Date <- posixct.in %m+% weeks(x = seq.int(from = 0, to = 16, by = 1)) 
+
+df$Date <- format(df$Date, format = "%d %b")
+
+#df$Full_Date <- posixct.in %m+% weeks(x = seq.int(from = 0, to = 16, by = 1)) 
+
+
+df$'Topics & Class Materials, Assignments' <- c(
+  "Introduction of the Course",
+  "The Concept of Political Power",
+  "No class - (Make-up class later)",
+  "The Concepts of Soft Power and Smart Power",
+  "Skeptical Views on Soft Power",
+  "Measuring (Soft) Power",
+  "Workshop: What Do Soft Power Indices Actually Measure?", 
+  "Mid-term Week", 
+  "Mid-term Paper Presentations and Debriefing",
+  "Legitimacy and Power",
+  "Reputation, Status and Power",
+  "Compulsory Power",
+  "Institutional Power", 
+  "Structural Power", 
+  "Productive Power", 
+  "Submission of Final Papers",
+  ""
+)
+
+# df$'Readings' <- c("")
+
+bib <- ReadBib("soft-required_readings.bib")
+myopts <- RefManageR::BibOptions(bib.style = "authoryear", 
+                                 style="text", 
+                                 #hyperlink = "to.doc",
+                                 first.inits=TRUE, 
+                                 max.names = 4,
+                                 no.print.fields = c("issn", "urldate", "note"))
+
+```
+
+# Syllabus (2023 Spring) {style="color: green"}
+
+|                                                       |                                                                         |                                             |
+|-------------------------------------------------------|-------------------------------------------------------------------------|---------------------------------------------|
+| [Course Title]{style="color: green"}                  | Soft Power in World Politics                                            | [Course No.:]{style="color: green"} IS639   |
+| [Department/ Major]{style="color: green"}             | GSIS                                                                    | [Credit/ Hours:]{style="color: green"} 3    |
+| [Class time/ Classroom]{style="color: green"}         | Tuesday 15:30 -- 18:15 / IEB 1002                                       |                                             |
+| [Instructor]{style="color: green"}                    | [Name:]{style="color: green"} Kadir Jun Ayhan                           | [Department:]{style="color: green"} GSIS    |
+|                                                       | [E-mail:]{style="color: green"} ayhan\@ewha.ac.kr                       | [Phone:]{style="color: green"} 02-3277-4628 |
+| [Office Hours/ Office Location]{style="color: green"} | [Make an appointment here](https://calendly.com/kadirayhan/officehours) |                                             |
+
+# [**I. Course Overview**]{style="color: green"}
+
+## **1. Course Description** {style="color: black"}
+
+The main target of this class is graduate students who are interested in power dynamics in world politics. The course starts off with definitions of power and its different forms. We will learn about how power functions in world politics with examples from global governance issue-areas, including direct and diffuse kinds of power. We will critically approach the concepts of soft power and smart power with the questions "how soft is soft power" and "can there be pure persuasion in world politics" in mind. Furthermore, we will discuss measurement of (soft) power and influence in world politics. The course follows an active learning pedagogy, aiming to make students take learning into their own hands.
+
+## **2. Prerequisites** {style="color:black"}
+
+Students are expected to have at least introduction-level knowledge of international relations theories.
+
+## **3. Course Format** {style="color:black"}
+
+|                                 |                                                  |                                               |
+|---------------------------------|--------------------------------------------------|-----------------------------------------------|
+| [Lecture]{style="color: green"} | [Discussion/ Presentation]{style="color: green"} | [Experiment/ Practicum]{style="color: green"} |
+| 20%                             | 40%                                              | 40%                                           |
+
+This course is designed to facilitate student-centric learning. The assignments for this course are not merely for grading but designed in a way to help students practice and improve their critical thinking, researching, presentation and academic writing skills. There are no in-class exams for this course. This is because, I believe that you put so much effort in writing papers in exams to be read only by one person. On the other hand, writing papers give students an opportunity to research and keep their writings as working papers which can be improved in the future.
+
+Active participation in discussion is strongly encouraged for this course. In order to motivate students to read all required articles and come to class prepared for discussion, response papers and discussion participation constitute 25% of students' grade for this course. In the beginning of every lecture, you will be asked to share what you have written in your response papers to stimulate discussion (based on what you have already prepared). We will discuss your response papers in the first part of the class. The second part of the class will begin with my summary and clarification of some of the arguments and concepts in the assigned readings. Then, we will have one or two student presentations (depending on the number of students) which will apply the theoretical concepts in the readings to a case study. The requirements of the assignments are detailed below.
+
+I expect students to attend classes, to arrive on time, and to come to class prepared to engage in class discussion by reading at least the required readings, taking note of the key arguments, and identifying strengths, weaknesses, and contradictions in these arguments.
+
+## **4. Course Objectives**
+
+Learning objectives:
+
+\- Recognizing various theoretical approaches to political power in world politics.
+
+\- Being able to classify, exemplify and interpret different kinds of political power in world politics.
+
+\- Applying theoretical understanding of political power to case studies (presentation and workshop), and to other new settings (film); and analyzing and critiquing these cases.
+
+## **5. Evaluation System**
+
+| [Mid-term Paper]{style="color: green"} | [Final Paper]{style="color: green"} | [Response Papers]{style="color: green"} | [Presentation]{style="color: green"} | [Participation and Discussion]{style="color: green"} |
+|----------------------------------------|-------------------------------------|-----------------------------------------|--------------------------------------|------------------------------------------------------|
+| 30%                                    | 30%                                 | 10%                                     | 15%                                  | 15%                                                  |
+
+Explanation of the evaluation system:
+
+### ***Response Papers:***
+
+Length: Less than half a page.
+
+In order to prepare for class discussion, you must read all required articles and submit weekly response papers beginning from Week 4. Each student needs to submit at least four response papers (that is for four different weeks). For the response papers, students will find a recent (last six months) news article (from newspapers, magazines or semi-academic journals) and connect it to the required readings for that week (critically analyzing whether it is in line with the arguments in the required readings or not). Make sure to copy-paste the news article as well as its link below your response paper. Weekly response papers need to be submitted to Cyber Campus before class time. You are encouraged to, but you don't have to, make comments to your colleagues' response papers.
+
+### ***Presentations***
+
+Length: Around 15 minutes
+
+All students will make one presentation on a case study. The presenter must read the assigned readings carefully when preparing for the presentation. You are asked to present a case study that is related to the required readings. You must make use of the theories/ frameworks/ concepts in the assigned readings for your analysis of the case study of your choice. For example, if the required article looks at power dynamics of the US-led international liberal order, you can apply a similar approach to look at Soviet Union-led regional international order. Make sure that you are not merely summarizing another article. The point of the presentation is for you to apply what you learned from the readings to a case study. You must show your analysis and your value-added. Discussion will follow presentations (based on discussion questions prepared by the presenter), and all students must actively participate in this discussion.
+
+### ***Workshop and Mid-term Paper*** {#sec-workshop}
+
+Due date: `r df$Date[8]` 23:59
+
+The mid-term paper will be based on the workshop when students will discuss how we can measure power/ influence in world politics in groups. Within the next week, the same groups will finalize their team report (1000 words) based on their discussions and further research and submit it to Cyber Campus (Turnitin).
+
+The reports will be presented on `r df$Date[9]` followed by debriefing.
+
+Please note that there will not be a class on `r df$Date[8]` in lieu of mid-term exam week.
+
+### ***Final Paper*** {#sec-final}
+
+Due date: `r df$Date[16]` 23:59
+
+Students will watch a film (to be confirmed later), and write an essay (1600-2000 words -- excluding references), identifying different kinds of power relations in the film based on what we covered in this class (in particular in reference to Barnett and Duvall's power typology). I will upload the guidelines for the essay on Cyber Campus.
+
+# [**Ⅱ. Course Materials and Additional Readings**]{style="color: green"}
+
+## 1. Required Materials {style="color: black"}
+
+You can borrow/ rent/ or buy the following books for this course since we use one or two chapters from them, but otherwise there are no required textbooks:
+
+Barnett, M., & Duvall, R. (2005). Power in Global Governance. Cambridge University Press.
+
+Berenskoetter, F., & Williams, M. J. (2007). Power in World Politics. Routledge.
+
+Nye, J. S. (2011). The Future of Power. Public Affairs.
+
+## 2. Supplementary Materials
+
+Refer to the detailed course schedule below.
+
+## 3. Optional Additional Readings
+
+Refer to the detailed course schedule below.
+
+# [**Ⅲ. Course Policies**]{style="color: green"}
+
+## 1. Citation and Plagiarism {style="color: black"}
+
+Students must use proper citation and avoid plagiarism. Any citation style is fine as long as it is consistent throughout the paper. Plagiarism will not be tolerated and severely punished. The papers will be uploaded to Turnitin (via Cyber Campus).
+
+["Plagiarism: presenting others' work without adequate acknowledgement of its source, as though it were one's own. Plagiarism is a form of fraud. We all stand on the shoulders of others, and we must give credit to the creators of the works that we incorporate into products that we call our own. Some examples of plagiarism:]((https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html))
+
+-   [a sequence of words incorporated without quotation marks;]((https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html))
+
+-   [an unacknowledged passage paraphrased from another's word;]((https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html))
+
+-   [the use of ideas, sound recordings, computer data or images created by others as though it were one's own."]((https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html))
+
+See [also this link](https://owl.purdue.edu/owl/research_and_citation/resources.html).
+
+## Late Submissions
+
+For late submissions, you will get 80% of your grading unless you have a valid excuse. You can always contact me if you have a valid excuse to ask for extension. I do not require students to submit official documents (doctor report etc.). Your word is enough for me.
+
+{{< pagebreak >}}
+
+# [Ⅳ. Course Schedule]{style="color: green"}
+
+```{r}
+df[,1:3] %>% kbl() %>% kable_styling()
+
+
+```
+
+{{< pagebreak >}}
+
+# [V. Detailed Course Schedule with Readings]{style="color: green"}
+
+## Week 1: `r df[1, 3]`
+
+Introduction of the course including course contents, assignments, and expectations.
+
+## Week 2: `r df[2, 3]`
+
+**Required Readings:**
+
+```{r}
+#| output: true
+
+bib[keywords = "concept"]
+```
+
+## Week 3: `r df[3, 3]`
+
+## Week 4: `r df[4, 3]`
+
+**Required Readings:**
+
+```{r}
+bib[keywords = "soft"]
+```
+
+## Week 5: `r df[5, 3]`
+
+**Required Readings:**
+
+```{r}
+bib[keywords = "skeptical"]
+```
+
+## Week 6: `r df[6, 3]`
+
+**Required Readings:**
+
+```{r}
+bib[keywords = "measurement"]
+```
+
+## Week 7: `r df[7, 3]`
+
+See [Workshop and Mid-term Section](@sec-workshop) for details.
+
+## Week 8: `r df[8, 3]`
+
+See [Workshop and Mid-term Section](@sec-workshop) for details.
+
+## Week 9: `r df[9, 3]`
+
+See [Workshop and Mid-term Section](@sec-workshop) for details.
+
+## Week 10: `r df[10, 3]`
+
+**Required Readings:**
+
+```{r}
+bib[keywords = "legitimacy"]
+```
+
+## Week 11: `r df[11, 3]`
+
+**Required Readings:**
+
+```{r}
+bib[keywords = "reputation"]
+```
+
+## Week 12: `r df[12, 3]`
+
+**Required Readings:**
+
+```{r}
+bib[keywords = "compulsory"]
+```
+
+## Week 13: `r df[13, 3]`
+
+**Required Readings:**
+
+```{r}
+bib[keywords = "institutional"]
+```
+
+## Week 14: `r df[14, 3]`
+
+**Required Readings:**
+
+```{r}
+bib[keywords = "structural"]
+```
+
+## Week 15: `r df[15, 3]`
+
+**Required Readings:**
+
+```{r}
+bib[keywords = "productive"]
+```
+
+## Week 16: `r df[16, 3]`
+
+See [Final Paper Section](@sec-final) for details.
+
+**Recommended Reading:**
+
+```{r}
+bib[keywords = "film"]
+```

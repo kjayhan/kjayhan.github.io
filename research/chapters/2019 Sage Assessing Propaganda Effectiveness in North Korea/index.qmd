@@ -1,0 +1,44 @@
+---
+title: "Assessing Propaganda Effectiveness in North Korea: A Limited Access Case Study"
+date: 2020-01
+author:
+  - name: Efe Sevin
+    url: https://linktr.ee/efesevin
+    orcid: 0000-0002-7837-5000
+    affiliation: Towson University
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+  - name: Won Yong Jang
+    url: https://www.uwec.edu/profiles/jangwy/
+    orcid: 0000
+    affiliation: University of Wisconsin-Eau Claire
+  - name: Hyelim Lee
+    url: https://scholar.google.co.kr/citations?user=GnvwjTUAAAAJ&hl=en
+    orcid: 0000
+    affiliation: University of Oklahoma
+categories: [Korea, inter-Korean, propaganda, 2020]
+pub-info:
+  reference: >-
+    Efe Sevin*, <strong>Kadir Jun Ayhan</strong>, Won Yong Jang, and Hyelim Lee (2020), “Assessing Propaganda Effectiveness in North Korea: A Limited Access Case Study,” in Nicholas O’Shaughnessy, Paul Baines and Nancy Snow (eds.) <em>The SAGE Handbook of Propaganda</em> (pp. 205-222), Sage, doi: <a href="https://dx.doi.org/10.4135/9781526477170"><code>10.4135/9781526477170</code></a>
+doi: 10.4135/9781526477170
+#draft: true
+---
+
+## BibTeX citation
+
+``` bibtex
+@incollection{sevin_assessing_2019,
+	location = {Thousand Oaks, {CA}},
+	title = {Assessing Propaganda Effectiveness in North Korea: A Limited Access Case Study},
+	url = {https://dx.doi.org/10.4135/9781526477170},
+	pages = {205--222},
+	booktitle = {The {SAGE} Handbook of Propaganda},
+	publisher = {Sage},
+	author = {Sevin, Efe and Ayhan, Kadir Jun and Jang, Won Yong and Lee, Hyelim},
+	editor = {Baines, Paul and O’Shaughnessy, Nicholas J. and Snow, Nancy},
+	date = {2019},
+	note = {Type: Book Section},
+}
+```

@@ -1,0 +1,38 @@
+---
+title: "Inter-Korean People-to-People Diplomacy: Social and Cultural Exchanges across the 38th Parallel"
+date: 2023-07
+author:
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+  - name: Siyeon Jang
+    url: https://hufs.academia.edu/%EC%8B%9C%EC%97%B0%EC%9E%A5
+    orcid: 0000-0002-4105-4449
+    affiliation: Hankuk University of Foreign Studies
+categories: [Korea, Inter-Korean, qualitative, people-to-people diplomacy, public diplomacy, foreign policy, international relations, evaluation, 2023]
+pub-info:
+  reference: >-
+    <strong>Kadir Jun Ayhan</strong> and Siyeon Jang (2023), “Let the Sun Shine? Inter-Korean People-to-People Diplomacy in the Absence of State-based Public Diplomacy,” in Kadir Jun Ayhan and Brendan M. Howe (eds.) <em>Comprehensive Peacebuilding on the Korean Peninsula: Internal Dynamics in North Korea and South Korean Approaches</em>, Palgrave Macmillan
+  extra: >-
+    Supported by Korea Foundation 2018-2019 Policy-oriented Research Support Program.
+#image:
+#draft: true
+---
+
+## Information
+
+An earlier and lengthier version of this chapter was published as a journal article: [Ayhan, Kadir Jun, and Siyeon Jang. (2023). "Inter-Korean People-to-People Diplomacy: Social and Cultural Exchanges across the 38th Parallel." The Hague Journal of Diplomacy 18 (1): 95-132.](https://doi.org/10.1163/1871191x-bja10139)
+
+## BibTeX citation
+
+``` bibtex
+@incollection{ayhan_let_2023,
+    title = {Let the Sun Shine? Inter-Korean People-to-People Diplomacy in the Absence of State-based Public Diplomacy},
+    booktitle = {Comprehensive Peacebuilding on the Korean Peninsula: Internal Dynamics in North Korea and South Korean Approaches},
+    publisher = {Palgrave Macmillan},
+    author = {Ayhan, Kadir Jun and Jang, Siyeon},
+    editor = {Ayhan, Kadir Jun and Howe, Brendan M.},
+    date = {2023},
+}
+```

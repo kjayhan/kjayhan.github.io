@@ -1,0 +1,46 @@
+---
+title: "Analyzing Country Images through Networks: Case of South Korea"
+date: 2020-12
+author:
+  - name: Efe Sevin
+    url: https://linktr.ee/efesevin
+    orcid: 0000-0002-7837-5000
+    affiliation: Towson University
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+  - name: Diana Ingenhoff
+    url: https://orcid.org/0000-0003-3034-3605
+    orcid: 0000-0003-3034-3605
+    affiliation: University of Fribourg
+categories: [Scopus, Korea, quantitative, computational, public diplomacy, country image, 2021]
+pub-info:
+  reference: >-
+    Efe Sevin*, Diana Ingenhoff, and <strong>Kadir Jun Ayhan</strong> (2020), “Analyzing Country Images through Networks: Case of South Korea,” <em>The Asian International Studies Review</em>: 21(2): 95-119, doi: <a href="https://doi.org/10.16934/isr.21.2.202012.95"><code>10.16934/isr.21.2.202012.95</code></a>
+  extra: >-
+    Supported by Korean Studies Grant Program of the Academy of Korean Studies [grant number AKS-2019-R42].
+doi: 10.16934/isr.21.2.202012.95
+#image:
+#draft: true
+---
+
+## Abstract
+
+As communication moves to social media, countries are losing control over what messages are being circulated about themselves. This article explores how South Korea's country image is reflected within this contemporary networked communication context. We argue that country images, defined as the perceptions of countries by foreign audiences, can be swayed not only by official actors engaging in public diplomacy and nation branding projects but by any internet user who contributes to a marketplace of images. Using a social listening platform, we captured all the tweets about South Korea sent from June 01, 2019 to Jan 31, 2020. Combining textual and network analyses, our study looked at the main actors, topics, and network structures that influence South Korea's country image on Twitter. Our findings suggest that there is no unified South Korean country image, rather diverse and relatively dispersed images. We further found that official actors had limited impact on the conversations surrounding South Korea due to their insular activities. Our methodology and findings contribute to the nascent body of empirical works in country image studies.
+
+## BibTeX citation
+
+``` bibtex
+@article{sevin_analyzing_2020,
+    title = {Analyzing Country Images through Networks: Case of South Korea},
+    volume = {21},
+    doi = {10.16934/isr.21.2.202012.95},
+    pages = {95--119},
+    number = {2},
+    journaltitle = {Asian International Studies Review},
+    author = {Sevin, Efe and Ayhan, Kadir Jun and Ingenhoff, Diana},
+    date = {2020},
+    note = {Type: Journal Article},
+}
+```

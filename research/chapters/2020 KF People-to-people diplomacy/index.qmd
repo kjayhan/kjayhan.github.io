@@ -1,0 +1,35 @@
+---
+title: "민간분야의 공공외교 [People-to-People Diplomacy]"
+date: 2020-05
+author:
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+categories: [public diplomacy, people-to-people-diplomacy, Korea, 2020]
+pub-info:
+  reference: >-
+    <strong>Kadir Jun Ayhan*</strong> (2020), “민간분야의 공공외교 [People-to-People Diplomacy],” in Korea Foundation (ed.) <em>처음 만나는 공공외교 [Introduction to Public Diplomacy]</em> (pp. 93-132), Korea Foundation <a href="http://www.kf.or.kr/archives/ebook/ebook_view.do?p_cidx=3250&p_cfidx=113206/"><code>link</code></a>
+#image:
+#draft: true
+---
+
+## Information
+
+This is an edited transcription of my special lecture (in Korean) at Introduction to Public Diplomacy lecture series organized by Korea Foundation.
+
+## BibTeX citation
+
+``` bibtex
+@incollection{ayhan_mingan_2020,
+	location = {Seoul},
+	title = {Mingan Bunyaeui Gonggong Waegyo [People-to-People Diplomacy]},
+	url = {http://www.kf.or.kr/archives/ebook/ebook_view.do?p_cidx=3250&p_cfidx=113206},
+	booktitle = {Cheoeum Mannaneun Gonggong Waegyo [Introduction to Public Diplomacy]},
+	publisher = {Korea Foundation},
+	author = {Ayhan, Kadir Jun},
+	editor = {Foundation, Korea},
+	date = {2020},
+	note = {Type: Book Section},
+}
+```

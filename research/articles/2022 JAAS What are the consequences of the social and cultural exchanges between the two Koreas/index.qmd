@@ -1,0 +1,78 @@
+---
+title: "What are the consequences of the social and cultural exchanges between the two Koreas: Insights from an experimental study on the effect of superordinate Korean identity"
+date: 2022-12
+author:
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+  - name: Sejung Park
+    url: https://scholar.google.co.kr/citations?user=4TlxDWMAAAAJ&hl=en
+    orcid: 0000-0001-9087-4075
+    affiliation: Pukyong National University
+  - name: Lindsey Bier
+    url: https://www.marshall.usc.edu/personnel/lindsey-bier
+    orcid: 0000
+    affiliation: University of Southern California
+  - name: Han Woo Park
+    url: https://www.hanpark.net/
+    orcid: 0000-0002-1378-2473
+    affiliation: YeungNam University
+categories: [SSCI, Korea, Inter-Korean, experiment, quantitative, people-to-people diplomacy, public diplomacy, 2022]
+pub-info:
+  reference: >-
+    <strong>Kadir Jun Ayhan</strong>, Sejung Park*, Lindsey Bier and Hanwoo Park (2022), “What are the consequences of the social and cultural exchanges between the two Koreas: Insights from an experimental study on the effect of superordinate Korean identity,” <em>Journal of Asian and African Studies</em> Online First, doi: <a href="https://doi.org/10.1177/00219096221144694"><code>10.1177/00219096221144694</code></a>
+# links:
+  #   - name: Final version
+  #     url: https://doi.org/10.1177/00219096221144694
+  #     icon: fa-solid fa-scroll
+  #   - name: Code
+  #     url: https://github.com/kjayhan/superordinate_korean
+  #     icon: fa-brands fa-github
+  #   - name: Data
+  #     url: "#data-and-code"
+  #     icon: fa-solid fa-table
+  extra: >-
+    Supported by Korea Foundation 2020 Policy-oriented Research Support Program.
+doi: 10.1177/00219096221144694
+#haiku:
+ # -
+  #-
+  #-
+# citation: 
+#   type: article-journal
+#   container-title: "Journal of Asian and African Studies"
+#   doi: 10.1177/00219096221144694
+#image:
+#draft: true
+---
+
+## Abstract
+
+This study explores whether South Koreans' superordinate identification with North Koreans leads to increased humanization of and empathy for North Koreans as well as reduced negative feelings toward North Koreans. This study also examines whether superordinate identification intensifies support for people-to-people exchanges and unification using an experiment. South Koreans' increased superordinate identification with North Koreans leads to greater humanization of the latter as well as less negative feelings toward them but does not affect support for unification. This suggests that extended contact is enough to generate superordinate identification with the outgroup but not enough to affect support for government policies.
+
+## BibTeX citation
+
+``` bibtex
+@article{doi:10.1177/00219096221144694,
+author = {Kadir Jun Ayhan and Sejung Park and Lindsey M. Bier and Han Woo Park},
+title ={What are the Consequences of the Social and Cultural Exchanges between the Two Koreas? Insights from an Experimental Study on the Effect of Superordinate Korean Identity},
+journal = {Journal of Asian and African Studies},
+volume = {0},
+number = {0},
+pages = {00219096221144694},
+year = {0},
+doi = {10.1177/00219096221144694},
+
+URL = { 
+        https://doi.org/10.1177/00219096221144694
+    
+},
+eprint = { 
+        https://doi.org/10.1177/00219096221144694
+    
+}
+,
+    abstract = { This study explores whether South Koreans’ superordinate identification with North Koreans leads to increased humanization of and empathy for North Koreans as well as reduced negative feelings toward North Koreans. This study also examines whether superordinate identification intensifies support for people-to-people exchanges and unification using an experiment. South Koreans’ increased superordinate identification with North Koreans leads to greater humanization of the latter as well as less negative feelings toward them but does not affect support for unification. This suggests that extended contact is enough to generate superordinate identification with the outgroup but not enough to affect support for government policies. }
+}
+```

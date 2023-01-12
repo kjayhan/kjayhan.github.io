@@ -1,0 +1,34 @@
+---
+title: "South Korea’s Public Diplomacy during the COVID-19 Pandemic: Seeking Status as an Authority in Global Governance"
+date: 2022-01
+author:
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+categories: [Korea, development cooperation, international relations, public diplomacy, mixed, computational, COVID-19, 2022]
+pub-info:
+  reference: >-
+    <strong>Kadir Jun Ayhan</strong> (2022), “South Korea’s Public Diplomacy during the COVID-19 Pandemic: Seeking Status as an Authority in Global Governance,” <em>Korea Economic Institute of America Academic Paper Series</em>: 57(4): 872-893, <a href="https://kjayhan.github.io/research.html#:~:text=South%20Korea%E2%80%99s%20Public%20Diplomacy%20during%20the%20COVID%2D19%20Pandemic%3A%20Seeking%20Status%20as%20an%20Authority%20in%20Global%20Governance"><code>link</code></a>
+  extra: >-
+    This is a working paper.
+doi: 10.1177/002190962110358
+#image:
+#draft: true
+---
+
+## Abstract
+
+The COVID-19 pandemic caught almost all countries unprepared. Some countries, including South Korea (hereafter Korea), managed to deal with the pandemic relatively more successfully than others and had a proactive global posture from early on, including providing aid, and public diplomacy campaigns. In this paper, I explore Korea's COVID-19-related public diplomacy activities and its aims. I analyze Korea's COVID-19 humanitarian aid trends, its policy documents, and the tweets related to the pandemic posted by the country's official public diplomacy account. I find that the pandemic catalyzed what Korea had already been aiming to do, which is improve its global status to be among top authorities across various issue-areas. Due to the nature of the pandemic, Korea's public diplomacy has been themed around international cooperation and solidarity. I suggest that Korea should hold onto its international cooperation emphasis on public diplomacy, to form the basis for its status-seeking as an authority in global governance in the post-pandemic era.
+
+## BibTeX citation
+
+``` bibtex
+@article{ayhan_south_2022,
+    title = {South Korea’s Public Diplomacy during the {COVID}-19 Pandemic: Seeking Status as an Authority in Global Governance},
+    journaltitle = {{KEI} Academic Paper Series},
+    author = {Ayhan, Kadir Jun},
+    date = {2022},
+    note = {Type: Journal Article},
+}
+```

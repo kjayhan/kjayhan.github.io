@@ -1,0 +1,56 @@
+---
+title: "Global Korea Scholarship students: Intention to stay in the host country to work or study after graduation"
+date: 2021-10
+author:
+  - name: Felicia Istad
+    url: https://scholar.google.co.uk/citations?hl=en&user=A-K55QIAAAAJ&view_op=list_works&sortby=pubdate
+    orcid: 0000-0001-9438-0101
+    affiliation: Korea University
+  - name: Eriks Varpahovskis
+    url: https://www.scopus.com/authid/detail.uri?authorId=57218514504
+    orcid: 0000-0002-6740-6377
+    affiliation: National Research University Higher School of Economics
+  - name: Ekra Miezan
+    url: https://independent.academia.edu/EkraMiezan
+    orcid: 0000-0002-7923-1316
+    affiliation: Hankuk University of Foreign Studies
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+categories: [Scopus, Global Korea Scholarship, quantitative, Korea, people-to-people diplomacy, public diplomacy, 2021]
+pub-info:
+  reference: >-
+    Felicia Istad, Eriks Varpahovskis*, Ekra Miezan, and <strong>Kadir Jun Ayhan</strong> and Nancy Snow (2021), “Global Korea Scholarship students: Intention to stay in the host country to work or study after graduation,” <em>Politics & Policy</em>: 49(6): 1323-1342, doi: <a href="https://doi.org/10.1111/polp.12436"><code>10.1111/polp.12436</code></a>
+  extra: >-
+    Supported by Korea Foundation 2018-2019 Policy-oriented Research Support Program.
+doi: 10.1111/polp.12436
+#image:
+#draft: true
+---
+
+## Abstract
+
+Over the past few decades, South Korea has increasingly sought to attract international talent. Every year, hundreds of students are invited to study in the country on a competitive scholarship provided by the government. Upon graduation, students are equipped with a tertiary degree, as well as knowledge of the Korean language and culture. This study examines the determinants of intention to stay in South Korea to work or study after graduation, using a 2019 survey of Global Korea Scholarship recipients (*n* = 524). We draw upon literature in student mobility and examine determinants of two-step migration, including satisfaction with the scholarship program, university experiences, social integration, and life in the host country. Results from the statistical analysis show that academic satisfaction, social adjustment, and satisfaction with life in South Korea are positively associated with participants' intentions to stay in the country to work or study after graduation. The findings highlight the role of academic institutions and host communities in influencing students' post-study plans and point to the need for policy measures that approach talent retention with simultaneous attention to integration and satisfaction, both within and beyond campus.
+
+## Special Issue
+
+This article is part of a special issue that uses our Global Korea Scholarship dataset. See other articles in the special issue [here](https://onlinelibrary.wiley.com/toc/17471346/2021/49/6).
+
+## BibTeX citation
+
+``` bibtex
+@article{istad_global_2021,
+    title = {Global Korea Scholarship students: Intention to stay in the host country to work or study after graduation},
+    volume = {49},
+    issn = {1555-5623},
+    doi = {10.1111/polp.12436},
+    pages = {1323--1342},
+    number = {6},
+    journaltitle = {Politics \& Policy},
+    author = {Istad, Felicia and Varpahovskis, Eriks and Miezan, Ekra and Ayhan, Kadir Jun},
+    date = {2021},
+    note = {Type: Journal Article},
+    keywords = {academic scholarship policy Asia Global Korea Scholarship graduation higher education policy P\&P Special Issue public diplomacy selective immigration policy South Korea student mobility student retention talent migration Migración de talentos Movilidad estudiantil Política de educación superior Corea del Sur Becas 人才流动 学生流动 高等教育政策 韩国 奖学金},
+}
+```

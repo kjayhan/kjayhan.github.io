@@ -1,0 +1,42 @@
+---
+title: "The Boundaries of Public Diplomacy and Non-State Actors: A Taxonomy of Perspectives"
+date: 2020-08
+author:
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+categories: [SSCI, international relations, public diplomacy, 2019]
+pub-info:
+  reference: >-
+    <strong>Kadir Jun Ayhan</strong> (2019), “The Boundaries of Public Diplomacy and Non-State Actors: A Taxonomy of Perspectives,” <em>International Studies Perspectives</em>: 20(1): 63-83, doi: <a href="https://doi.org/10.1093/isp/eky010"><code>10.1093/isp/eky010</code></a>
+doi: 10.1093/isp/eky010
+#image:
+#draft: true
+---
+
+## **Abstract**
+
+Public diplomacy (PD) lacks an agreed-upon definition and boundaries. The ambiguity surrounding the conceptualization of the term leads to confusion among scholars and practitioners and hinders the consolidation of PD as an academic field. This article surveys 160 articles and books on PD, categorizes diverse perspectives into a taxonomy, and explores the coherence of each. The taxonomy can be categorized into these perspectives: state-centric, neo-statist, nontraditional, society-centric, and accommodative. The article maps the boundaries of public diplomacy with much needed clear and coherent criteria and positions PD within the broader discipline of international relations.
+
+**Resumen:** Una definición y límites consensuados es lo que le falta a la diplomacia pública (DP). La ambigüedad del término confunde tanto a académicos como a profesionales, y dificulta la consolidación de la DP como un área de estudio académico. Este trabajo analiza 160 artículos y libros sobre DP, clasifica las distintas perspectivas y explora la coherencia de cada una de ellas. Dicha clasificación incluye las siguientes perspectivas: centrado en el Estado, neoestatismo, no tradicional, centrado en la sociedad y acomodativa. El artículo define los límites de la diplomacia pública mediante criterios claros, coherentes y necesarios, y posiciona a la DP en la disciplina de relaciones internacionales, la cual es más amplia.
+
+ 
+
+**Extrait:** La diplomatie publique (DP) est dépourvue de consensus quant à sa définition et à sa délimitation. L'ambiguïté dont est empreinte la conceptualisation du terme amène à une confusion parmi les universitaires et les praticiens et empêche la consolidation de la DP en tant que domaine académique. Le présent article est une étude de 160 articles et ouvrages sur la DP, il établit une taxonomie des différentes perspectives diplomatiques et explore la cohérence de chacune d'elles. Les perspectives réunies au sein de cette taxonomie sont les suivantes : école centrée sur l'état, école néo-étatiste, école non traditionnelle, école centrée sur la société et école accommodante. L'article propose une délimitation de la diplomatie publique à l'aide de critères dont la clarté et la cohérence étaient très attendues -- et positionne la DP au sein de la discipline élargie des relations internationales.
+
+## BibTeX citation
+
+``` bibtex
+@article{ayhan_boundaries_2019,
+    title = {The Boundaries of Public Diplomacy and Non-State Actors: A Taxonomy of Perspectives},
+    volume = {20},
+    doi = {10.1093/isp/eky010},
+    pages = {63--83},
+    number = {1},
+    journaltitle = {International Studies Perspectives},
+    author = {Ayhan, Kadir Jun},
+    date = {2019},
+    note = {Type: Journal Article},
+}
+```

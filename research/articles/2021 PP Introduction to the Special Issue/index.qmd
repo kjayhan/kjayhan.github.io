@@ -1,0 +1,48 @@
+---
+title: "Introduction to the special issue — Global Korea Scholarship: Empirical evaluation of a non-Western scholarship program from a public diplomacy"
+date: 2021-10
+author:
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+  - name: Nancy Snow 
+    url: https://nancysnow.com/
+    orcid: 0000-0003-1056-9594
+    affiliation: Tsinghua University. 
+categories: [Scopus, Global Korea Scholarship, Korea, mixed, people-to-people diplomacy, public diplomacy, 2021]
+pub-info:
+  reference: >-
+    <strong>Kadir Jun Ayhan*</strong> and Nancy Snow (2021), “Introduction to the special issue — Global Korea Scholarship: Empirical evaluation of a non-Western scholarship program from a public diplomacy,” <em>Politics & Policy</em>: 49(6): 1282-1291, doi: <a href="https://doi.org/10.1111/polp.12440"><code>10.1111/polp.12440</code></a>
+  extra: >-
+    Supported by Korea Foundation 2018-2019 Policy-oriented Research Support Program.
+doi: 10.1111/polp.12440
+#image:
+#draft: true
+---
+
+## Abstract
+
+Most governments offer scholarships for international students as part of their public diplomacy toolbox. However, empirical assessments of these programs are relatively rare. The limited number of existing works often concern Western countries, while international student mobility programs in non-Western countries remain insufficiently researched. This special issue addresses these two gaps in the literature. All the articles utilize a unique and rich dataset of the perspectives of Global Korea Scholarship (GKS) recipients about South Korea. This dataset consists of four surveys conducted in 2018 and 2019 of GKS students, alumni, and pre-arrival inbound students. There are over 200 variables, most of which are about GKS recipients' cognitive and affective evaluation of Korea, their Korea-related behaviors, their perceptions of how they are treated by Koreans, their satisfaction with studying in Korea, satisfaction with university and language school, and integration into Korean society. The articles look at various aspects of GKS as a public diplomacy tool, including the determinants of positive recommendations toward Korea as a study or tourism destination, the relationship between behavioral experience, symbolic environment and communication behaviors, determinants of students' intentions to stay in the host country, gendered dynamics of the scholarship, students' perspectives on justice based on their experiences in, and beliefs about, the host country, and the determinants of students' satisfaction with life in Korea.
+
+## Special Issue
+
+This article is part of a special issue that uses our Global Korea Scholarship dataset. See other articles in the special issue [here](https://onlinelibrary.wiley.com/toc/17471346/2021/49/6).
+
+## BibTeX citation
+
+``` bibtex
+@article{ayhan_introduction_2021,
+    title = {Introduction to the special issue—Global Korea Scholarship: Empirical evaluation of a non-Western scholarship program from a public diplomacy perspective},
+    volume = {49},
+    issn = {1555-5623},
+    doi = {10.1111/polp.12440},
+    pages = {1282--1291},
+    number = {6},
+    journaltitle = {Politics \& Policy},
+    author = {Ayhan, Kadir Jun and Snow, Nancy},
+    date = {2021},
+    note = {Type: Journal Article},
+    keywords = {Asia exchanges Global Korea Scholarship international student mobility P\&P Special Issue public diplomacy South Korea Diplomacia Pública Movilidad de Estudiantes Internacionales Intercambios Corea Beca Global de Corea 公共外交 国际学生流动 交换 韩国 全球韩国奖学金 (Global Korea Scholarship)},
+}
+```

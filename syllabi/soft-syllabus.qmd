@@ -1,0 +1,453 @@
+---
+title: "Soft Power in World Politics"
+bibliography: soft-required_readings.bib
+csl: apa7-cv.csl
+suppress-bibliography: true
+link-citations: false
+citations-hover: false
+number-sections: false
+toc: true
+toc_float: true
+mainfont: Times New Roman
+monofont: Times New Roman
+editor: visual
+execute:
+  echo: false
+  warning: false
+  error: false
+  output: true
+---
+
+```{r}
+
+library(lubridate) 
+library(tidyverse)
+library(tinytex)
+library(kableExtra)
+library(RefManageR)
+
+Week <- 1:17 
+df <- as.data.frame(Week)
+
+posixct.in <- parse_date_time(x = "2023-03-02", orders = "ymd", tz = "Asia/Seoul")
+
+df$Date <- posixct.in %m+% weeks(x = seq.int(from = 0, to = 16, by = 1)) 
+
+df$Date <- format(df$Date, format = "%d %b")
+
+#df$Full_Date <- posixct.in %m+% weeks(x = seq.int(from = 0, to = 16, by = 1)) 
+
+
+df$'Topics & Class Materials, Assignments' <- c(
+  "Introduction of the Course",
+  "The Concept of Political Power",
+  "No class - (Make-up class later)",
+  "The Concepts of Soft Power and Smart Power",
+  "Skeptical Views on Soft Power",
+  "Measuring (Soft) Power",
+  "Workshop: What Do Soft Power Indices Actually Measure?", 
+  "Mid-term Week", 
+  "Mid-term Paper Presentations and Debriefing",
+  "Legitimacy and Power",
+  "Reputation, Status and Power",
+  "Compulsory Power",
+  "Institutional Power", 
+  "Structural Power", 
+  "Productive Power", 
+  "Submission of Final Papers",
+  ""
+)
+
+# df$'Readings' <- c("")
+
+bib <- ReadBib("soft-required_readings.bib")
+myopts <- RefManageR::BibOptions(bib.style = "authoryear", 
+                                 style="text", 
+                                 #hyperlink = "to.doc",
+                                 first.inits=TRUE, 
+                                 max.names = 4,
+                                 no.print.fields = c("issn", "urldate", "note"))
+
+```
+
+# Syllabus (2023 Spring) {style="color: green"}
+
+|                                                       |                                                                         |                                             |
+|-----------------------|------------------------------|-------------------|
+| [Course Title]{style="color: green"}                  | Soft Power in World Politics                                            | [Course No.:]{style="color: green"} IS639   |
+| [Department/ Major]{style="color: green"}             | GSIS                                                                    | [Credit/ Hours:]{style="color: green"} 3    |
+| [Class time/ Classroom]{style="color: green"}         | Tuesday 15:30 -- 18:15 / IEB 1002                                       |                                             |
+| [Instructor]{style="color: green"}                    | [Name:]{style="color: green"} Kadir Jun Ayhan                           | [Department:]{style="color: green"} GSIS    |
+|                                                       | [E-mail:]{style="color: green"} ayhan\@ewha.ac.kr                       | [Phone:]{style="color: green"} 02-3277-4628 |
+| [Office Hours/ Office Location]{style="color: green"} | [Make an appointment here](https://calendly.com/kadirayhan/officehours) |                                             |
+
+# [**I. Course Overview**]{style="color: green"}
+
+## **1. Course Description** {style="color: black"}
+
+The main target of this class is graduate students who are interested in power dynamics in world politics. The course starts off with definitions of power and its different forms. We will learn about how power functions in world politics with examples from global governance issue-areas, including direct and diffuse kinds of power. We will critically approach the concepts of soft power and smart power with the questions "how soft is soft power" and "can there be pure persuasion in world politics" in mind. Furthermore, we will discuss measurement of (soft) power and influence in world politics. The course follows an active learning pedagogy, aiming to make students take learning into their own hands.
+
+## **2. Prerequisites** {style="color:black"}
+
+Students are expected to have at least introduction-level knowledge of international relations theories.
+
+## **3. Course Format** {style="color:black"}
+
+|                                 |                                                  |                                               |
+|-------------------|----------------------------|--------------------------|
+| [Lecture]{style="color: green"} | [Discussion/ Presentation]{style="color: green"} | [Experiment/ Practicum]{style="color: green"} |
+| 20%                             | 40%                                              | 40%                                           |
+
+This course is designed to facilitate student-centric learning. The assignments for this course are not merely for grading but designed in a way to help students practice and improve their critical thinking, researching, presentation and academic writing skills. There are no in-class exams for this course. This is because, I believe that you put so much effort in writing papers in exams to be read only by one person. On the other hand, writing papers give students an opportunity to research and keep their writings as working papers which can be improved in the future.
+
+Active participation in discussion is strongly encouraged for this course. In order to motivate students to read all required articles and come to class prepared for discussion, response papers and discussion participation constitute 25% of students' grade for this course. In the beginning of every lecture, you will be asked to share what you have written in your response papers to stimulate discussion (based on what you have already prepared). We will discuss your response papers in the first part of the class. The second part of the class will begin with my summary and clarification of some of the arguments and concepts in the assigned readings. Then, we will have one or two student presentations (depending on the number of students) which will apply the theoretical concepts in the readings to a case study. The requirements of the assignments are detailed below.
+
+I expect students to attend classes, to arrive on time, and to come to class prepared to engage in class discussion by reading at least the required readings, taking note of the key arguments, and identifying strengths, weaknesses, and contradictions in these arguments.
+
+## **4. Course Objectives**
+
+Learning objectives:
+
+\- Recognizing various theoretical approaches to political power in world politics.
+
+\- Being able to classify, exemplify and interpret different kinds of political power in world politics.
+
+\- Applying theoretical understanding of political power to case studies (presentation and workshop), and to other new settings (film); and analyzing and critiquing these cases.
+
+## **5. Evaluation System**
+
+| [Mid-term Paper]{style="color: green"} | [Final Paper]{style="color: green"} | [Response Papers]{style="color: green"} | [Presentation]{style="color: green"} | [Participation and Discussion]{style="color: green"} |
+|---------------|---------------|---------------|---------------|---------------|
+| 30%                                    | 30%                                 | 10%                                     | 15%                                  | 15%                                                  |
+
+Explanation of the evaluation system:
+
+### ***Response Papers:***
+
+Length: Less than half a page.
+
+In order to prepare for class discussion, you must read all required articles and submit weekly response papers beginning from Week 4. Each student needs to submit at least four response papers (that is for four different weeks). For the response papers, students will find a recent (last six months) news article (from newspapers, magazines or semi-academic journals) and connect it to the required readings for that week (critically analyzing whether it is in line with the arguments in the required readings or not). Make sure to copy-paste the news article as well as its link below your response paper. Weekly response papers need to be submitted to Cyber Campus before class time. You are encouraged to, but you don't have to, make comments to your colleagues' response papers.
+
+### ***Presentations***
+
+Length: Around 15 minutes
+
+All students will make one presentation on a case study. The presenter must read the assigned readings carefully when preparing for the presentation. You are asked to present a case study that is related to the required readings. You must make use of the theories/ frameworks/ concepts in the assigned readings for your analysis of the case study of your choice. For example, if the required article looks at power dynamics of the US-led international liberal order, you can apply a similar approach to look at Soviet Union-led regional international order. Make sure that you are not merely summarizing another article. The point of the presentation is for you to apply what you learned from the readings to a case study. You must show your analysis and your value-added. Discussion will follow presentations (based on discussion questions prepared by the presenter), and all students must actively participate in this discussion.
+
+### ***Workshop and Mid-term Paper*** {#sec-workshop}
+
+Due date: `r df$Date[8]` 23:59
+
+The mid-term paper will be based on the workshop when students will discuss how we can measure power/ influence in world politics in groups. Within the next week, the same groups will finalize their team report (1000 words) based on their discussions and further research and submit it to Cyber Campus (Turnitin).
+
+The reports will be presented on `r df$Date[9]` followed by debriefing.
+
+Please note that there will not be a class on `r df$Date[8]` in lieu of mid-term exam week.
+
+### ***Final Paper*** {#sec-final}
+
+Due date: `r df$Date[16]` 23:59
+
+Students will watch a film (to be confirmed later), and write an essay (1600-2000 words -- excluding references), identifying different kinds of power relations in the film based on what we covered in this class (in particular in reference to Barnett and Duvall's power typology). I will upload the guidelines for the essay on Cyber Campus.
+
+# [**Ⅱ. Course Materials and Additional Readings**]{style="color: green"}
+
+## 1. Required Materials {style="color: black"}
+
+You can borrow/ rent/ or buy the following books for this course since we use one or two chapters from them, but otherwise there are no required textbooks:
+
+Barnett, M., & Duvall, R. (2005). Power in Global Governance. Cambridge University Press.
+
+Berenskoetter, F., & Williams, M. J. (2007). Power in World Politics. Routledge.
+
+Nye, J. S. (2011). The Future of Power. Public Affairs.
+
+## 2. Supplementary Materials
+
+Refer to the detailed course schedule below.
+
+## 3. Optional Additional Readings
+
+Refer to the detailed course schedule below.
+
+# [**Ⅲ. Course Policies**]{style="color: green"}
+
+## 1. Citation and Plagiarism {style="color: black"}
+
+Students must use proper citation and avoid plagiarism. Any citation style is fine as long as it is consistent throughout the paper. Plagiarism will not be tolerated and severely punished. The papers will be uploaded to Turnitin (via Cyber Campus).
+
+["Plagiarism: presenting others' work without adequate acknowledgement of its source, as though it were one's own. Plagiarism is a form of fraud. We all stand on the shoulders of others, and we must give credit to the creators of the works that we incorporate into products that we call our own. Some examples of plagiarism:]((https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html))
+
+-   [a sequence of words incorporated without quotation marks;]((https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html))
+
+-   [an unacknowledged passage paraphrased from another's word;]((https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html))
+
+-   [the use of ideas, sound recordings, computer data or images created by others as though it were one's own."]((https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html))
+
+See [also this link](https://owl.purdue.edu/owl/research_and_citation/resources.html).
+
+## Late Submissions
+
+For late submissions, you will get 80% of your grading unless you have a valid excuse. You can always contact me if you have a valid excuse to ask for extension. I do not require students to submit official documents (doctor report etc.). Your word is enough for me.
+
+{{< pagebreak >}}
+
+# [Ⅳ. Course Schedule]{style="color: green"}
+
+```{r}
+df[,1:3] %>% kbl() %>% kable_styling()
+
+
+```
+
+{{< pagebreak >}}
+
+# [V. Detailed Course Schedule with Readings]{style="color: green"}
+
+## Week 1: `r df[1, 3]`
+
+Introduction of the course including course contents, assignments, and expectations.
+
+## Week 2: `r df[2, 3]`
+
+**Required Readings:**
+
+-   [@baldwin_faces_2021]
+-   [@barnett_power_2005]
+-   [@berenskoetter_felix_thinking_2007]
+
+**Recommended Readings:**
+
+-   Baldwin, D. A. (2012). Power and International Relations. Handbook of International Relations. Walter Carlsnaes, T. Risse and B. A. Simmons. London, UK, SAGE.
+-   Avant, D. D., Finnemore, M., & Sell, S. K. (2010). Who Governs the Globe? In D. D. Avant, M. Finnemore, & S. K. Sell (Eds.), Who Governs the Globe?. Cambridge, UK: Cambridge University Press.
+-   Murphy, J. B. (2011). "Perspectives on power." Journal of Political Power 4(1): 87-103.
+
+## Week 3: `r df[3, 3]`
+
+## Week 4: `r df[4, 3]`
+
+**Required Readings:**
+
+-   [@nye_future_2011], Chapters 4 and 7.
+
+**Recommended Readings:**
+
+-   Armitage, R. L., & Nye, J. S. (2007). CSIS Commission on Smart Power: A Smarter, More Secure America: CSIS. Vuving, A. (2009). How soft power works. American Political Science Association Annual Meeting. Toronto.
+
+-   Hayden, C. (2012). The Rhetoric of Soft Power. Lexington Books. Ohnesorge, H. W. (2020). Soft Power: The Forces of Attraction in International Relations. Springer.
+
+-   Lee, G. (2009). A theory of soft power and Korea's soft power strategy. Korean Journal of Defense Analysis, 21(2), 205-218. https://doi.org/10.1080/10163270902913962
+
+-   Nye, J. S. (2004). Soft Power: The Means to Success in World Politics. New York, Public Affairs.
+
+-   Nye, J. S. (2018). How Sharp Power Threatens Soft Power: The Right and Wrong Ways to Respond to Authoritarian Influence. Foreign Affairs. https://www.foreignaffairs.com/articles/china/2018-01-24/how-sharp-power-threatens-soft-power
+
+-   Nye, J. S. (2019). Soft Power and Public Diplomacy Revisited. The Hague Journal of Diplomacy, 14(1-2), 7-20. https://doi.org/10.1163/1871191x-14101013
+
+-   Nye, J. S. (2021). Soft power: the evolution of a concept. Journal of Political Power, 14(1), 196-208. https://doi.org/10.1080/2158379X.2021.1879572
+
+-   Van Ham, P. (2010). Social Power in International Politics. New York, Routledge. Lukes, S. (2005). "Power and the Battle for Hearts and Minds." Millennium 33(3): 477-493.
+
+-   Walker, C., & Ludwig, J. (Eds.). (2017). Sharp Power: Rising Authoritarian Influence. National Endowment for Democracy.
+
+## Week 5: `r df[5, 3]`
+
+**Required Readings:**
+
+-   [@bially_mattern_why_2005]
+-   [@kearn_hard_2011]
+
+**Recommended Readings:**
+
+-   Ayhan, K. J. (2021). Rethinking Soft Power: Instilling Fear, Satisfying Appetite or Appealing to Spirit. (Unpublished manuscript)
+-   Lebow, R. N. (2005). Power, Persuasion and Justice. Millennium, 33(3), 551-581.
+-   Manor, I. (2019, October 3). The Banality of Soft Power. https://digdipblog.com/2019/10/03/the-banality-of-soft-power/
+
+## Week 6: `r df[6, 3]`
+
+**Required Readings:**
+
+-   [@beckley_power_2018]
+-   [@pomeroy_correspondence_2019]
+-   [@yun_overdue_2018]
+
+**Recommended Readings:**
+
+-   Barnett, G. A., Xu, W. W., Chu, J., Jiang, K., Huh, C., Park, J. Y., & Park, H. W. (2017). Measuring international relations in social media conversations. Government Information Quarterly, 34(1), 37-44. https://doi.org/10.1016/j.giq.2016.12.004
+-   Hart, J. (1976). Three Approaches to the Measurement of Power in International Relations. International Organization, 30(2), 289-305. doi:10.1017/S0020818300018282
+-   Mcclory, J. (Ed.). (2019). Soft Power 30: A Global Ranking of Soft Power 2019. Portland.
+-   Treverton, G., & Jones, S. G. (2005). Measuring Power. Harvard International Review, 27(2), 54-58.
+
+## Week 7: `r df[7, 3]`
+
+See Workshop and Mid-term Section (@sec-workshop) for details.
+
+## Week 8: `r df[8, 3]`
+
+See Workshop and Mid-term Section (@sec-workshop) for details.
+
+## Week 9: `r df[9, 3]`
+
+See Workshop and Mid-term Section (@sec-workshop) for details.
+
+## Week 10: `r df[10, 3]`
+
+**Required Readings:**
+
+-   [@finnemore_legitimacy_2009]
+-   [@hurd_legitimacy_1999]
+
+**Recommended Readings:**
+
+-   Bukovansky, M. (2002). Legitimacy and Power Politics: The American and French Revolutions in International Political Culture. Princeton University Press.
+-   Clark, I. (2005). Legitimacy in International Society. Oxford University Press.
+-   Clark, I. (2007). International Legitimacy and World Society. Oxford University Press.
+-   Franck, T. M. (1990). The Power of Legitimacy Among Nations. Oxford University Press.
+-   Franck, T. M. (1995). Fairness in International Law and Institutions. Oxford University Press.
+-   Hall, R. B. (1997). Moral Authority as a Power Resource. International Organization, 51(4), 591-622.
+-   Hurd, I. (2008). After Anarchy: Legitimacy and Power in the United Nations Security Council. Princeton University Press.
+-   Kavalski, E. (2013). The struggle for recognition of normative powers: Normative power Europe and normative power China in context. Cooperation and Conflict, 48(2), 247-267.
+-   Mulligan, S. P. (2006). The uses of legitimacy in international relations. Millennium, 34(2), 349-375.
+-   Suchman, M. C. (1995). Managing legitimacy: Strategic and institutional approaches. Academy of management Review, 20(3), 571-610.
+-   Weber, M. (2019). Economy and Society: A New Translation (K. Tribe, Ed. & Trans.). Harvard University Press.
+
+## Week 11: `r df[11, 3]`
+
+**Required Readings:**
+
+-   [@khong_power_2019]
+-   [@lebow_power_2005]
+-   [@wohlforth_moral_2017]
+
+**Recommended Readings:**
+
+-   Ayhan, K. J. (2019). "Rethinking Korea's Middle Power Diplomacy as a Nation Branding Project." KOREA OBSERVER 50: 1.
+-   Bry, S. (2015). The Production of Soft Power: Practising Solidarity in Brazilian South--South Development Projects. Canadian Journal of Development Studies/Revue canadienne d'études du développement, 36(4), 442-458.
+-   Brewster, R. (2009). The limits of reputation on compliance. International Theory, 1(2), 323-333. https://doi.org/10.1017/s175297190999008x
+-   Cull, N. (2018). The Quest for Reputational Security: The Soft Power Agenda of Kazakhstan, USC Center on Public Diplomacy.
+-   Dafoe, A., et al. (2014). "Reputation and Status as Motives for War." Annual Review of Political Science 17(1): 371-393.
+-   de Carvalho, B., & Neumann, I. B. (2014). Small State Status Seeking: Norway's Quest for International Standing. Routledge.
+-   Hwang, K.-D. (2014). Korea's Soft Power as an Alternative Approach to Africa in Development Cooperation. African and Asian Studies, 13(3), 249-271.
+-   Lebow, R. N. (2008). A Cultural Theory of International Relations. Cambridge, Cambridge University Press. Ch. 2
+-   Renshon, J. (2016). "Status Deficits and War." International Organization 70(3): 513-550. Wood, S. (2013). "Prestige in world politics: History, theory, expression." International Politics 50(3): 387-411.
+
+## Week 12: `r df[12, 3]`
+
+Note: Compulsory power through material threats is rather straightforward and you read articles on these topics in other courses. Therefore, I will spend more time on compulsory power through naming and shaming and other symbolic strategies.
+
+**Required Readings:**
+
+-   [@murdie_shaming_2012]
+-   [@souva_material_2022]
+
+**Recommended Readings:**
+
+-   Bob, C. (2002). "Merchants of Morality." Foreign Policy(129): 36.
+-   Keck, M. E. and K. Sikkink (1998). Activists beyond Borders: Advocacy Networks in International Politics. Ithaca: NY, Cambridge University Press.
+-   Risse, T., et al., Eds. (1999). The Power of Human Rights International Norms and Domestic Change. Cambridge, Cambridge University Press.
+-   Risse, T., et al., Eds. (2013). The Persistent Power of Human Rights: From Commitment to Compliance. Cambridge, Cambridge University Press.
+-   Vadlamannati, K. C., et al. (2018). "Human Rights Shaming and FDI: Effects of the UN Human Rights Commission and Council." World Development 104: 222-237.
+
+## Week 13: `r df[13, 3]`
+
+**Required Readings:**
+
+-   [@barnett_power_2005-1]
+-   [@dreher_independent_2007]
+-   [@goh_institutions_2011]
+
+**Recommended Readings:**
+
+-   Hurrell, A. (2004). Power, institutions, and the production of inequality. Power in Global Governance. M. Barnett and R. Duvall. Cambridge, Cambridge University Press: 33-58.
+-   Gronau, J. and H. Schmidtke (2016). "The quest for legitimacy in world politics -- international institutions' legitimation strategies." Review of International Studies 42(3): 535-557.
+-   Goldstein, J. and R. O. Keohane, Eds. (1993). Ideas and Foreign Policy: An Analytical Framework. Ithaca, NY, Cornell University.
+-   Ikenberry, G. J. (2001). After Victory: Institutions, Strategic Restraint, and the Rebuilding of Order After Major Wars. Princeton University Press.
+-   Ikenberry, G. J. (2019). Reflections on after victory. The British Journal of Politics and International Relations, 21(1), 5-19.
+-   Keohane, R. O. and J. S. Nye (1987). "Power and Interdependence Revisited." International Organization 41(4): 725-753.
+-   Kilby, C. (2009). "The political economy of conditionality: An empirical analysis of World Bank loan disbursements." Journal of Development Economics 89(1): 51-61.
+-   Lee, G. (2018). Soft power after Nye: the neoliberal international order and soft power learning. Handbook of Cultural Security. Y. Watanabe. Cheltenham, Edward Elgar Publishing Limited: 253-268.
+-   Pouliot, V. (2014). Setting Status in Stone: The Negotiation of International Institutional Privileges. In D. Welch Larson, - T. Shaffer, G. (2004). Power, governance, and the WTO: a comparative institutional approach. Power in Global Governance. M. Barnett and R. Duvall. Cambridge, Cambridge University Press: 130-160.
+-   Paul, V. & W. C. Wohlforth (Eds.), Status in World Politics (pp. 192-216). Cambridge University Press. https://doi.org/DOI: 10.1017/CBO9781107444409.012
+
+## Week 14: `r df[14, 3]`
+
+**Required Readings:**
+
+-   [@ikenberry_socialization_1990]
+-   [@winecoff_persistent_2020]
+
+**Recommended Readings:**
+
+-   Akins, A. (2012). ""Next Time, Just Remember the Story" Unlearning Empire in Silko's Ceremony." Studies in American Indian Literatures 24(1): 1-14.
+-   Cox, R. (1981). Social Forces, States and World Order: Beyond International Relations Theory. Millennium, 10(2), 126-55.
+-   Cox, R. (1983). Gramsci, Hegemony and International Relations: An Essay in Method. Millennium, 12(2), 162-175.
+-   Dunch, R. (2002). "Beyond Cultural Imperialism: Cultural Theory, Christian Missions, and Global Modernity." History and Theory 41(3): 301-325.
+-   Guzzini, S. (1993). Structural power: the limits of neorealist power analysis. International Organization, 47(3), 443-478.
+-   Hobsbawm, E. and T. Ranger, Eds. (1983). The Invention of Tradition. Cambridge, Cambridge University Press. Ch. 1
+-   Lukes, S. (2005). Power: A Radical View. Basingstoke, Palgrave Macmillan. Pp. 14-59
+-   Mann, M. (2004). The first failed empire of the 21st century', Review of International Studies, 30(4), 631-653.
+-   Nexon, D. B. and T. Wright (2007). What's at Stake in the American Empire Debate. American Political Science Review, 101(2), 253-271.
+-   Pamment, J. (2016). Towards a New Conditionality? The Convergence of International Development, Nation Brands and Soft Power in the British National Security Strategy. Journal of International Relations and Development. doi:10.1057/s41268-016-0074-9
+-   Patomäki, H., & Teivainen, T. (2004). The World Social Forum: An Open Space or a Movement of Movements?. Theory, Culture & Society, 21 (6), 45-54
+-   Peterson, J. H. (2012). "A Conceptual Unpacking of Hybridity: Accounting for Notions of Power, Politics and Progress In Analyses of Aid-Driven Interfaces." Journal of Peacebuilding & Development 7(2): 9-22.
+-   Petras, J. (1994). "Cultural Imperialism in Late 20th Century." Economic and Political Weekly 29(32): 2070-2073.
+-   Pomeranz, K. (2005). "Empire & 'Civilizing' Missions, Past & Present." Daedalus 134(2): 34-45.
+-   Sautman, B., & Hairong, Y. (2013). Friends and Interests: China's Distinctive Links with Africa. African Studies Review, 50(3), 75-114. doi:10.1353/arw.2008.0014
+-   Strange, S. (1987). The Persistent Myth of Lost Hegemony. International Organization, 41(4), 551-574.
+-   Strange, S. (1990). Finance, information and power. Review of International Studies, 16(3), 259-274.
+-   Worth, O. (2010). Recasting Gramsci in international politics. Review of International Studies 37(1), 373-392.
+
+## Week 15: `r df[15, 3]`
+
+**Required Readings:**
+
+-   [@castells_communication_2009], Chapter 3
+-   [@ipek_ideas_2015]
+
+**Recommended Readings:**
+
+-   Adler, E., & Bernstein, S. (2005). Knowledge in Power: The Epistemic Construction of Global Governance. In M. Barnett & R. Duvall (Eds.), Power in Global Governance. New York: Cambridge University Press.
+-   Bae, Y., & Lee, Y. W. (2020). Socialized soft power: recasting analytical path and public diplomacy. Journal of International Relations and Development, 23(4), 871-898. https://doi.org/10.1057/s41268-019-00169-5
+-   Bigo, D. (2011). Pierre Bourdieu and International Relations: Power of Practices, Practices of Power. International Political Sociology 5(3): 225--258.
+-   Bourdieu, P. (1991). Language and Symbolic Power (G. Raymond & M. Adamson, Trans.; J. B. Thompson, Ed.). Polity Press.
+-   Castells, M. (2015). Communication Power. Oxford: Oxford University Press.
+-   Foucault, M. (1980). Power/ Knowledge (C. Gordon, Trans.). Pantheon.
+-   Kang, D. C. (2020). International Order in Historical East Asia: Tribute and Hierarchy Beyond Sinocentrism and Eurocentrism. International Organization, 74(1), 65-93.
+-   Kinsella, H. M. (2004). Securing the civilian: sex and gender in the laws of war. In M. Barnett & R. Duvall (Eds.), Power in global governance (pp. 249-272).
+-   Merlingen, M. (2003). Governmentality: Towards a Foucauldian Framework for the Study of IGOs. Cooperation and Conflict, 38(4): 361-384.
+-   Morisse-Schilbach, M. (2015). "Changing the World": Epistemic Communities, and the Democratizing Power of Science. Innovation: The European Journal of Social Sciences, 28(1), 18-26. doi:10.1080/13511610.2014.943163
+-   Leander, A. (2005). The Power to Construct International Security: On the Significance of Private Military Companies. Millennium, 33(3): 803-826.
+-   Onuf, N. (2017). "The power of metaphor/the metaphor of power." The Journal of International Communication 23(1): 1-14.
+-   Schmidt, V. A. (2008). "Discursive Institutionalism: The Explanatory Power of Ideas and Discourse." Annual Reviews of Political Science 11: 303-326.
+-   Payne, R. A. (2001). "Persuasion, Frames and Norm Construction." European Journal of International Relations 7(1): 37-61.
+-   Risse, T. (2011). "Ideas, discourse, power and the end of the Cold War: 20 years on." International Politics 48(4-5): 591-606.
+
+## Week 16: `r df[16, 3]`
+
+See Final Paper Section (@sec-final) for details.
+
+**Recommended Reading:**
+
+-   [@ayhan_transferring_2020]
+
+# [VI. Special Accommodations]{style="color: green"}
+
+-   According to the University regulation section #57-3, students with disabilities can request for special accommodations related to attendance, lectures, assignments, or tests by contacting the course professor at the beginning of semester. Based on the nature of the students' request, students can receive support for such accommodations from the course professor or from the Support Center for Students with Disabilities (SCSD). Please refer to the below examples of the types of support available in the lectures, assignments, and evaluations.
+
+| Lecture                                                                                                                                                             | Assignments                                         | Evaluation                                                                                                                                                                                                                                                    |
+|-----------------------|------------------|-------------------------------|
+| Visual impairment: braille, enlarged reading materials. Hearing impairment: note-taking assistant. Physical impairment: access to classroom, note-taking assistant. | Extra days for submission, alternative assignments. | Visual impairment: braille examination paper, examination with voice support, longer examination hours, note-taking assistant. Hearing impairment: written examination instead of oral. Physical impairment: longer examination hours, note-taking assistant. |
+
+-   Actual support may vary depending on the course.
+
+-   If you have other special needs, please let me know. I will do my best to flexibly accommodate your needs.
+
+# [VII. Notes]{style="color: green"}
+
+The contents of this syllabus are not final. I may update them later.
+
+# [VIII. Read the Syllabus!]{style="color: green"}
+
+{{< video https://www.youtube.com/watch?v=xQJ1vQ4RJ5I&t=1s >}}
+
+![](http://www.phdcomics.com/comics/archive/phd051013s.gif)

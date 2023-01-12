@@ -32,8 +32,8 @@ website:
       - href: index.qmd
         text: "About"
         file: index.qmd
-      - text: "Publications"
-        file: research.qmd
+      - text: "Research"
+        file: research/index.qmd
       - text: "Teaching"
         file: teaching.qmd
       - text: "CV"
