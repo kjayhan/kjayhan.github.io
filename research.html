@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dr.&nbsp;Kadir Jun Ayhan - Publications</title>
+<title>Dr.&nbsp;Kadir Jun Ayhan - Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,6 +25,8 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -55,6 +57,36 @@ ul.task-list{list-style: none;}
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-citation',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      page: 30,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-W257WPSHMV"></script>
 
 <script type="text/javascript">
@@ -65,6 +97,7 @@ gtag('js', new Date());
 gtag('config', 'G-W257WPSHMV', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -87,7 +120,7 @@ gtag('config', 'G-W257WPSHMV', { 'anonymize_ip': true});
     <a class="nav-link" href="./index.html">About</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page">Publications</a>
+    <a class="nav-link" href="./research/index.html">Research</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html">Teaching</a>
@@ -145,25 +178,14 @@ gtag('config', 'G-W257WPSHMV', { 'anonymize_ip': true});
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link active" data-scroll-target="#journal-articles">Journal Articles</a></li>
-  <li><a href="#book-chapters" id="toc-book-chapters" class="nav-link" data-scroll-target="#book-chapters">Book Chapters</a></li>
-  <li><a href="#books" id="toc-books" class="nav-link" data-scroll-target="#books">Books</a></li>
-  <li><a href="#in-submission" id="toc-in-submission" class="nav-link" data-scroll-target="#in-submission">In Submission</a></li>
-  <li><a href="#book-reviews" id="toc-book-reviews" class="nav-link" data-scroll-target="#book-reviews">Book Reviews</a></li>
-  <li><a href="#in-preparation" id="toc-in-preparation" class="nav-link" data-scroll-target="#in-preparation">In Preparation</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(38)</span></div><div class="category" data-category="2015">2015 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="2016">2016 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="2017">2017 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="2018">2018 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="2019">2019 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="2020">2020 <span class="quarto-category-count">(4)</span></div><div class="category" data-category="2021">2021 <span class="quarto-category-count">(13)</span></div><div class="category" data-category="2022">2022 <span class="quarto-category-count">(6)</span></div><div class="category" data-category="2023">2023 <span class="quarto-category-count">(5)</span></div><div class="category" data-category="COVID-19">COVID-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Global Korea Scholarship">Global Korea Scholarship <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Inter-Korean">Inter-Korean <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Korea">Korea <span class="quarto-category-count">(29)</span></div><div class="category" data-category="SSCI">SSCI <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Scopus">Scopus <span class="quarto-category-count">(12)</span></div><div class="category" data-category="active learning pedagogy">active learning pedagogy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="computational">computational <span class="quarto-category-count">(3)</span></div><div class="category" data-category="country image">country image <span class="quarto-category-count">(5)</span></div><div class="category" data-category="development cooperation">development cooperation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="diplomacy">diplomacy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="evaluation">evaluation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="experiment">experiment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="foreign policy">foreign policy <span class="quarto-category-count">(7)</span></div><div class="category" data-category="inter-Korean">inter-Korean <span class="quarto-category-count">(2)</span></div><div class="category" data-category="international relations">international relations <span class="quarto-category-count">(11)</span></div><div class="category" data-category="mixed">mixed <span class="quarto-category-count">(7)</span></div><div class="category" data-category="non-state actors">non-state actors <span class="quarto-category-count">(2)</span></div><div class="category" data-category="people-to-people diplomacy">people-to-people diplomacy <span class="quarto-category-count">(13)</span></div><div class="category" data-category="people-to-people-diplomacy">people-to-people-diplomacy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="power in world politics">power in world politics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="propaganda">propaganda <span class="quarto-category-count">(1)</span></div><div class="category" data-category="public diplomacy">public diplomacy <span class="quarto-category-count">(30)</span></div><div class="category" data-category="qualitative">qualitative <span class="quarto-category-count">(4)</span></div><div class="category" data-category="quantitative">quantitative <span class="quarto-category-count">(6)</span></div><div class="category" data-category="reputation">reputation <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Publications</h1>
+<h1 class="title">Research</h1>
 </div>
 
 
@@ -177,76 +199,438 @@ gtag('config', 'G-W257WPSHMV', { 'anonymize_ip': true});
 
 </header>
 
-<section id="journal-articles" class="level2">
-<h2 class="anchored" data-anchor-id="journal-articles">Journal Articles</h2>
-<p>Forthcoming <strong>Ayhan, K. J.</strong>, Park, S., Bier, L., Park, H., The Ripple Effects of Inter-Korean Social and Cultural Exchanges? An Experimental Study on Superordinate Korean Identity. <em>Journal of Asian and African Studies</em> (SSCI)</p>
-<p>2022 <strong>Ayhan, K. J.*</strong>, Jang, S., <a href="https://doi.org/10.1163/1871191x-bja10139">Inter-Korean People-to-People Diplomacy: Social and Cultural Exchanges across the 38th Parallel</a>. <em>The Hague Journal of Diplomacy</em>. (SCOPUS)</p>
-<p>2022 <strong>Ayhan, K. J.*</strong>, Gouda, M., Lee, H., <a href="https://doi.org/10.1177/00219096211035800">Exploring Global Korea Scholarship as a Public Diplomacy Tool</a>. <em>Journal of Asian and African Studies</em>, 57(4): 872-893. (SSCI)</p>
-<p>2022 <strong>Ayhan, K. J.*</strong>, <a href="mailto:https://doi.org/10.23045/jpd.2022.2.1.7?10.23045/jpd.2022.2.1.7">An English School of International Relations Approach to Public Diplomacy: A Public Diplomacy Framework for Global Governance Issues</a>. <em>Journal of Public Diplomacy</em>, 2(1): 1-4.</p>
-<p>2022 <strong>Ayhan, K. J.*,</strong> <a href="https://keia.org/publication/south-koreas-public-diplomacy-during-the-covid-19-pandemic-seeking-status-as-an-authority-in-global-governance/">South Korea’s Public Diplomacy during the COVID-19 Pandemic: Seeking Status as an Authority in Global Governance</a>. <em>Korea Economic Institute of America Academic Paper Series</em>.</p>
-<p>2022 <strong>Ayhan, K.</strong>, Sevin, E., <a href="https://doi.org/10.1057/s41254-022-00263-5">Moving Public Diplomacy Research Forward: Methodological Approaches</a>. <em>Place Branding and Public Diplomacy</em>, 18(1): 201-203. (SCOPUS)</p>
-<p>2022 Varpahovskis, E. and <strong>Ayhan, K. J.</strong>*, <a href="https://doi.org/10.1057/s41254-020-00177-0">Impact of Country Image on Relationship Maintenance: A Case Study of Korean Government Scholarship Program Alumni</a>. <em>Place Branding and Public Diplomacy</em>, 18(2): 52-64. (SCOPUS)</p>
-<p>2021 <strong>Ayhan, K.</strong>*, <a href="https://doi.org/10.23045/jpd.2021.1.1.001">Journal of Public Diplomacy: Sunrise of a New Interdisciplinary Journal for the Emerging Academic Field</a>. <em>Journal of Public Diplomacy</em>, 1(1): 1-4.</p>
-<p>2021 <strong>Ayhan, K. J.*</strong>, Gouda, M., <a href="http://doi.org/10.1007/s12564-020-09648-8">Determinants of Global Korea Scholarship: Students’ word-of-mouth about Korea</a>. <em>Asia Pacific Education Review</em>.22: 15-29. (SSCI)</p>
-<p><strong>Ayhan, K.J.</strong>, Gouda, M. <a href="https://doi.org/10.1007/s12564-021-09712-x">Correction to: Determinants of Global Korea Scholarship students’ word‑of‑mouth about Korea</a>. <em>Asia Pacific Education Review</em>. 22: 579–582.</p>
-<p>2021 <strong>Ayhan, K. J.*</strong>, Snow, N., <a href="https://doi.org/10.1111/polp.12440">Introduction to the Special Issue: Global Korea Scholarship as Public Diplomacy</a>, <em>Politics and Policy</em>. 49(6): 1282-1291.(SCOPUS)</p>
-<p>2021 Tam, L., <strong>Ayhan, K. J.</strong>*, <a href="https://doi.org/10.1111/polp.12438">Evaluations of People, Affection and Recommendation for a Host Country: A Study of Global Korea Scholarship (GKS) Recipients</a>, <em>Politics and Policy</em>. 49(6): 1292-1307. (SCOPUS)</p>
-<p>2021 Jon, J., <strong>Ayhan, K. J.</strong>*, <a href="https://doi.org/10.1111/polp.12437">Satisfied or dissatisfied: Uncovering the determinants of GKS participant’s satisfaction with life in Korea</a>, <em>Politics and Policy</em>. 49(6): 1391-1414. (SCOPUS)</p>
-<p>2021 Istad, F., Varpahovskis, E.*, Miezan, E., <strong>Ayhan, K. J.</strong>, <a href="https://doi.org/10.1111/polp.12436">Global Korea Scholarship Students: Intention to Stay in the Host Country After Graduation</a>, <em>Politics and Policy</em>. 49(6): 1323-1342. (SCOPUS)</p>
-<p>2021 Hong, M. S., Jeon, M.*, <strong>Ayhan, K. J.</strong>, <a href="https://doi.org/10.1111/polp.12435">International Scholarship for Social Change? Re-contextualizing Global Scholarship Alumni’s Perceptions of Diversity and Justice in South Korea</a>, <em>Politics and Policy</em>. 49(6): 1353-1390. (SCOPUS)</p>
-<p>2021 Sevin, E.*, <strong>Ayhan, K. J.</strong>, Ingenhoff, D., <a href="https://doi.org/10.1080/13216597.2021.1903965">Capturing Country Images: A Methodological Approach</a>. <em>Journal of International Communication</em>, 27(2): 237-257(SCOPUS)</p>
-<p>2020 <strong>Ayhan, K.</strong>*, <a href="https://doi.org/10.1093/isp/ekz024">Transferring Knowledge to Narrative Worlds: Applying Power Taxonomy to Science Fiction Films</a>. <em>International Studies Perspectives</em>, 21(3): 258-274. (SSCI)</p>
-<p>2020 <strong>Ayhan,K.</strong>*, <a href="https://doi.org/10.17477/jcea.2020.19.1.031">An Exploration of Korean Discourses on Public Diplomacy</a>. <em>Journal of Contemporary Eastern Asia</em>, 19(1): 31-42. (SCOPUS)</p>
-<p>2020 Sevin,E.*, <strong>Ayhan, K. J.</strong>, Ingenhoff, D., <a href="https://doi.org/10.16934/isr.21.2.202012.95">Analyzing Country Images through Networks: Case of South Korea</a>. <em>Asian International Studies Review</em>, 21(2): 95-119(SCOPUS)</p>
-<p>2019 <strong>Ayhan, K.</strong>*, <a href="https://doi.org/10.1093/isp/eky010">The Boundaries of Public Diplomacy and Non-State Actors: A Taxonomy of Perspectives</a>. <em>International Studies Perspectives</em>, 20(1): 63-83. (SSCI)</p>
-<p>2019 <strong>Ayhan, K.</strong>*, <a href="http://dx.doi.org/10.29152/KOIKS.2019.50.1.1">Rethinking Korean Middle Power Diplomacy as a Nation Branding Project</a>. <em>Korea Observer,</em> 50(1): 1-24. (SSCI)</p>
-<p>2019 Choi, S., Tam L., <strong>Ayhan, K.</strong>* and Lee, D., <a href="http://doi.org/10.16934/isr.20.2.201912.29">Why and How Do Sojourners Talk about Macao? Effects of Perceived Risk and Expected Benefit</a>. <em>Asian International Studies Review</em>, 20(1): 29-51. (SCOPUS)</p>
-<p>2018 <strong>Ayhan, K.</strong>*, <a href="http://dx.doi.org/10.29152/KOIKS.2018.49.1.51">Branding Korea as “My Friend’s Country”: The Case of VANK</a>. <em>Korea Observer,</em> 49(1): 51-81. (SSCI)</p>
-<p>2018 <strong>Ayhan, K.</strong>*, <a href="https://doi.org/10.17477/jcea.2018.17.1.001">Editorial for Special Issue: Soft Power and Public Diplomacy in East Asia</a>. <em>Journal of Contemporary Eastern Asia,</em> 17(1): 1-4. (SCOPUS)</p>
-<p>2015 Lee, G., <strong>Ayhan, K.*</strong>, <a href="https://www.jstor.org/stable/43490280">Why Do We Need Non-state Actors in Public Diplomacy?: Theoretical Discussion of Relational, Networked and Collaborative Public Diplomacy</a>. <em>Journal of International and Area Studies, 22</em>(1): 57-77. (KCI)</p>
-</section>
-<section id="book-chapters" class="level2">
-<h2 class="anchored" data-anchor-id="book-chapters">Book Chapters</h2>
-<p>Forthcoming <strong>Ayhan, K.</strong>*, South Korean Public Diplomacy vis-à-vis the United States: Finding Support for Policies in Washington DC, In Mitchell Lerner (ed.), <em>Divided America, Divided Korea: U.S.-Korean Relations During and After the Trump Years</em>, Cambridge University Press</p>
-<p>2021 <strong>Ayhan, K. J.*</strong>, Kim, Y., <a href="https://www.taylorfrancis.com/chapters/edit/10.4324/9781003148890-2/ideas-matter-inter-korean-relations-kadir-jun-ayhan-yuree-kim">Ideas Matter in Inter-Korean Relations: Shifts in South Korea’s Foreign Policy Interests and Behavior vis-à-vis North Korea</a>. In Mason Richey, Jagannath P. Panda and David A. Tizzard (eds.). <em>The Future of the Korean Peninsula: Korea 2032 and Beyond</em>, Routledge.</p>
-<p>2021 Sevin, E., &amp; <strong>Ayhan, K. J.*</strong>. Evaluation in Public Diplomacy. In D. Spry (Ed.), <a href="https://asef.org/publications/asef-public-diplomacy-handbook/"><em>Communicating with Purpose and Value: ASEF Public Diplomacy Handbook</em></a> (pp.&nbsp;61-68), Asia-Europe Foundation (ASEF).</p>
-<p>2021 Lee, H., Jang, S., <strong>Ayhan, K. J.</strong>*<a href="https://rowman.com/ISBN/9781538142417/Global-Media-Perceptions-of-the-United-States-The-Trump-Effect">News Coverage about the U.S. in Korea during Bush, Obama and Trump Administration: Trump as an Outlier</a>?, In Yahya R. Kamalipour (Ed.), <em>Global Media Perceptions of the United States: The Trump Effect</em>. Rowman &amp; Littlefield Publishing, pp.&nbsp;175-188.</p>
-<p>2021 <strong>Ayhan, K. J.*</strong>, &amp; Sevin, E., <a href="https://www.kipa.re.kr/site/mblk/research/selectBaseView.do?gubun=CO&amp;seqNo=BASE_000000000000634">Non-Coercive Influence in World Politics: Intersection with State Inclusive Index</a>. In J. Park &amp; H.-S. Lyu (Eds.), Developing State Inclusiveness Index: Conceptualization and Measurement (pp.&nbsp;419-435). National Research Council for Economics, Humanities and Social Sciences.</p>
-<p>2021 <strong>Ayhan, K. J.*</strong>, Sevin, E., <a href="https://www.kipa.re.kr/site/mblk/research/selectBaseView.do?gubun=CO&amp;seqNo=BASE_000000000000634">세계정치에서의 비강압적 영향력: 국가포용성지수와의 교차점</a>. 박준 편. 국가포용성지수 개발 연구 (pp.&nbsp;327-341). 경제･인문사회연구회.</p>
-<p>2020 <a href="http://www.kf.or.kr/archives/ebook/ebook_view.do?p_cidx=3250&amp;p_cfidx=113206">민간분야의 공공외교 [People-to-People Diplomacy]</a>. In Korea Foundation (ed.), <em>처음 만나는 공공외교 [Introduction to Public Diplomacy]</em> (pp.&nbsp;93-132). Korea Foundation.</p>
-<p>2019 Sevin, E.*, <strong>Ayhan, K. J.</strong>, Jang, W., Lee, H., <a href="http://dx.doi.org/10.4135/9781526477170.n14">Assessing Propaganda Effectiveness in North Korea: A Limited Access Case Study</a>, In Nicholas O’Shaughnessy, Paul Baines and Nancy Snow (Eds.), <em>SAGE Handbook of Propaganda</em> (pp.&nbsp;205-222). SAGE.</p>
-<p>2017 <strong>Ayhan, K.</strong>*, Korea’s Soft Power and Public Diplomacy Under Moon Jae-In Administration: A Window of Opportunity. In K. Ayhan (Ed.), <em>Korea’s Soft Power and Public Diplomacy</em> (pp.&nbsp;13-32). Hangang Network.</p>
-<p>2016 <strong>Ayhan, K.</strong>*, Introduction. In K. Ayhan (Ed.), <em>Korea’s Public Diplomacy (</em>pp.&nbsp;13-22)<em>.</em> Hangang Network.</p>
-</section>
-<section id="books" class="level2">
-<h2 class="anchored" data-anchor-id="books">Books</h2>
-<p>2017 <strong>Ayhan, K.</strong>* (Ed.), <em>Korea’s Soft Power and Public Diplomacy</em>,Hangang Network.</p>
-<p>2016 <strong>Ayhan, K.</strong>* (Ed.), <em>Korea’s Public Diplomacy</em>, Hangang Network.</p>
-</section>
-<section id="in-submission" class="level2">
-<h2 class="anchored" data-anchor-id="in-submission">In Submission</h2>
-<p><strong>Ayhan, K.</strong>*, Rethinking Soft Power: Appealing to Fear, Appetite or Spirit.</p>
-</section>
-<section id="book-reviews" class="level2">
-<h2 class="anchored" data-anchor-id="book-reviews">Book Reviews</h2>
-<p>2020 <a href="https://doi.org/10.1093/isr/viaa038">Competition for Hearts and Minds: Cold War Public Diplomacy</a>, <em>International Studies Review</em>, 22(4): 988-989. (SSCI)</p>
-<p>2019 <a href="https://doi.org/10.1093/ia/iiz115">Review of the book [Scott A. Snyder (2018). <em>South Korea at the Crossroads: Autonomy and Alliance in an Era of Rival Powers</em>. Columbia University Press]</a>, <em>International Affairs</em>, 95(4): 961-962. (SSCI)</p>
-<p>2019 <a href="https://ijoc.org/index.php/ijoc/article/view/12076">Review of the book [James Pamment and Karin Gwinn Wilkins (Eds.) (2018), Communicating National Image Through Development and Diplomacy: The Politics of Foreign Aid, Palgrave Macmillan]</a>, <em>International Journal of Communication</em>. 13: 2351-2354. (SSCI)</p>
-<p>2018 <a href="https://doi.org/10.1093/isr/viy041">Connecting Public Diplomacy and Foreign Policy</a>, <em>International Studies Review</em>, 20(3): 539-540. (SSCI)</p>
-<p>2018 <a href="https://hrcak.srce.hr/file/294507">Review of the book [Wiseman, G. (2015). <em>Isolate or Engage: Adversarial States, U.S. Foreign Policy, and Public Diplomacy</em>. Stanford University Press]</a>, <em>Croatian International Relations Review</em>. 24(81): 146-149. (SCOPUS)</p>
-</section>
-<section id="in-preparation" class="level2">
-<h2 class="anchored" data-anchor-id="in-preparation">In Preparation</h2>
-<p><strong>Ayhan, K. J.*</strong>, The Determinants of US Public Diplomacy: Countering Adversary Influence All the Way</p>
-<p><strong>Ayhan, K. J.*</strong> and Jeheung Ryu, What Drives South Korea’s COVID-19 Humanitarian Aid? Not the Severity of COVID-19 in the Host Countries</p>
-<p><strong>Ayhan, K. J.*</strong>, From Korean Peninsula to Omnidirectional Diplomacy: An Analysis of Korea’s High-Level Visits</p>
-<p><strong>Ayhan, K. J.*</strong>, South Korea in a Multiplex World Order: Seeking Status to Survive</p>
-<p><strong>Ayhan, K. J.*</strong>, International Student Mobility Programs’ Place in International Relations Theory: From Micro-politics to Macro-politics</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+citation
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-file-modified-sort="1673495879269" data-listing-reading-time-sort="1.14" data-listing-title-sort="Research" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+</td>
+<td class="listing-title">
+<a href="./research/index.html" class="title">Research</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="1" data-categories="Korea,Inter-Korean,international relations,foreign policy,2023" data-listing-date-sort="1688137200000" data-listing-file-modified-sort="1673495098121" data-listing-reading-time-sort="0.195" data-listing-title-sort="Comprehensive Peacebuilding on the Korean Peninsula: Internal Dynamics in North Korea and South Korean Approaches" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jul 1, 2023
+</td>
+<td class="listing-title">
+<a href="./research/edited-books/2023 Comprehensive Peacebuilding on the Korean Peninsula/index.html" class="title">Comprehensive Peacebuilding on the Korean Peninsula: Internal Dynamics in North Korea and South Korean Approaches</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="2" data-categories="Korea,Inter-Korean,qualitative,people-to-people diplomacy,public diplomacy,foreign policy,international relations,evaluation,2023" data-listing-date-sort="1688137200000" data-listing-file-modified-sort="1673494782136" data-listing-reading-time-sort="0.59" data-listing-title-sort="Inter-Korean People-to-People Diplomacy: Social and Cultural Exchanges across the 38th Parallel" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jul 1, 2023
+</td>
+<td class="listing-title">
+<a href="./research/chapters/2023 Let the Sun Shine/index.html" class="title">Inter-Korean People-to-People Diplomacy: Social and Cultural Exchanges across the 38th Parallel</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="3" data-categories="Korea,Inter-Korean,international relations,foreign policy,2023" data-listing-date-sort="1688137200000" data-listing-file-modified-sort="1673494817612" data-listing-reading-time-sort="0.28" data-listing-title-sort="Comprehensive Peacebuilding on the Korean Peninsula: An Introduction" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jul 1, 2023
+</td>
+<td class="listing-title">
+<a href="./research/chapters/2023 Comprehensive Peacebuilding on the Korean Peninsula/index.html" class="title">Comprehensive Peacebuilding on the Korean Peninsula: An Introduction</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="4" data-categories="Korea,international relations,foreign policy,public diplomacy,2023" data-listing-date-sort="1688137200000" data-listing-file-modified-sort="1673494775225" data-listing-reading-time-sort="0.29" data-listing-title-sort="South Korean Public Diplomacy vis-à-vis the United States: Finding Support for Policies in Washington DC" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jul 1, 2023
+</td>
+<td class="listing-title">
+<a href="./research/chapters/2023 South Korean Public Diplomacy vis-à-vis the United States/index.html" class="title">South Korean Public Diplomacy vis-à-vis the United States: Finding Support for Policies in Washington DC</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="5" data-categories="Scopus,Korea,Inter-Korean,qualitative,people-to-people diplomacy,public diplomacy,evaluation,foreign policy,international relations,2023" data-listing-date-sort="1672498800000" data-listing-file-modified-sort="1673496145548" data-listing-reading-time-sort="1.13" data-listing-title-sort="Inter-Korean People-to-People Diplomacy: Social and Cultural Exchanges across the 38th Parallel" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jan 1, 2023
+</td>
+<td class="listing-title">
+<a href="./research/articles/2023 HJD Inter-Korean People-to-People Diplomacy/index.html" class="title">Inter-Korean People-to-People Diplomacy: Social and Cultural Exchanges across the 38th Parallel</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="6" data-categories="SSCI,Korea,Inter-Korean,experiment,quantitative,people-to-people diplomacy,public diplomacy,2022" data-listing-date-sort="1669820400000" data-listing-file-modified-sort="1673496096930" data-listing-reading-time-sort="1.49" data-listing-title-sort="What are the consequences of the social and cultural exchanges between the two Koreas: Insights from an experimental study on the effect of superordinate Korean identity" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Dec 1, 2022
+</td>
+<td class="listing-title">
+<a href="./research/articles/2022 JAAS What are the consequences of the social and cultural exchanges between the two Koreas/index.html" class="title">What are the consequences of the social and cultural exchanges between the two Koreas: Insights from an experimental study on the effect of superordinate Korean identity</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="7" data-categories="SSCI,Korea,Global Korea Scholarship,mixed,people-to-people diplomacy,public diplomacy,2022" data-listing-date-sort="1656601200000" data-listing-file-modified-sort="1673496076278" data-listing-reading-time-sort="0.92" data-listing-title-sort="Exploring Global Korea Scholarship as a Public Diplomacy Tool" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jul 1, 2022
+</td>
+<td class="listing-title">
+<a href="./research/articles/2022 JAAS Exploring Global Korea Scholarship as a Public Diplomacy Tool/index.html" class="title">Exploring Global Korea Scholarship as a Public Diplomacy Tool</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="8" data-categories="international relations,development cooperation,public diplomacy,2022" data-listing-date-sort="1654009200000" data-listing-file-modified-sort="1673417235118" data-listing-reading-time-sort="0.875" data-listing-title-sort="An English School of International Relations Approach to Public Diplomacy: A Public Diplomacy Framework for Global Governance Issues" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jun 1, 2022
+</td>
+<td class="listing-title">
+<a href="./research/articles/2022 JPD An English School of International Relations Approach to Public Diplomacy/index.html" class="title">An English School of International Relations Approach to Public Diplomacy: A Public Diplomacy Framework for Global Governance Issues</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="9" data-categories="Scopus,Global Korea Scholarship,mixed,people-to-people diplomacy,public diplomacy,country image,2022" data-listing-date-sort="1648738800000" data-listing-file-modified-sort="1673496118810" data-listing-reading-time-sort="1.235" data-listing-title-sort="Impact of Country Image on Relationship Maintenance: A Case Study of Korean Government Scholarship Program Alumni" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Apr 1, 2022
+</td>
+<td class="listing-title">
+<a href="./research/articles/2022 PBPD Impact of Country Image on Relationship Maintenance/index.html" class="title">Impact of Country Image on Relationship Maintenance: A Case Study of Korean Government Scholarship Program Alumni</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="10" data-categories="Scopus,public diplomacy,2022" data-listing-date-sort="1648738800000" data-listing-file-modified-sort="1673496130779" data-listing-reading-time-sort="0.85" data-listing-title-sort="Moving Public Diplomacy Research Forward: Methodological Approaches" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Apr 1, 2022
+</td>
+<td class="listing-title">
+<a href="./research/articles/2022 PBPD Moving Public Diplomacy Research Forward/index.html" class="title">Moving Public Diplomacy Research Forward: Methodological Approaches</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="11" data-categories="Korea,development cooperation,international relations,public diplomacy,mixed,computational,COVID-19,2022" data-listing-date-sort="1640962800000" data-listing-file-modified-sort="1673419634298" data-listing-reading-time-sort="1.06" data-listing-title-sort="South Korea’s Public Diplomacy during the COVID-19 Pandemic: Seeking Status as an Authority in Global Governance" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jan 1, 2022
+</td>
+<td class="listing-title">
+<a href="./research/articles/2022 KEI South Korea’s Public Diplomacy during the COVID-19 Pandemic/index.html" class="title">South Korea’s Public Diplomacy during the COVID-19 Pandemic: Seeking Status as an Authority in Global Governance</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="12" data-categories="Scopus,Global Korea Scholarship,Korea,mixed,people-to-people diplomacy,public diplomacy,2021" data-listing-date-sort="1633014000000" data-listing-file-modified-sort="1673496029158" data-listing-reading-time-sort="1.22" data-listing-title-sort="International scholarship for social change? Re-contextualizing Global Korea Scholarship alumni’s perceptions of justice and diversity in South Korea" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Oct 1, 2021
+</td>
+<td class="listing-title">
+<a href="./research/articles/2021 PP International scholarship for social change/index.html" class="title">International scholarship for social change? Re-contextualizing Global Korea Scholarship alumni’s perceptions of justice and diversity in South Korea</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="13" data-categories="Scopus,Global Korea Scholarship,Korea,mixed,people-to-people diplomacy,public diplomacy,2021" data-listing-date-sort="1633014000000" data-listing-file-modified-sort="1673496046811" data-listing-reading-time-sort="1.86" data-listing-title-sort="Introduction to the special issue — Global Korea Scholarship: Empirical evaluation of a non-Western scholarship program from a public diplomacy" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Oct 1, 2021
+</td>
+<td class="listing-title">
+<a href="./research/articles/2021 PP Introduction to the Special Issue/index.html" class="title">Introduction to the special issue — Global Korea Scholarship: Empirical evaluation of a non-Western scholarship program from a public diplomacy</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="14" data-categories="Scopus,Global Korea Scholarship,Korea,mixed,people-to-people diplomacy,public diplomacy,2021" data-listing-date-sort="1633014000000" data-listing-file-modified-sort="1673496061804" data-listing-reading-time-sort="1.52" data-listing-title-sort="Satisfied or dissatisfied: The determinants of Global Korea Scholarship recipients’ satisfaction with life in Korea" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Oct 1, 2021
+</td>
+<td class="listing-title">
+<a href="./research/articles/2021 PP Satisfied or dissatisfied/index.html" class="title">Satisfied or dissatisfied: The determinants of Global Korea Scholarship recipients’ satisfaction with life in Korea</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="15" data-categories="Scopus,Global Korea Scholarship,Korea,quantitative,people-to-people diplomacy,public diplomacy,2021" data-listing-date-sort="1633014000000" data-listing-file-modified-sort="1673495991448" data-listing-reading-time-sort="1.43" data-listing-title-sort="Evaluations of people, affection, and recommendation for a host country: A study of Global Korea Scholarship (GKS) recipients" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Oct 1, 2021
+</td>
+<td class="listing-title">
+<a href="./research/articles/2021 PP Evaluations of People, Affection and Recommendation for a Host Country/index.html" class="title">Evaluations of people, affection, and recommendation for a host country: A study of Global Korea Scholarship (GKS) recipients</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="16" data-categories="Scopus,Global Korea Scholarship,quantitative,Korea,people-to-people diplomacy,public diplomacy,2021" data-listing-date-sort="1633014000000" data-listing-file-modified-sort="1673496013297" data-listing-reading-time-sort="1.765" data-listing-title-sort="Global Korea Scholarship students: Intention to stay in the host country to work or study after graduation" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Oct 1, 2021
+</td>
+<td class="listing-title">
+<a href="./research/articles/2021 PP Global Korea Scholarship Students Intention to Stay in the Host Country After Graduation/index.html" class="title">Global Korea Scholarship students: Intention to stay in the host country to work or study after graduation</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="17" data-categories="SSCI,Global Korea Scholarship,Korea,quantitative,people-to-people diplomacy,public diplomacy,country image,2021" data-listing-date-sort="1627743600000" data-listing-file-modified-sort="1673495958576" data-listing-reading-time-sort="1.535" data-listing-title-sort="Determinants of Global Korea Scholarship: Students’ word-of-mouth about Korea" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Aug 1, 2021
+</td>
+<td class="listing-title">
+<a href="./research/articles/2021 APER  Determinants of Global Korea Scholarship/index.html" class="title">Determinants of Global Korea Scholarship: Students’ word-of-mouth about Korea</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="18" data-categories="international relations,Korea,inter-Korean,foreign policy,2021" data-listing-date-sort="1625065200000" data-listing-file-modified-sort="1673492310737" data-listing-reading-time-sort="0.515" data-listing-title-sort="Ideas Matter in Inter-Korean Relations: Shifts in South Korea’s Foreign Policy Interests and Behavior vis-à-vis North Korea" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jul 1, 2021
+</td>
+<td class="listing-title">
+<a href="./research/chapters/2021 Ideas Matter in Inter-Korean Relations/index.html" class="title">Ideas Matter in Inter-Korean Relations: Shifts in South Korea’s Foreign Policy Interests and Behavior vis-à-vis North Korea</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="19" data-categories="public diplomacy,evaluation,2021" data-listing-date-sort="1625065200000" data-listing-file-modified-sort="1673493034728" data-listing-reading-time-sort="0.885" data-listing-title-sort="Evaluation in Public Diplomacy" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jul 1, 2021
+</td>
+<td class="listing-title">
+<a href="./research/chapters/2021 Evaluation in Public Diplomacy/index.html" class="title">Evaluation in Public Diplomacy</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="20" data-categories="public diplomacy,Korea,2021" data-listing-date-sort="1622473200000" data-listing-file-modified-sort="1673419335002" data-listing-reading-time-sort="0.82" data-listing-title-sort="Journal of Public Diplomacy: Sunrise of a New Interdisciplinary Journal for the Emerging Academic Field" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jun 1, 2021
+</td>
+<td class="listing-title">
+<a href="./research/articles/2021 JPD Journal of Public Diplomacy/index.html" class="title">Journal of Public Diplomacy: Sunrise of a New Interdisciplinary Journal for the Emerging Academic Field</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="21" data-categories="public diplomacy,evaluation,2021" data-listing-date-sort="1614524400000" data-listing-file-modified-sort="1673492323666" data-listing-reading-time-sort="1.935" data-listing-title-sort="Non-Coercive Influence in World Politics: Intersection with State Inclusive Index" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Mar 1, 2021
+</td>
+<td class="listing-title">
+<a href="./research/chapters/2021 Non-Coercive Influence in World Politics/index.html" class="title">Non-Coercive Influence in World Politics: Intersection with State Inclusive Index</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="22" data-categories="Scopus,Korea,quantitative,computational,public diplomacy,country image,2021" data-listing-date-sort="1614524400000" data-listing-file-modified-sort="1673495971553" data-listing-reading-time-sort="1.38" data-listing-title-sort="Capturing country images: a methodological approach" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Mar 1, 2021
+</td>
+<td class="listing-title">
+<a href="./research/articles/2021 JIC Capturing country images/index.html" class="title">Capturing country images: a methodological approach</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="23" data-categories="Korea,2021" data-listing-date-sort="1609426800000" data-listing-file-modified-sort="1673493299504" data-listing-reading-time-sort="0.48" data-listing-title-sort="News Coverage about the U.S. in Korea during Bush, Obama and Trump Administration: Trump as an Outlier" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jan 1, 2021
+</td>
+<td class="listing-title">
+<a href="./research/chapters/2021 News Coverage about the U.S. in Korea during Bush, Obama and Trump Administration/index.html" class="title">News Coverage about the U.S. in Korea during Bush, Obama and Trump Administration: Trump as an Outlier</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="24" data-categories="Scopus,Korea,quantitative,computational,public diplomacy,country image,2021" data-listing-date-sort="1606748400000" data-listing-file-modified-sort="1673495936311" data-listing-reading-time-sort="1.27" data-listing-title-sort="Analyzing Country Images through Networks: Case of South Korea" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Dec 1, 2020
+</td>
+<td class="listing-title">
+<a href="./research/articles/2020 AISR Analyzing Country Images through Networks/index.html" class="title">Analyzing Country Images through Networks: Case of South Korea</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="25" data-categories="SSCI,international relations,public diplomacy,2019" data-listing-date-sort="1596207600000" data-listing-file-modified-sort="1673488261561" data-listing-reading-time-sort="2.08" data-listing-title-sort="The Boundaries of Public Diplomacy and Non-State Actors: A Taxonomy of Perspectives" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Aug 1, 2020
+</td>
+<td class="listing-title">
+<a href="./research/articles/2019 ISP The Boundaries of Public Diplomacy and Non-State Actors/index.html" class="title">The Boundaries of Public Diplomacy and Non-State Actors: A Taxonomy of Perspectives</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="26" data-categories="SSCI,international relations,active learning pedagogy,power in world politics,2020" data-listing-date-sort="1596207600000" data-listing-file-modified-sort="1673488256669" data-listing-reading-time-sort="2.725" data-listing-title-sort="Transferring Knowledge to Narrative Worlds: Applying Power Taxonomy to Science Fiction Films" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Aug 1, 2020
+</td>
+<td class="listing-title">
+<a href="./research/articles/2020 ISP Transferring Knowledge to Narrative Worlds/index.html" class="title">Transferring Knowledge to Narrative Worlds: Applying Power Taxonomy to Science Fiction Films</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="27" data-categories="Scopus,Korea,public diplomacy,2020" data-listing-date-sort="1593529200000" data-listing-file-modified-sort="1673488244897" data-listing-reading-time-sort="1.21" data-listing-title-sort="An Exploration of Korean Discourses on Public Diplomacy" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jul 1, 2020
+</td>
+<td class="listing-title">
+<a href="./research/articles/2020 JCEA An Exploration of Korean Discourses on Public Diplomacy/index.html" class="title">An Exploration of Korean Discourses on Public Diplomacy</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="28" data-categories="public diplomacy,people-to-people-diplomacy,Korea,2020" data-listing-date-sort="1588258800000" data-listing-file-modified-sort="1673492949591" data-listing-reading-time-sort="0.305" data-listing-title-sort="민간분야의 공공외교 [People-to-People Diplomacy]" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+May 1, 2020
+</td>
+<td class="listing-title">
+<a href="./research/chapters/2020 KF People-to-people diplomacy/index.html" class="title">민간분야의 공공외교 [People-to-People Diplomacy]</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="29" data-categories="Korea,inter-Korean,propaganda,2020" data-listing-date-sort="1577804400000" data-listing-file-modified-sort="1673493496881" data-listing-reading-time-sort="0.3" data-listing-title-sort="Assessing Propaganda Effectiveness in North Korea: A Limited Access Case Study" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jan 1, 2020
+</td>
+<td class="listing-title">
+<a href="./research/chapters/2019 Sage Assessing Propaganda Effectiveness in North Korea/index.html" class="title">Assessing Propaganda Effectiveness in North Korea: A Limited Access Case Study</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="30" data-categories="SSCI,international relations,reputation,Korea,foreign policy,diplomacy,development cooperation,qualitative,2019" data-listing-date-sort="1548946800000" data-listing-file-modified-sort="1673489005909" data-listing-reading-time-sort="1.225" data-listing-title-sort="Rethinking Korean Middle Power Diplomacy as a Nation Branding Project" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Feb 1, 2019
+</td>
+<td class="listing-title">
+<a href="./research/articles/2019 KO Rethinking Korean Middle Power Diplomacy as a Nation Branding Project/index.html" class="title">Rethinking Korean Middle Power Diplomacy as a Nation Branding Project</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="31" data-categories="Scopus,Korea,public diplomacy,2018" data-listing-date-sort="1527778800000" data-listing-file-modified-sort="1673495916001" data-listing-reading-time-sort="0.4" data-listing-title-sort="Editorial for Special Issue: Soft Power and Public Diplomacy in East Asia" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jun 1, 2018
+</td>
+<td class="listing-title">
+<a href="./research/articles/2018 JCEA Editorial for Special Issue/index.html" class="title">Editorial for Special Issue: Soft Power and Public Diplomacy in East Asia</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="32" data-categories="SSCI,public diplomacy,Korea,people-to-people diplomacy,non-state actors,country image,qualitative,mixed,2018" data-listing-date-sort="1517410800000" data-listing-file-modified-sort="1673489029124" data-listing-reading-time-sort="1.14" data-listing-title-sort="Branding Korea as “My Friend’s Country”: The Case of VANK" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Feb 1, 2018
+</td>
+<td class="listing-title">
+<a href="./research/articles/2018 KO Branding Korea as “My Friend’s Country”/index.html" class="title">Branding Korea as “My Friend’s Country”: The Case of VANK</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="33" data-categories="public diplomacy,Korea,2017" data-listing-date-sort="1512054000000" data-listing-file-modified-sort="1673495049250" data-listing-reading-time-sort="0.255" data-listing-title-sort="Korea’s Soft Power and Public Diplomacy" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Dec 1, 2017
+</td>
+<td class="listing-title">
+<a href="./research/edited-books/2017 Korea’s Soft Power and Public Diplomacy/index.html" class="title">Korea’s Soft Power and Public Diplomacy</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="34" data-categories="public diplomacy,Korea,2017" data-listing-date-sort="1512054000000" data-listing-file-modified-sort="1673493800885" data-listing-reading-time-sort="0.56" data-listing-title-sort="Korea’s Soft Power and Public Diplomacy Under Moon Jae-In Administration: A Window of Opportunity" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Dec 1, 2017
+</td>
+<td class="listing-title">
+<a href="./research/chapters/2017 Korea’s Soft Power and Public Diplomacy Under Moon Jae-In Administration/index.html" class="title">Korea’s Soft Power and Public Diplomacy Under Moon Jae-In Administration: A Window of Opportunity</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="35" data-categories="public diplomacy,Korea,2016" data-listing-date-sort="1480518000000" data-listing-file-modified-sort="1673494994555" data-listing-reading-time-sort="0.24" data-listing-title-sort="Korea's Public Diplomacy" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Dec 1, 2016
+</td>
+<td class="listing-title">
+<a href="./research/edited-books/2016 Korea's Public Diplomacy/index.html" class="title">Korea’s Public Diplomacy</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="36" data-categories="public diplomacy,Korea,2016" data-listing-date-sort="1480518000000" data-listing-file-modified-sort="1673495003488" data-listing-reading-time-sort="0.44" data-listing-title-sort="Introduction: Korea's Public Diplomacy" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Dec 1, 2016
+</td>
+<td class="listing-title">
+<a href="./research/chapters/2016 Introduction - Korea's PD/index.html" class="title">Introduction: Korea’s Public Diplomacy</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+<tr data-index="37" data-categories="public diplomacy,people-to-people diplomacy,non-state actors,2015" data-listing-date-sort="1433084400000" data-listing-file-modified-sort="1673495903555" data-listing-reading-time-sort="1.01" data-listing-title-sort="Why Do We Need Non-state Actors in Public Diplomacy?: Theoretical Discussion of Relational, Networked and Collaborative Public Diplomacy" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Jun 1, 2015
+</td>
+<td class="listing-title">
+<a href="./research/articles/2015 JIAS Why Do We Need Non-state Actors in Public Diplomacy/index.html" class="title">Why Do We Need Non-state Actors in Public Diplomacy?: Theoretical Discussion of Relational, Networked and Collaborative Public Diplomacy</a>
+</td>
+<td class="listing-citation">
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
