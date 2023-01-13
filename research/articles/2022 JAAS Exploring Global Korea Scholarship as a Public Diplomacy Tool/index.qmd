@@ -14,7 +14,7 @@ author:
     url: https://scholar.google.co.kr/citations?user=GnvwjTUAAAAJ&hl=en
     orcid: 0000
     affiliation: University of Oklahoma
-categories: [SSCI, Korea, Global Korea Scholarship, mixed, people-to-people diplomacy, public diplomacy, 2022]
+categories: [SSCI, Korea, Global Korea Scholarship, mixed, quantitative, people-to-people diplomacy, public diplomacy, 2022]
 pub-info:
   reference: >-
     <strong>Kadir Jun Ayhan*</strong>, Moamen Gouda and Hyelim Lee (2022), “Exploring Global Korea Scholarship as a Public Diplomacy Tool,” <em>Journal of Asian and African Studies</em>: 57(4): 872-893, doi: <a href="https://doi.org/10.1177/002190962110358"><code>10.1177/002190962110358</code></a>

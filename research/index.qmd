@@ -22,7 +22,7 @@ listing:
   - id: reviews
     contents: "reviews/*/index.qmd"
     sort: "date desc"
-    #template: ../html/research/listing.ejs
+    template: ../html/research/listing2.ejs
 page-layout: full
 include-back-link: false
 toc-location: right
@@ -45,28 +45,7 @@ My main research interests include public diplomacy, Korean foreign policy, powe
 ::: {#book-chapters}
 :::
 
-## Book Reviews
+## Book reviews
 
-2020 [Competition for Hearts and Minds: Cold War Public Diplomacy](https://doi.org/10.1093/isr/viaa038), *International Studies Review*, 22(4): 988-989. (SSCI)
-
-2019 [Review of the book \[Scott A. Snyder (2018). *South Korea at the Crossroads: Autonomy and Alliance in an Era of Rival Powers*. Columbia University Press\]](https://doi.org/10.1093/ia/iiz115), *International Affairs*, 95(4): 961-962. (SSCI)
-
-2019 [Review of the book \[James Pamment and Karin Gwinn Wilkins (Eds.) (2018), Communicating National Image Through Development and Diplomacy: The Politics of Foreign Aid, Palgrave Macmillan\]](https://ijoc.org/index.php/ijoc/article/view/12076), *International Journal of Communication*. 13: 2351-2354. (SSCI)
-
-2018 [Connecting Public Diplomacy and Foreign Policy](https://doi.org/10.1093/isr/viy041), *International Studies Review*, 20(3): 539-540. (SSCI)
-
-2018 [Review of the book \[Wiseman, G. (2015). *Isolate or Engage: Adversarial States, U.S. Foreign Policy, and Public Diplomacy*. Stanford University Press\]](https://hrcak.srce.hr/file/294507), *Croatian International Relations Review*. 24(81): 146-149. (SCOPUS)
-
-## In Preparation
-
-**Ayhan, K. J.\***, The Determinants of US Public Diplomacy: Countering Adversary Influence All the Way
-
-**Ayhan, K. J.\*** and Jeheung Ryu, The Drivers of South Korea's COVID-19 Humanitarian Aid
-
-**Ayhan, K. J.\***, The Search for Omnidirectional Diplomacy: An Analysis of Korean President's Bilateral Diplomatic Visits
-
-Yu, Ren and **Ayhan, K. J.\***, The Determinants of Chinese Outward FDI
-
-**Ayhan, K. J.\***, South Korea in a Multiplex World Order: Seeking Status to Survive
-
-**Ayhan, K. J.\***, International Student Mobility Programs' Place in International Relations Theory: From Micro-politics to Macro-politics
+::: {#reviews}
+:::

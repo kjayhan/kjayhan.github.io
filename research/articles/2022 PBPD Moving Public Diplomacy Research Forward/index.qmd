@@ -10,7 +10,7 @@ author:
     url: https://linktr.ee/efesevin
     orcid: 0000-0002-7837-5000
     affiliation: Towson University
-categories: [Scopus, public diplomacy, 2022]
+categories: [Scopus, public diplomacy, evaluation, 2022]
 pub-info:
   reference: >-
     <strong>Kadir Jun Ayhan</strong> and Efe Sevin* (2022), “Moving Public Diplomacy Research Forward: Methodological Approaches,” <em>Place Branding and Public Diplomacy</em>: 18(3): 201-203, doi: <a href="https://doi.org/10.1057/s41254-022-00263-5"><code>10.1057/s41254-022-00263-5</code></a>

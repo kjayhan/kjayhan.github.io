@@ -10,7 +10,7 @@ author:
     url: https://hufs.academia.edu/%EC%8B%9C%EC%97%B0%EC%9E%A5
     orcid: 0000-0001-9603-2792
     affiliation: Ewha Womans University Graduate School of International Studies
-categories: [Korea, Inter-Korean, international relations, foreign policy, 2023]
+categories: [Korea, inter-Korean, international relations, foreign policy, 2023]
 pub-info:
   reference: >-
     <strong>Kadir Jun Ayhan</strong> and Brendan M. Howe (2023), <em>Comprehensive Peacebuilding on the Korean Peninsula: Internal Dynamics in North Korea and South Korean Approaches</em>, Palgrave Macmillan

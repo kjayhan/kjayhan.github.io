@@ -18,7 +18,7 @@ author:
     url: https://www.hanpark.net/
     orcid: 0000-0002-1378-2473
     affiliation: YeungNam University
-categories: [SSCI, Korea, Inter-Korean, experiment, quantitative, people-to-people diplomacy, public diplomacy, 2022]
+categories: [SSCI, Korea, inter-Korean, experiment, quantitative, people-to-people diplomacy, public diplomacy, 2022]
 pub-info:
   reference: >-
     <strong>Kadir Jun Ayhan</strong>, Sejung Park*, Lindsey Bier and Hanwoo Park (2022), “What are the consequences of the social and cultural exchanges between the two Koreas: Insights from an experimental study on the effect of superordinate Korean identity,” <em>Journal of Asian and African Studies</em> Online First, doi: <a href="https://doi.org/10.1177/00219096221144694"><code>10.1177/00219096221144694</code></a>

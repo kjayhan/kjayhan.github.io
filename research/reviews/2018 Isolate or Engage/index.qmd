@@ -1,0 +1,30 @@
+---
+title: "Review of Isolate or Engage - Croatian International Relations Review"
+date: 2018-04
+author:
+  - name: Kadir Jun Ayhan
+    url: https://kjayhan.github.io
+    orcid: 0000-0001-8052-1938
+    affiliation: Ewha Womans University Graduate School of International Studies
+categories: [public diplomacy, people-to-people diplomacy, foreign policy, international relations, diplomacy, 2018]
+pub-info:
+  reference: >-
+    <strong>Kadir Jun Ayhan*</strong> (2018), "Review of the book [Wiseman, G. (2015). Isolate or Engage: Adversarial States, U.S. Foreign Policy, and Public Diplomacy. Stanford University Press]," <em>Croatian International Relations Review</em>: 24(81): 146-149, <a href="https://hrcak.srce.hr/file/294507"><code>link</code></a>
+#draft: true
+---
+
+
+## BibTeX citation
+
+``` bibtex
+@article{ayhan_book_2018,
+	title = {[{Book} {Review} for {Review} of the book [{Wiseman}, {G}. (2015). {Isolate} or {Engage}: {Adversarial} {States}, {U}.{S}. {Foreign} {Policy}, and {Public} {Diplomacy}. {Stanford} {University} {Press}].},
+	volume = {24},
+	number = {81},
+	journal = {Croatian International Relations Review},
+	author = {Ayhan, Kadir Jun},
+	year = {2018},
+	note = {Type: Book review},
+	pages = {146--149},
+}
+```
