@@ -44,9 +44,9 @@ website:
       #  file: lecture.qmd
       #- text: "Media"
       #  file: media.qmd
-      #- text: "Blog"
-      #  file: blog.qmd
-      #- text: "Links"
+      - text: "Blog"
+        file: blog.qmd
+      #- text: "Useful Links"
       #  file: links.qmd
 format:
   html:

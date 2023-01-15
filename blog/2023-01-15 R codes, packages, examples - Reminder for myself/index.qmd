@@ -1,0 +1,34 @@
+---
+title: "R codes, packages, examples - Reminder for myself"
+author: "Kadir Jun Ayhan"
+date: last-modified
+draft: false
+categories: [useful links, R]
+---
+
+I have used emails, bookmarks, reminders, notes, docx etc. for good practices or links I have seen. But they are very unorganized as it stands. This post which I will keep updating is to keep this list more organized and to remind myself about them.
+
+# Quarto
+
+## Website - blog
+
+Very good website, blog examples:
+
+-   [Andrew Heiss](https://www.andrewheiss.com/)
+
+-   [Mine Dogucu](https://www.minedogucu.com/)
+
+-   [Mine Çetinkaya-Rundel](https://mine-cr.com/)
+
+-   [Dr. Léo Belzile's class](https://edsm.rbind.io/)
+
+Embedding social media posts: an extension: [quarto-social-embeds](https://github.com/sellorm/quarto-social-embeds)
+
+# Bayesian Data Analysis
+
+Bayestest: [ROPE](https://easystats.github.io/bayestestR/articles/region_of_practical_equivalence.html)
+Bayestest: [HDI](https://easystats.github.io/bayestestR/reference/hdi.html)
+Bayestest: [Guidelines](https://easystats.github.io/bayestestR/articles/guidelines.html)
+[Marginal effects](https://vincentarelbundock.github.io/marginaleffects/articles/brms.html)
+[A guide to correctly calculating posterior predictions and average marginal effects with multilievel Bayesian models - Andrew Heiss](https://www.andrewheiss.com/blog/2021/11/10/ame-bayes-re-guide/)
+[brmsmargins: A package that has functions to calculate marginal effects from brms models](https://joshuawiley.com/brmsmargins/)

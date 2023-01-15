@@ -6,18 +6,19 @@ highlight-style: pygments
 format:
   html: 
     code-fold: true
-    html-math-method: katex  
-
+    html-math-method: katex
+    toc: true
+    toc_float: true
+    number-sections: true
+    number-depth: 2
+    toc-title: Contents
+    #self-contained: true
+    #embed-resources: true
 bibliography: soft-required_readings.bib
 csl: apa7-cv.csl
 suppress-bibliography: true
 link-citations: false
 citations-hover: false
-number-sections: true
-number-depth: 2
-toc: true
-toc_float: true
-toc-title: Contents
 mainfont: Times New Roman
 monofont: Times New Roman
 editor: visual
@@ -104,7 +105,7 @@ Students are expected to have at least introduction-level knowledge of internati
 ## **Course Format** {style="color:black"}
 
 |                                 |                                                  |                                               |
-|-------------------|----------------------------|--------------------------|
+|-------------------|---------------------------|--------------------------|
 | [Lecture]{style="color: green"} | [Discussion/ Presentation]{style="color: green"} | [Experiment/ Practicum]{style="color: green"} |
 | 20%                             | 40%                                              | 40%                                           |
 
@@ -446,7 +447,7 @@ See Final Paper Section (@sec-final) for details.
 -   According to the University regulation section #57-3, students with disabilities can request for special accommodations related to attendance, lectures, assignments, or tests by contacting the course professor at the beginning of semester. Based on the nature of the students' request, students can receive support for such accommodations from the course professor or from the Support Center for Students with Disabilities (SCSD). Please refer to the below examples of the types of support available in the lectures, assignments, and evaluations.
 
 | Lecture                                                                                                                                                             | Assignments                                         | Evaluation                                                                                                                                                                                                                                                    |
-|----------------------|---------------|-----------------------------------|
+|---------------------|------------------|---------------------------------|
 | Visual impairment: braille, enlarged reading materials. Hearing impairment: note-taking assistant. Physical impairment: access to classroom, note-taking assistant. | Extra days for submission, alternative assignments. | Visual impairment: braille examination paper, examination with voice support, longer examination hours, note-taking assistant. Hearing impairment: written examination instead of oral. Physical impairment: longer examination hours, note-taking assistant. |
 
 -   Actual support may vary depending on the course.
@@ -460,6 +461,6 @@ The contents of this syllabus are not final. I may update them later.
 
 # [Read the Syllabus!]{style="color: green"} {.unnumbered}
 
-{{< video https://www.youtube.com/watch?v=xQJ1vQ4RJ5I&t=1s >}}
+{{< youtube xQJ1vQ4RJ5I >}}
 
-![](http://www.phdcomics.com/comics/archive/phd051013s.gif)
+![](/contents/syllabi/read-syllabus.gif)

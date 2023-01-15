@@ -1,7 +1,0 @@
----
-title: "Mid-term Instructions"
-subtitle: "Ewha GSIS Spring 2023: International Security"
-author: Dr. Kadir Jun Ayhan
----
-
-I will add this later.

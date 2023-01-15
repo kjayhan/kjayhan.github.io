@@ -93,5 +93,13 @@
       "/research/chapters/2016 Introduction - Korea's PD/index.html",
       "/research/articles/2015 JIAS Why Do We Need Non-state Actors in Public Diplomacy/index.html"
     ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/2023-01-15 R codes, packages, examples - Reminder for myself/index.html",
+      "/blog/2023-01-15 Ewha Computational Social Science Workshop/index.html",
+      "/blog/2023-01-15 Useful links/index.html"
+    ]
   }
 ]
