@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Kadir Jun Ayhan">
+<meta name="dcterms.date" content="2023-01-01">
+<meta name="description" content="<strong>?meta:website.description</strong>">
 
-<title>Dr.&nbsp;Kadir Jun Ayhan - Blog</title>
+<title>Dr.&nbsp;Kadir Jun Ayhan - R codes, packages, examples - Reminder for myself</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,26 +21,24 @@ ul.task-list{list-style: none;}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -57,35 +58,6 @@ ul.task-list{list-style: none;}
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-W257WPSHMV"></script>
 
 <script type="text/javascript">
@@ -95,19 +67,23 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-W257WPSHMV', { 'anonymize_ip': true});
 </script>
+<style>
+    .quarto-title-block .quarto-title-banner {
+      background: #CF4446;
+    }
+    </style>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Dr.&nbsp;Kadir Jun Ayhan</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -116,22 +92,22 @@ gtag('config', 'G-W257WPSHMV', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">About</a>
+    <a class="nav-link" href="../../index.html">About</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research/index.html">Research</a>
+    <a class="nav-link" href="../../research/index.html">Research</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html">Teaching</a>
+    <a class="nav-link" href="../../teaching.html">Teaching</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contents/cv/Kadir_Jun_Ayhan_CV.pdf">CV</a>
+    <a class="nav-link" href="../../contents/cv/Kadir_Jun_Ayhan_CV.pdf">CV</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./ongoing.html">Ongoing Research</a>
+    <a class="nav-link" href="../../ongoing.html">Ongoing Research</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page">Blog</a>
+    <a class="nav-link" href="../../blog.html">Blog</a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -176,129 +152,85 @@ gtag('config', 'G-W257WPSHMV', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block research default toc-left page-columns page-full">
+    <div class="quarto-title-banner page-columns page-full">
+                <div class="back-nav"><a href="../../research/">← Back to research</a></div>
+                <div class="quarto-title column-body">
+            <h1 class="title">R codes, packages, examples - Reminder for myself</h1>
+
+            
+            
+            
+                                    <div class="quarto-categories">
+                                <div class="quarto-category">useful links</div>
+                                <div class="quarto-category">R</div>
+                            </div>
+                                </div>
+    </div>
+    
+    
+    
+    <div class="quarto-title-meta">
+
+        <div>
+        <div class="quarto-title-meta-heading">Author</div>
+        <div class="quarto-title-meta-contents">
+                 <p>Kadir Jun Ayhan </p>
+              </div>
+      </div>
+        
+        <div>
+        <div class="quarto-title-meta-heading">Published</div>
+        <div class="quarto-title-meta-contents">
+          <p class="date">2023</p>
+        </div>
+      </div>
+        
+      </div>
+      
+
+    
+</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#quarto" id="toc-quarto" class="nav-link active" data-scroll-target="#quarto">Quarto</a>
+  <ul class="collapse">
+  <li><a href="#website---blog" id="toc-website---blog" class="nav-link" data-scroll-target="#website---blog">Website - blog</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Ewha GSIS">Ewha GSIS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="useful links">useful links <span class="quarto-category-count">(2)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
+<p>I have used emails, bookmarks, reminders, notes, docx etc. for good practices or links I have seen. But they are very unorganized as it stands. This post which I will keep updating is to keep this list more organized and to remind myself about them.</p>
+<section id="quarto" class="level1">
+<h1>Quarto</h1>
+<section id="website---blog" class="level2">
+<h2 class="anchored" data-anchor-id="website---blog">Website - blog</h2>
+<p>Very good website, blog examples:</p>
+<ul>
+<li><p><a href="https://www.andrewheiss.com/">Andrew Heiss</a></p></li>
+<li><p><a href="https://www.minedogucu.com/">Mine Dogucu</a></p></li>
+<li><p><a href="https://mine-cr.com/">Mine Çetinkaya-Rundel</a></p></li>
+<li><p><a href="https://edsm.rbind.io/">Dr.&nbsp;Léo Belzile’s class</a></p></li>
+</ul>
+<p>Embedding social media posts: an extension: <a href="https://github.com/sellorm/quarto-social-embeds">quarto-social-embeds</a></p>
 
-    
-    
-  </div>
-  
 
-</header>
+</section>
+</section>
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="useful links,R" data-listing-date-sort="1673788685000" data-listing-file-modified-sort="1673788685520" data-listing-reading-time-sort="0.395">
-<a href="./blog/2023-01-15 R codes, packages, examples - Reminder for myself/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-R codes, packages, examples - Reminder for myself
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('useful links'); return false;">
-useful links
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-</div>
-<div class="card-text listing-description">
-I have used emails, bookmarks, reminders, notes, docx etc. for good practices or links I have seen. But they are very unorganized as it stands. This post which I will keep updating is to keep this list more organized and to remind myself about them.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kadir Jun Ayhan
-</div>
-<div class="listing-date">
-Jan 15, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Ewha GSIS,R" data-listing-date-sort="1673788557000" data-listing-file-modified-sort="1673788557015" data-listing-reading-time-sort="3.89">
-<a href="./blog/2023-01-15 Ewha Computational Social Science Workshop/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-About Ewha GSIS Computational Social Science Workshop
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ewha GSIS'); return false;">
-Ewha GSIS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-</div>
-<div class="card-text listing-description">
-Dear Ewha GSIS Students,
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kadir Jun Ayhan
-</div>
-<div class="listing-date">
-Jan 15, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="useful links" data-listing-date-sort="1673788491000" data-listing-file-modified-sort="1673788491408" data-listing-reading-time-sort="1.135">
-<a href="./blog/2023-01-15 Useful links/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Useful links
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('useful links'); return false;">
-useful links
-</div>
-</div>
-<div class="card-text listing-description">
-A great book and even greater lectures by a top scholar, Richard McElreath. (He is recently uploading the 2023 version of the lectures here.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kadir Jun Ayhan
-</div>
-<div class="listing-date">
-Jan 15, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
