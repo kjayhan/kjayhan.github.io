@@ -18,7 +18,7 @@ author:
     url: https://www.hanpark.net/
     orcid: 0000-0002-1378-2473
     affiliation: YeungNam University
-categories: [SSCI, Korea, inter-Korean, experiment, quantitative, people-to-people diplomacy, public diplomacy, 2022]
+categories: [SSCI, Korea, inter-Korean, experiment, quantitative, people-to-people diplomacy, public diplomacy, intergroup communication, social identity, 2022]
 pub-info:
   reference: >-
     <strong>Kadir Jun Ayhan</strong>, Sejung Park*, Lindsey Bier and Hanwoo Park (2022), “What are the consequences of the social and cultural exchanges between the two Koreas: Insights from an experimental study on the effect of superordinate Korean identity,” <em>Journal of Asian and African Studies</em> Online First, doi: <a href="https://doi.org/10.1177/00219096221144694"><code>10.1177/00219096221144694</code></a>
@@ -63,16 +63,5 @@ number = {0},
 pages = {00219096221144694},
 year = {0},
 doi = {10.1177/00219096221144694},
-
-URL = { 
-        https://doi.org/10.1177/00219096221144694
-    
-},
-eprint = { 
-        https://doi.org/10.1177/00219096221144694
-    
-}
-,
-    abstract = { This study explores whether South Koreans’ superordinate identification with North Koreans leads to increased humanization of and empathy for North Koreans as well as reduced negative feelings toward North Koreans. This study also examines whether superordinate identification intensifies support for people-to-people exchanges and unification using an experiment. South Koreans’ increased superordinate identification with North Koreans leads to greater humanization of the latter as well as less negative feelings toward them but does not affect support for unification. This suggests that extended contact is enough to generate superordinate identification with the outgroup but not enough to affect support for government policies. }
 }
 ```

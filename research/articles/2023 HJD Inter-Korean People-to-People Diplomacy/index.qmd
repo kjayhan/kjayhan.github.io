@@ -10,7 +10,7 @@ author:
     url: https://hufs.academia.edu/%EC%8B%9C%EC%97%B0%EC%9E%A5
     orcid: 0000-0002-4105-4449
     affiliation: Hankuk University of Foreign Studies
-categories: [Scopus, Korea, inter-Korean, qualitative, people-to-people diplomacy, public diplomacy, evaluation, foreign policy, international relations, 2023]
+categories: [Scopus, Korea, inter-Korean, qualitative, people-to-people diplomacy, public diplomacy, evaluation, foreign policy, international relations, intergroup communication, social identity, 2023]
 pub-info:
   reference: >-
     <strong>Kadir Jun Ayhan</strong> and Siyeon Jang* (2023), “Inter-Korean People-to-People Diplomacy: Social and Cultural Exchanges across the 38th Parallel,” <em>The Hague Journal of Diplomacy</em>: 18(1): 95-132, doi: <a href="https://doi.org/10.1163/1871191x-bja10139"><code>10.1163/1871191x-bja10139</code></a>

@@ -10,7 +10,7 @@ author:
     url: https://kjayhan.github.io
     orcid: 0000-0001-8052-1938
     affiliation: Ewha Womans University Graduate School of International Studies
-categories: [Scopus, Global Korea Scholarship, Korea, quantitative, people-to-people diplomacy, public diplomacy, 2021]
+categories: [Scopus, Global Korea Scholarship, Korea, quantitative, people-to-people diplomacy, public diplomacy, intergroup communication, social identity, 2021]
 pub-info:
   reference: >-
     Lisa Tam and <strong>Kadir Jun Ayhan*</strong> (2021), “Evaluations of people, affection, and recommendation for a host country: A study of Global Korea Scholarship (GKS) recipients,” <em>Politics & Policy</em>: 49(6): 1292-1307, doi: <a href="https://doi.org/10.1111/polp.12438"><code>10.1111/polp.12438</code></a>

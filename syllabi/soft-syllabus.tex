@@ -1,0 +1,1196 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+  \setmainfont[]{Times New Roman}
+  \setmonofont[]{Times New Roman}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[top=30mm,left=30mm]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{2}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{caption}
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Soft Power in World Politics},
+  pdfauthor={Kadir Jun Ayhan},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Soft Power in World Politics}
+\author{Kadir Jun Ayhan}
+\date{1/15/23}
+
+\begin{document}
+\maketitle
+\renewcommand*\contentsname{Contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+\hypertarget{syllabus-2023-spring}{%
+\section*{Syllabus (2023 Spring)}\label{syllabus-2023-spring}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3056}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4306}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2639}}@{}}
+\toprule()
+\endhead
+{Course Title} & Soft Power in World Politics & {Course No.:} IS639 \\
+{Department/ Major} & GSIS & {Credit/ Hours:} 3 \\
+{Class time/ Classroom} & Thursday 15:30 -- 18:15 / IEB 902 & \\
+{Instructor} & {Name:} Kadir Jun Ayhan & {Department:} GSIS \\
+& {E-mail:} \href{mailto:ayhan@ewha.ac.kr}{\nolinkurl{ayhan@ewha.ac.kr}}
+& {Phone:} 02-3277-4628 \\
+{Office Hours/ Office Location} &
+\href{https://calendly.com/kadirayhan/officehours}{Make an appointment
+here} & \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{course-overview}{%
+\section{\texorpdfstring{{\textbf{Course
+Overview}}}{Course Overview}}\label{course-overview}}
+
+\hypertarget{course-description}{%
+\subsection{\texorpdfstring{\textbf{Course
+Description}}{Course Description}}\label{course-description}}
+
+The main target of this class is graduate students who are interested in
+power dynamics in world politics. The course starts off with definitions
+of power and its different forms. We will learn about how power
+functions in world politics with examples from global governance
+issue-areas, including direct and diffuse kinds of power. We will
+critically approach the concepts of soft power and smart power with the
+questions ``how soft is soft power'' and ``can there be pure persuasion
+in world politics'' in mind. Furthermore, we will discuss measurement of
+(soft) power and influence in world politics. The course follows an
+active learning pedagogy, aiming to make students take learning into
+their own hands.
+
+\hypertarget{prerequisites}{%
+\subsection{\texorpdfstring{\textbf{Prerequisites}}{Prerequisites}}\label{prerequisites}}
+
+Students are expected to have at least introduction-level knowledge of
+international relations theories.
+
+\hypertarget{course-format}{%
+\subsection{\texorpdfstring{\textbf{Course
+Format}}{Course Format}}\label{course-format}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2603}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3836}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3562}}@{}}
+\toprule()
+\endhead
+{Lecture} & {Discussion/ Presentation} & {Experiment/ Practicum} \\
+20\% & 40\% & 40\% \\
+\bottomrule()
+\end{longtable}
+
+This course is designed to facilitate student-centric learning. The
+assignments for this course are not merely for grading but designed in a
+way to help students practice and improve their critical thinking,
+researching, presentation and academic writing skills. There are no
+in-class exams for this course. This is because, I believe that you put
+so much effort in writing papers in exams to be read only by one person.
+On the other hand, writing papers give students an opportunity to
+research and keep their writings as working papers which can be improved
+in the future.
+
+Active participation in discussion is strongly encouraged for this
+course. In order to motivate students to read all required articles and
+come to class prepared for discussion, response papers and discussion
+participation constitute 25\% of students' grade for this course. In the
+beginning of every lecture, you will be asked to share what you have
+written in your response papers to stimulate discussion (based on what
+you have already prepared). We will discuss your response papers in the
+first part of the class. The second part of the class will begin with my
+summary and clarification of some of the arguments and concepts in the
+assigned readings. Then, we will have one or two student presentations
+(depending on the number of students) which will apply the theoretical
+concepts in the readings to a case study. The requirements of the
+assignments are detailed below.
+
+I expect students to attend classes, to arrive on time, and to come to
+class prepared to engage in class discussion by reading at least the
+required readings, taking note of the key arguments, and identifying
+strengths, weaknesses, and contradictions in these arguments.
+
+\hypertarget{course-objectives}{%
+\subsection{\texorpdfstring{\textbf{Course
+Objectives}}{Course Objectives}}\label{course-objectives}}
+
+Learning objectives:
+
+- Recognizing various theoretical approaches to political power in world
+politics.
+
+- Being able to classify, exemplify and interpret different kinds of
+political power in world politics.
+
+- Applying theoretical understanding of political power to case studies
+(presentation and workshop), and to other new settings (film); and
+analyzing and critiquing these cases.
+
+\hypertarget{evaluation-system}{%
+\subsection{\texorpdfstring{\textbf{Evaluation
+System}}{Evaluation System}}\label{evaluation-system}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+{Mid-term Paper}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+{Final Paper}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+{Response Papers}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+{Presentation}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+{Participation and Discussion}
+\end{minipage} \\
+\midrule()
+\endhead
+30\% & 30\% & 10\% & 15\% & 15\% \\
+\bottomrule()
+\end{longtable}
+
+Explanation of the evaluation system:
+
+\hypertarget{response-papers}{%
+\subsubsection{\texorpdfstring{\textbf{\emph{Response
+Papers}}}{Response Papers}}\label{response-papers}}
+
+Length: Less than half a page.
+
+In order to prepare for class discussion, you must read all required
+articles and submit weekly response papers beginning from Week 4. Each
+student needs to submit at least four response papers (that is for four
+different weeks). The presenter(s) should not submit a response paper.
+For the response papers, students will find a recent (last six months)
+news article (from newspapers, magazines or semi-academic journals) and
+connect it to the required readings for that week (critically analyzing
+whether it is in line with the arguments in the required readings or
+not). Make sure to copy-paste the news article as well as its link below
+your response paper. Weekly response papers need to be submitted to
+Cyber Campus before class time. You are encouraged to, but you don't
+have to, make comments to your colleagues' response papers.
+
+\hypertarget{presentations}{%
+\subsubsection{\texorpdfstring{\textbf{\emph{Presentations}}}{Presentations}}\label{presentations}}
+
+Length: Around 15 minutes
+
+All students will make one presentation on a case study. The presenter
+must read the assigned readings carefully when preparing for the
+presentation. You are asked to present a case study that is related to
+the required readings. You must make use of the theories/ frameworks/
+concepts in the assigned readings for your analysis of the case study of
+your choice. For example, if the required article looks at power
+dynamics of the US-led international liberal order, you can apply a
+similar approach to look at Soviet Union-led regional international
+order. Make sure that you are not merely summarizing another article.
+The point of the presentation is for you to apply what you learned from
+the readings to a case study. You must show your analysis and your
+value-added. Discussion will follow presentations (based on discussion
+questions prepared by the presenter), and all students must actively
+participate in this discussion.
+
+\hypertarget{sec-workshop}{%
+\subsubsection{\texorpdfstring{\textbf{\emph{Workshop and Mid-term
+Paper}}}{Workshop and Mid-term Paper}}\label{sec-workshop}}
+
+Due date: 20 Apr 23:59
+
+The mid-term paper will be based on the workshop when students will
+discuss how we can measure power/ influence in world politics in groups.
+Within the next week, the same groups will finalize their team report
+(1000 words) based on their discussions and further research and submit
+it to Cyber Campus (Turnitin).
+
+The reports will be presented on 27 Apr followed by debriefing.
+
+Please note that there will not be a class on 20 Apr in lieu of mid-term
+exam week.
+
+\hypertarget{sec-final}{%
+\subsubsection{\texorpdfstring{\textbf{\emph{Final
+Paper}}}{Final Paper}}\label{sec-final}}
+
+Due date: 15 Jun 23:59
+
+Students will watch a film (to be confirmed later), and write an essay
+(1600-2000 words -- excluding references), identifying different kinds
+of power relations in the film based on what we covered in this class
+(in particular in reference to Barnett and Duvall's power typology). I
+will upload the guidelines for the essay on Cyber Campus.
+
+\hypertarget{course-materials-and-additional-readings}{%
+\section{\texorpdfstring{{\textbf{Course Materials and Additional
+Readings}}}{Course Materials and Additional Readings}}\label{course-materials-and-additional-readings}}
+
+\hypertarget{required-materials}{%
+\subsection{Required Materials}\label{required-materials}}
+
+You can borrow/ rent/ or buy the following books for this course since
+we use one or two chapters from them, but otherwise there are no
+required textbooks:
+
+Barnett, M., \& Duvall, R. (2005). Power in Global Governance. Cambridge
+University Press.
+
+Berenskoetter, F., \& Williams, M. J. (2007). Power in World Politics.
+Routledge.
+
+Nye, J. S. (2011). The Future of Power. Public Affairs.
+
+\hypertarget{supplementary-materials}{%
+\subsection{Supplementary Materials}\label{supplementary-materials}}
+
+Refer to the detailed course schedule below.
+
+\hypertarget{optional-additional-readings}{%
+\subsection{Optional Additional
+Readings}\label{optional-additional-readings}}
+
+Refer to the detailed course schedule below.
+
+\hypertarget{course-policies}{%
+\section{\texorpdfstring{{\textbf{Ⅲ. Course
+Policies}}}{Ⅲ. Course Policies}}\label{course-policies}}
+
+\hypertarget{citation-and-plagiarism}{%
+\subsection{Citation and Plagiarism}\label{citation-and-plagiarism}}
+
+Students must use proper citation and avoid plagiarism. Any citation
+style is fine as long as it is consistent throughout the paper.
+Plagiarism will not be tolerated and severely punished. The papers will
+be uploaded to Turnitin (via Cyber Campus).
+
+\href{(https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html)}{``Plagiarism:
+presenting others' work without adequate acknowledgement of its source,
+as though it were one's own. Plagiarism is a form of fraud. We all stand
+on the shoulders of others, and we must give credit to the creators of
+the works that we incorporate into products that we call our own. Some
+examples of plagiarism:}
+
+\begin{itemize}
+\item
+  \href{(https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html)}{a
+  sequence of words incorporated without quotation marks;}
+\item
+  \href{(https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html)}{an
+  unacknowledged passage paraphrased from another's word;}
+\item
+  \href{(https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html)}{the
+  use of ideas, sound recordings, computer data or images created by
+  others as though it were one's own.''}
+\end{itemize}
+
+See
+\href{https://owl.purdue.edu/owl/research_and_citation/resources.html}{also
+this link}.
+
+\hypertarget{late-submissions}{%
+\subsection{Late Submissions}\label{late-submissions}}
+
+For late submissions, you will get 80\% of your grading unless you have
+a valid excuse. You can always contact me if you have a valid excuse to
+ask for extension. I do not require students to submit official
+documents (doctor report etc.). Your word is enough for me.
+
+\newpage{}
+
+\hypertarget{course-schedule}{%
+\section{\texorpdfstring{{Course
+Schedule}}{Course Schedule}}\label{course-schedule}}
+
+\begin{longtable}{rll}
+\toprule
+Week & Date & Topics \& Class Materials, Assignments \\ 
+\midrule
+1 & 02 Mar & Introduction of the Course \\ 
+2 & 09 Mar & The Concept of Political Power \\ 
+3 & 16 Mar & No class - (Make-up class later) \\ 
+4 & 23 Mar & The Concepts of Soft Power and Smart Power \\ 
+5 & 30 Mar & Skeptical Views on Soft Power \\ 
+6 & 06 Apr & Measuring (Soft) Power \\ 
+7 & 13 Apr & Workshop: What Do Soft Power Indices Actually Measure? \\ 
+8 & 20 Apr & Mid-term Week \\ 
+9 & 27 Apr & Mid-term Paper Presentations and Debriefing \\ 
+10 & 04 May & Legitimacy and Power \\ 
+11 & 11 May & Reputation, Status and Power \\ 
+12 & 18 May & Compulsory Power \\ 
+13 & 25 May & Institutional Power \\ 
+14 & 01 Jun & Structural Power \\ 
+15 & 08 Jun & Productive Power \\ 
+16 & 15 Jun & Submission of Final Papers \\ 
+17 & 22 Jun &  \\ 
+\bottomrule
+\end{longtable}
+
+\newpage{}
+
+\hypertarget{detailed-course-schedule-with-readings}{%
+\section{\texorpdfstring{{Detailed Course Schedule with
+Readings}}{Detailed Course Schedule with Readings}}\label{detailed-course-schedule-with-readings}}
+
+\hypertarget{week-1-introduction-of-the-course}{%
+\subsection*{Week 1: Introduction of the
+Course}\label{week-1-introduction-of-the-course}}
+\addcontentsline{toc}{subsection}{Week 1: Introduction of the Course}
+
+Introduction of the course including course contents, assignments, and
+expectations.
+
+\hypertarget{week-2-the-concept-of-political-power}{%
+\subsection*{Week 2: The Concept of Political
+Power}\label{week-2-the-concept-of-political-power}}
+\addcontentsline{toc}{subsection}{Week 2: The Concept of Political
+Power}
+
+\textbf{Required Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Baldwin, D. A. (2021). The faces of power revisited. \emph{Journal of
+  Political Power}, \emph{14}(1), 85--96.
+  \url{https://doi.org/10.1080/2158379X.2021.1878407}
+\item
+  Barnett, M., \& Duvall, R. (2005). Power in international politics.
+  \emph{International Organization}, \emph{59}(1), 39--75.
+  \url{https://doi.org/10.1017/S0020818305050010}
+\item
+  Berenskoetter, F. (2007). Thinking about power. In F. Berenskoetter \&
+  M. J. Williams (Eds.), \emph{Power in world politics} (pp. 1--22).
+  Routledge. \url{https://doi.org/10.4324/9780203944691}
+\end{itemize}
+
+\textbf{Recommended Readings:} \{.unnumbered\}
+
+\begin{itemize}
+\tightlist
+\item
+  Baldwin, D. A. (2012). Power and International Relations. Handbook of
+  International Relations. Walter Carlsnaes, T. Risse and B. A. Simmons.
+  London, UK, SAGE.
+\item
+  Avant, D. D., Finnemore, M., \& Sell, S. K. (2010). Who Governs the
+  Globe? In D. D. Avant, M. Finnemore, \& S. K. Sell (Eds.), Who Governs
+  the Globe?. Cambridge, UK: Cambridge University Press.
+\item
+  Murphy, J. B. (2011). ``Perspectives on power.'' Journal of Political
+  Power 4(1): 87-103.
+\end{itemize}
+
+\hypertarget{week-3-no-class---make-up-class-later}{%
+\subsection*{Week 3: No class - (Make-up class
+later)}\label{week-3-no-class---make-up-class-later}}
+\addcontentsline{toc}{subsection}{Week 3: No class - (Make-up class
+later)}
+
+\hypertarget{week-4-the-concepts-of-soft-power-and-smart-power}{%
+\subsection*{Week 4: The Concepts of Soft Power and Smart
+Power}\label{week-4-the-concepts-of-soft-power-and-smart-power}}
+\addcontentsline{toc}{subsection}{Week 4: The Concepts of Soft Power and
+Smart Power}
+
+\textbf{Required Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Nye, J. S. (2011). \emph{The future of power}. Public Affairs.
+  \url{https://www.publicaffairsbooks.com/titles/joseph-s-nye/the-future-of-power/9781586488925/},
+  Chapters 4 and 7.
+\end{itemize}
+
+\textbf{Recommended Readings:}
+
+\begin{itemize}
+\item
+  Armitage, R. L., \& Nye, J. S. (2007). CSIS Commission on Smart Power:
+  A Smarter, More Secure America: CSIS. Vuving, A. (2009). How soft
+  power works. American Political Science Association Annual Meeting.
+  Toronto.
+\item
+  Hayden, C. (2012). The Rhetoric of Soft Power. Lexington Books.
+  Ohnesorge, H. W. (2020). Soft Power: The Forces of Attraction in
+  International Relations. Springer.
+\item
+  Lee, G. (2009). A theory of soft power and Korea's soft power
+  strategy. Korean Journal of Defense Analysis, 21(2), 205-218.
+  https://doi.org/10.1080/10163270902913962
+\item
+  Nye, J. S. (2004). Soft Power: The Means to Success in World Politics.
+  New York, Public Affairs.
+\item
+  Nye, J. S. (2018). How Sharp Power Threatens Soft Power: The Right and
+  Wrong Ways to Respond to Authoritarian Influence. Foreign Affairs.
+  https://www.foreignaffairs.com/articles/china/2018-01-24/how-sharp-power-threatens-soft-power
+\item
+  Nye, J. S. (2019). Soft Power and Public Diplomacy Revisited. The
+  Hague Journal of Diplomacy, 14(1-2), 7-20.
+  https://doi.org/10.1163/1871191x-14101013
+\item
+  Nye, J. S. (2021). Soft power: the evolution of a concept. Journal of
+  Political Power, 14(1), 196-208.
+  https://doi.org/10.1080/2158379X.2021.1879572
+\item
+  Van Ham, P. (2010). Social Power in International Politics. New York,
+  Routledge. Lukes, S. (2005). ``Power and the Battle for Hearts and
+  Minds.'' Millennium 33(3): 477-493.
+\item
+  Walker, C., \& Ludwig, J. (Eds.). (2017). Sharp Power: Rising
+  Authoritarian Influence. National Endowment for Democracy.
+\end{itemize}
+
+\hypertarget{week-5-skeptical-views-on-soft-power}{%
+\subsection*{Week 5: Skeptical Views on Soft
+Power}\label{week-5-skeptical-views-on-soft-power}}
+\addcontentsline{toc}{subsection}{Week 5: Skeptical Views on Soft Power}
+
+\textbf{Required Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Bially Mattern, J. (2005). Why {``soft power''} isn't so soft:
+  Representational force and the sociolinguistic construction of
+  attraction in world politics. \emph{Millennium - Journal of
+  International Studies}, \emph{33}(3), 583--612.
+  \url{https://doi.org/10.1177/03058298050330031601}
+\item
+  Kearn, D. W. (2011). The hard truths about soft power. \emph{Journal
+  of Political Power}, \emph{4}(1), 65--85.
+  \url{https://doi.org/10.1080/2158379x.2011.556869}
+\end{itemize}
+
+\textbf{Recommended Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Ayhan, K. J. (2021). Rethinking Soft Power: Instilling Fear,
+  Satisfying Appetite or Appealing to Spirit. (Unpublished manuscript)
+\item
+  Lebow, R. N. (2005). Power, Persuasion and Justice. Millennium, 33(3),
+  551-581.
+\item
+  Manor, I. (2019, October 3). The Banality of Soft Power.
+  https://digdipblog.com/2019/10/03/the-banality-of-soft-power/
+\end{itemize}
+
+\hypertarget{week-6-measuring-soft-power}{%
+\subsection*{Week 6: Measuring (Soft)
+Power}\label{week-6-measuring-soft-power}}
+\addcontentsline{toc}{subsection}{Week 6: Measuring (Soft) Power}
+
+\textbf{Required Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Beckley, M. (2018). The power of nations: Measuring what matters.
+  \emph{International Security}, \emph{43}(2), 7--44.
+  \url{https://doi.org/10.1162/isec_a_00328}
+\item
+  Pomeroy, C., \& Beckley, M. (2019). Correspondence: Measuring power in
+  international relations. \emph{International Security}, \emph{44}(1),
+  197--200. \url{https://doi.org/10.1162/isec_c_00355}
+\item
+  Yun, S.-H. (2018). An overdue critical look at soft power measurement:
+  The construct validity of the soft power 30 in focus. \emph{Journal of
+  International and Area Studies}, \emph{25}(2), 1--20.
+  \url{https://doi.org/10.2307/26909941}
+\end{itemize}
+
+\textbf{Recommended Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Barnett, G. A., Xu, W. W., Chu, J., Jiang, K., Huh, C., Park, J. Y.,
+  \& Park, H. W. (2017). Measuring international relations in social
+  media conversations. Government Information Quarterly, 34(1), 37-44.
+  https://doi.org/10.1016/j.giq.2016.12.004
+\item
+  Hart, J. (1976). Three Approaches to the Measurement of Power in
+  International Relations. International Organization, 30(2), 289-305.
+  doi:10.1017/S0020818300018282
+\item
+  Mcclory, J. (Ed.). (2019). Soft Power 30: A Global Ranking of Soft
+  Power 2019. Portland.
+\item
+  Treverton, G., \& Jones, S. G. (2005). Measuring Power. Harvard
+  International Review, 27(2), 54-58.
+\end{itemize}
+
+\hypertarget{week-7-workshop-what-do-soft-power-indices-actually-measure}{%
+\subsection*{Week 7: Workshop: What Do Soft Power Indices Actually
+Measure?}\label{week-7-workshop-what-do-soft-power-indices-actually-measure}}
+\addcontentsline{toc}{subsection}{Week 7: Workshop: What Do Soft Power
+Indices Actually Measure?}
+
+See Workshop and Mid-term Section (Section~\ref{sec-workshop}) for
+details.
+
+\hypertarget{week-8-mid-term-week}{%
+\subsection*{Week 8: Mid-term Week}\label{week-8-mid-term-week}}
+\addcontentsline{toc}{subsection}{Week 8: Mid-term Week}
+
+See Workshop and Mid-term Section (Section~\ref{sec-workshop}) for
+details.
+
+\hypertarget{week-9-mid-term-paper-presentations-and-debriefing}{%
+\subsection*{Week 9: Mid-term Paper Presentations and
+Debriefing}\label{week-9-mid-term-paper-presentations-and-debriefing}}
+\addcontentsline{toc}{subsection}{Week 9: Mid-term Paper Presentations
+and Debriefing}
+
+See Workshop and Mid-term Section (Section~\ref{sec-workshop}) for
+details.
+
+\hypertarget{week-10-legitimacy-and-power}{%
+\subsection*{Week 10: Legitimacy and
+Power}\label{week-10-legitimacy-and-power}}
+\addcontentsline{toc}{subsection}{Week 10: Legitimacy and Power}
+
+\textbf{Required Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Finnemore, M. (2009). Legitimacy, hypocrisy, and the social structure
+  of unipolarity. \emph{World Politics}, \emph{61}(1), 58--85.
+  \url{https://doi.org/10.1017/CBO9780511996337.003}
+\item
+  Hurd, I. (1999). Legitimacy and authority in international politics.
+  \emph{International Organization}, \emph{53}(2), 379--408.
+  \url{https://doi.org/10.1162/002081899550913}
+\end{itemize}
+
+\textbf{Recommended Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Bukovansky, M. (2002). Legitimacy and Power Politics: The American and
+  French Revolutions in International Political Culture. Princeton
+  University Press.
+\item
+  Clark, I. (2005). Legitimacy in International Society. Oxford
+  University Press.
+\item
+  Clark, I. (2007). International Legitimacy and World Society. Oxford
+  University Press.
+\item
+  Franck, T. M. (1990). The Power of Legitimacy Among Nations. Oxford
+  University Press.
+\item
+  Franck, T. M. (1995). Fairness in International Law and Institutions.
+  Oxford University Press.
+\item
+  Hall, R. B. (1997). Moral Authority as a Power Resource. International
+  Organization, 51(4), 591-622.
+\item
+  Hurd, I. (2008). After Anarchy: Legitimacy and Power in the United
+  Nations Security Council. Princeton University Press.
+\item
+  Kavalski, E. (2013). The struggle for recognition of normative powers:
+  Normative power Europe and normative power China in context.
+  Cooperation and Conflict, 48(2), 247-267.
+\item
+  Mulligan, S. P. (2006). The uses of legitimacy in international
+  relations. Millennium, 34(2), 349-375.
+\item
+  Suchman, M. C. (1995). Managing legitimacy: Strategic and
+  institutional approaches. Academy of management Review, 20(3),
+  571-610.
+\item
+  Weber, M. (2019). Economy and Society: A New Translation (K. Tribe,
+  Ed. \& Trans.). Harvard University Press.
+\end{itemize}
+
+\hypertarget{week-11-reputation-status-and-power}{%
+\subsection*{Week 11: Reputation, Status and
+Power}\label{week-11-reputation-status-and-power}}
+\addcontentsline{toc}{subsection}{Week 11: Reputation, Status and Power}
+
+\textbf{Required Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Khong, Y. F. (2019). Power as prestige in world politics.
+  \emph{International Affairs}, \emph{95}(1), 119--142.
+  \url{https://doi.org/10.1093/ia/iiy245}
+\item
+  Lebow, R. N. (2005). Power, persuasion and justice. \emph{Millennium},
+  \emph{33}(3), 551--581.
+  \url{https://doi.org/10.1177/03058298050330031501}
+\item
+  Wohlforth, W. C., Carvalho, B. de, Leira, H., \& Neumann, I. B.
+  (2017). Moral authority and status in international relations: Good
+  states and the social dimension of status seeking. \emph{Review of
+  International Studies}, 1--21.
+  \url{https://doi.org/10.1017/S0260210517000560}
+\end{itemize}
+
+\textbf{Recommended Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Ayhan, K. J. (2019). ``Rethinking Korea's Middle Power Diplomacy as a
+  Nation Branding Project.'' KOREA OBSERVER 50: 1.
+\item
+  Bry, S. (2015). The Production of Soft Power: Practising Solidarity in
+  Brazilian South--South Development Projects. Canadian Journal of
+  Development Studies/Revue canadienne d'études du développement, 36(4),
+  442-458.
+\item
+  Brewster, R. (2009). The limits of reputation on compliance.
+  International Theory, 1(2), 323-333.
+  https://doi.org/10.1017/s175297190999008x
+\item
+  Cull, N. (2018). The Quest for Reputational Security: The Soft Power
+  Agenda of Kazakhstan, USC Center on Public Diplomacy.
+\item
+  Dafoe, A., et al.~(2014). ``Reputation and Status as Motives for
+  War.'' Annual Review of Political Science 17(1): 371-393.
+\item
+  de Carvalho, B., \& Neumann, I. B. (2014). Small State Status Seeking:
+  Norway's Quest for International Standing. Routledge.
+\item
+  Hwang, K.-D. (2014). Korea's Soft Power as an Alternative Approach to
+  Africa in Development Cooperation. African and Asian Studies, 13(3),
+  249-271.
+\item
+  Lebow, R. N. (2008). A Cultural Theory of International Relations.
+  Cambridge, Cambridge University Press. Ch. 2
+\item
+  Renshon, J. (2016). ``Status Deficits and War.'' International
+  Organization 70(3): 513-550. Wood, S. (2013). ``Prestige in world
+  politics: History, theory, expression.'' International Politics 50(3):
+  387-411.
+\end{itemize}
+
+\hypertarget{week-12-compulsory-power}{%
+\subsection*{Week 12: Compulsory Power}\label{week-12-compulsory-power}}
+\addcontentsline{toc}{subsection}{Week 12: Compulsory Power}
+
+Note: Compulsory power through material threats is rather
+straightforward and you read articles on these topics in other courses.
+Therefore, I will spend more time on compulsory power through naming and
+shaming and other symbolic strategies.
+
+\textbf{Required Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Murdie, A. M., \& Davis, D. R. (2012). Shaming and blaming: Using
+  events data to assess the impact of human rights {INGOs}1.
+  \emph{International Studies Quarterly}, \emph{56}(1), 1--16.
+  \url{https://doi.org/10.1111/j.1468-2478.2011.00694.x}
+\item
+  Souva, M. (2022). Material military power: A country-year measure of
+  military power, 1865--2019. \emph{Journal of Peace Research},
+  00223433221112970. \url{https://doi.org/10.1177/00223433221112970}
+\end{itemize}
+
+\textbf{Recommended Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Bob, C. (2002). ``Merchants of Morality.'' Foreign Policy(129): 36.
+\item
+  Keck, M. E. and K. Sikkink (1998). Activists beyond Borders: Advocacy
+  Networks in International Politics. Ithaca: NY, Cambridge University
+  Press.
+\item
+  Risse, T., et al., Eds. (1999). The Power of Human Rights
+  International Norms and Domestic Change. Cambridge, Cambridge
+  University Press.
+\item
+  Risse, T., et al., Eds. (2013). The Persistent Power of Human Rights:
+  From Commitment to Compliance. Cambridge, Cambridge University Press.
+\item
+  Vadlamannati, K. C., et al.~(2018). ``Human Rights Shaming and FDI:
+  Effects of the UN Human Rights Commission and Council.'' World
+  Development 104: 222-237.
+\end{itemize}
+
+\hypertarget{week-13-institutional-power}{%
+\subsection*{Week 13: Institutional
+Power}\label{week-13-institutional-power}}
+\addcontentsline{toc}{subsection}{Week 13: Institutional Power}
+
+\textbf{Required Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Barnett, M., \& Finnemore, M. (2005). The power of liberal
+  international organizations. In M. Barnett \& R. Duvall (Eds.),
+  \emph{Power in global governance}. Cambridge University Press.
+  \url{https://doi.org/10.1017/CBO9780511491207.007}
+\item
+  Dreher, A., \& Jensen, N. M. (2007). Independent actor or agent? An
+  empirical analysis of the impact of u.s. Interests on international
+  monetary fund conditions. \emph{The Journal of Law and Economics},
+  \emph{50}(1), 105--124. \url{https://doi.org/10.1086/508311}
+\item
+  Goh, E. (2011). Institutions and the great power bargain in east asia:
+  {ASEAN}'s limited {``brokerage''} role. \emph{International Relations
+  of the Asia-Pacific}, \emph{11}(3), 373--401.
+  \url{https://doi.org/10.1093/irap/lcr014}
+\end{itemize}
+
+\textbf{Recommended Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Hurrell, A. (2004). Power, institutions, and the production of
+  inequality. Power in Global Governance. M. Barnett and R. Duvall.
+  Cambridge, Cambridge University Press: 33-58.
+\item
+  Gronau, J. and H. Schmidtke (2016). ``The quest for legitimacy in
+  world politics -- international institutions' legitimation
+  strategies.'' Review of International Studies 42(3): 535-557.
+\item
+  Goldstein, J. and R. O. Keohane, Eds. (1993). Ideas and Foreign
+  Policy: An Analytical Framework. Ithaca, NY, Cornell University.
+\item
+  Ikenberry, G. J. (2001). After Victory: Institutions, Strategic
+  Restraint, and the Rebuilding of Order After Major Wars. Princeton
+  University Press.
+\item
+  Ikenberry, G. J. (2019). Reflections on after victory. The British
+  Journal of Politics and International Relations, 21(1), 5-19.
+\item
+  Keohane, R. O. and J. S. Nye (1987). ``Power and Interdependence
+  Revisited.'' International Organization 41(4): 725-753.
+\item
+  Kilby, C. (2009). ``The political economy of conditionality: An
+  empirical analysis of World Bank loan disbursements.'' Journal of
+  Development Economics 89(1): 51-61.
+\item
+  Lee, G. (2018). Soft power after Nye: the neoliberal international
+  order and soft power learning. Handbook of Cultural Security. Y.
+  Watanabe. Cheltenham, Edward Elgar Publishing Limited: 253-268.
+\item
+  Pouliot, V. (2014). Setting Status in Stone: The Negotiation of
+  International Institutional Privileges. In D. Welch Larson, - T.
+  Shaffer, G. (2004). Power, governance, and the WTO: a comparative
+  institutional approach. Power in Global Governance. M. Barnett and R.
+  Duvall. Cambridge, Cambridge University Press: 130-160.
+\item
+  Paul, V. \& W. C. Wohlforth (Eds.), Status in World Politics
+  (pp.~192-216). Cambridge University Press. https://doi.org/DOI:
+  10.1017/CBO9781107444409.012
+\end{itemize}
+
+\hypertarget{week-14-structural-power}{%
+\subsection*{Week 14: Structural Power}\label{week-14-structural-power}}
+\addcontentsline{toc}{subsection}{Week 14: Structural Power}
+
+\textbf{Required Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Ikenberry, G. J., \& Kupchan, C. A. (1990). Socialization and
+  hegemonic power. \emph{International Organization}, \emph{44}(3),
+  283--315. \url{https://doi.org/10.1017/S002081830003530X}
+\item
+  Winecoff, W. K. (2020). {``The persistent myth of lost hegemony,''}
+  revisited: Structural power as a complex network phenomenon.
+  \emph{European Journal of International Relations}, \emph{26}(1),
+  209--252. \url{https://doi.org/10.1177/1354066120952876}
+\end{itemize}
+
+\textbf{Recommended Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Akins, A. (2012). ````Next Time, Just Remember the Story'' Unlearning
+  Empire in Silko's Ceremony.'' Studies in American Indian Literatures
+  24(1): 1-14.
+\item
+  Cox, R. (1981). Social Forces, States and World Order: Beyond
+  International Relations Theory. Millennium, 10(2), 126-55.
+\item
+  Cox, R. (1983). Gramsci, Hegemony and International Relations: An
+  Essay in Method. Millennium, 12(2), 162-175.
+\item
+  Dunch, R. (2002). ``Beyond Cultural Imperialism: Cultural Theory,
+  Christian Missions, and Global Modernity.'' History and Theory 41(3):
+  301-325.
+\item
+  Guzzini, S. (1993). Structural power: the limits of neorealist power
+  analysis. International Organization, 47(3), 443-478.
+\item
+  Hobsbawm, E. and T. Ranger, Eds. (1983). The Invention of Tradition.
+  Cambridge, Cambridge University Press. Ch. 1
+\item
+  Lukes, S. (2005). Power: A Radical View. Basingstoke, Palgrave
+  Macmillan. Pp. 14-59
+\item
+  Mann, M. (2004). The first failed empire of the 21st century', Review
+  of International Studies, 30(4), 631-653.
+\item
+  Nexon, D. B. and T. Wright (2007). What's at Stake in the American
+  Empire Debate. American Political Science Review, 101(2), 253-271.
+\item
+  Pamment, J. (2016). Towards a New Conditionality? The Convergence of
+  International Development, Nation Brands and Soft Power in the British
+  National Security Strategy. Journal of International Relations and
+  Development. doi:10.1057/s41268-016-0074-9
+\item
+  Patomäki, H., \& Teivainen, T. (2004). The World Social Forum: An Open
+  Space or a Movement of Movements?. Theory, Culture \& Society, 21 (6),
+  45-54
+\item
+  Peterson, J. H. (2012). ``A Conceptual Unpacking of Hybridity:
+  Accounting for Notions of Power, Politics and Progress In Analyses of
+  Aid-Driven Interfaces.'' Journal of Peacebuilding \& Development 7(2):
+  9-22.
+\item
+  Petras, J. (1994). ``Cultural Imperialism in Late 20th Century.''
+  Economic and Political Weekly 29(32): 2070-2073.
+\item
+  Pomeranz, K. (2005). ``Empire \& `Civilizing' Missions, Past \&
+  Present.'' Daedalus 134(2): 34-45.
+\item
+  Sautman, B., \& Hairong, Y. (2013). Friends and Interests: China's
+  Distinctive Links with Africa. African Studies Review, 50(3), 75-114.
+  doi:10.1353/arw.2008.0014
+\item
+  Strange, S. (1987). The Persistent Myth of Lost Hegemony.
+  International Organization, 41(4), 551-574.
+\item
+  Strange, S. (1990). Finance, information and power. Review of
+  International Studies, 16(3), 259-274.
+\item
+  Worth, O. (2010). Recasting Gramsci in international politics. Review
+  of International Studies 37(1), 373-392.
+\end{itemize}
+
+\hypertarget{week-15-productive-power}{%
+\subsection*{Week 15: Productive Power}\label{week-15-productive-power}}
+\addcontentsline{toc}{subsection}{Week 15: Productive Power}
+
+\textbf{Required Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Castells, M. (2009). \emph{Communication power}. Oxford University
+  Press.
+  \url{https://global.oup.com/academic/product/communication-power-9780199681938},
+  Chapter 3
+\item
+  Ipek, P. (2015). Ideas and change in foreign policy instruments: Soft
+  power and the case of the turkish international cooperation and
+  development agency. \emph{Foreign Policy Analysis}, \emph{11}(2),
+  173--193. \url{https://doi.org/10.1111/fpa.12031}
+\end{itemize}
+
+\textbf{Recommended Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  Adler, E., \& Bernstein, S. (2005). Knowledge in Power: The Epistemic
+  Construction of Global Governance. In M. Barnett \& R. Duvall (Eds.),
+  Power in Global Governance. New York: Cambridge University Press.
+\item
+  Bae, Y., \& Lee, Y. W. (2020). Socialized soft power: recasting
+  analytical path and public diplomacy. Journal of International
+  Relations and Development, 23(4), 871-898.
+  https://doi.org/10.1057/s41268-019-00169-5
+\item
+  Bigo, D. (2011). Pierre Bourdieu and International Relations: Power of
+  Practices, Practices of Power. International Political Sociology 5(3):
+  225--258.
+\item
+  Bourdieu, P. (1991). Language and Symbolic Power (G. Raymond \& M.
+  Adamson, Trans.; J. B. Thompson, Ed.). Polity Press.
+\item
+  Castells, M. (2015). Communication Power. Oxford: Oxford University
+  Press.
+\item
+  Foucault, M. (1980). Power/ Knowledge (C. Gordon, Trans.). Pantheon.
+\item
+  Kang, D. C. (2020). International Order in Historical East Asia:
+  Tribute and Hierarchy Beyond Sinocentrism and Eurocentrism.
+  International Organization, 74(1), 65-93.
+\item
+  Kinsella, H. M. (2004). Securing the civilian: sex and gender in the
+  laws of war. In M. Barnett \& R. Duvall (Eds.), Power in global
+  governance (pp.~249-272).
+\item
+  Merlingen, M. (2003). Governmentality: Towards a Foucauldian Framework
+  for the Study of IGOs. Cooperation and Conflict, 38(4): 361-384.
+\item
+  Morisse-Schilbach, M. (2015). ``Changing the World'': Epistemic
+  Communities, and the Democratizing Power of Science. Innovation: The
+  European Journal of Social Sciences, 28(1), 18-26.
+  doi:10.1080/13511610.2014.943163
+\item
+  Leander, A. (2005). The Power to Construct International Security: On
+  the Significance of Private Military Companies. Millennium, 33(3):
+  803-826.
+\item
+  Onuf, N. (2017). ``The power of metaphor/the metaphor of power.'' The
+  Journal of International Communication 23(1): 1-14.
+\item
+  Schmidt, V. A. (2008). ``Discursive Institutionalism: The Explanatory
+  Power of Ideas and Discourse.'' Annual Reviews of Political Science
+  11: 303-326.
+\item
+  Payne, R. A. (2001). ``Persuasion, Frames and Norm Construction.''
+  European Journal of International Relations 7(1): 37-61.
+\item
+  Risse, T. (2011). ``Ideas, discourse, power and the end of the Cold
+  War: 20 years on.'' International Politics 48(4-5): 591-606.
+\end{itemize}
+
+\hypertarget{week-16-submission-of-final-papers}{%
+\subsection*{Week 16: Submission of Final
+Papers}\label{week-16-submission-of-final-papers}}
+\addcontentsline{toc}{subsection}{Week 16: Submission of Final Papers}
+
+See Final Paper Section (Section~\ref{sec-final}) for details.
+
+\textbf{Recommended Reading:}
+
+\begin{itemize}
+\tightlist
+\item
+  Ayhan, K. J. (2020). Transferring knowledge to narrative worlds:
+  Applying power taxonomy to science fiction films. \emph{International
+  Studies Perspectives}, \emph{21}(3), 258--274.
+  \url{https://doi.org/10.1093/isp/ekz024}
+\end{itemize}
+
+\hypertarget{special-accommodations}{%
+\section{\texorpdfstring{{Special
+Accommodations}}{Special Accommodations}}\label{special-accommodations}}
+
+\begin{itemize}
+\tightlist
+\item
+  According to the University regulation section \#57-3, students with
+  disabilities can request for special accommodations related to
+  attendance, lectures, assignments, or tests by contacting the course
+  professor at the beginning of semester. Based on the nature of the
+  students' request, students can receive support for such
+  accommodations from the course professor or from the Support Center
+  for Students with Disabilities (SCSD). Please refer to the below
+  examples of the types of support available in the lectures,
+  assignments, and evaluations.
+\end{itemize}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3056}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2083}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4861}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Lecture
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Assignments
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Evaluation
+\end{minipage} \\
+\midrule()
+\endhead
+Visual impairment: braille, enlarged reading materials. Hearing
+impairment: note-taking assistant. Physical impairment: access to
+classroom, note-taking assistant. & Extra days for submission,
+alternative assignments. & Visual impairment: braille examination paper,
+examination with voice support, longer examination hours, note-taking
+assistant. Hearing impairment: written examination instead of oral.
+Physical impairment: longer examination hours, note-taking assistant. \\
+\bottomrule()
+\end{longtable}
+
+\begin{itemize}
+\item
+  Actual support may vary depending on the course.
+\item
+  If you have other special needs, please let me know. I will do my best
+  to flexibly accommodate your needs.
+\end{itemize}
+
+\hypertarget{notes}{%
+\section{\texorpdfstring{{Notes}}{Notes}}\label{notes}}
+
+The contents of this syllabus are not final. I may update them later.
+
+\hypertarget{read-the-syllabus}{%
+\section{\texorpdfstring{{Read the
+Syllabus!}}{Read the Syllabus!}}\label{read-the-syllabus}}
+
+\url{https://www.youtube.com/watch?v=xQJ1vQ4RJ5I\&t=1s}
+
+\includegraphics{http://www.phdcomics.com/comics/archive/phd051013s.gif}
+
+
+
+\end{document}

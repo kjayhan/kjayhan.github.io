@@ -10,7 +10,7 @@ author:
     url: https://kjayhan.github.io
     orcid: 0000-0001-8052-1938
     affiliation: Ewha Womans University Graduate School of International Studies
-categories: [Scopus, Global Korea Scholarship, Korea, mixed, quantitative, people-to-people diplomacy, public diplomacy, 2021]
+categories: [Scopus, Global Korea Scholarship, Korea, mixed, quantitative, people-to-people diplomacy, public diplomacy, intergroup communication, social identity, 2021]
 pub-info:
   reference: >-
     Jae-Eun Jon and <strong>Kadir Jun Ayhan*</strong> (2021), “Satisfied or dissatisfied: The determinants of Global Korea Scholarship recipients’ satisfaction with life in Korea,” <em>Politics & Policy</em>: 49(6): 1282-1291, doi: <a href="https://doi.org/10.1111/polp.12437"><code>10.1111/polp.12437</code></a>

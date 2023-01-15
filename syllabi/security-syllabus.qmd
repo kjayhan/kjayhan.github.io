@@ -1,13 +1,22 @@
 ---
 title: "International Security"
+author: Kadir Jun Ayhan
+date: "`r Sys.Date()`"
+highlight-style: pygments
+format:
+  html: 
+    code-fold: true
+    html-math-method: katex  
 bibliography: security-required_readings.bib
 csl: apa7-cv.csl
 suppress-bibliography: true
 link-citations: false
 citations-hover: false
-number-sections: false
 toc: true
 toc_float: true
+number-sections: true
+number-depth: 2
+toc-title: Contents
 mainfont: Times New Roman
 monofont: Times New Roman
 editor: visual
@@ -59,7 +68,7 @@ df$'Topics & Class Materials, Assignments' <- c(
 )
 ```
 
-# Syllabus (2023 Spring) {style="color: green"}
+# Syllabus (2023 Spring) {.unnumbered .unlisted style="color: green"}
 
 |                                                       |                                                                              |                                             |
 |----------------------|-------------------------------|-------------------|
@@ -70,20 +79,20 @@ df$'Topics & Class Materials, Assignments' <- c(
 |                                                       | [E-mail:]{style="color: green"} [ayhan\@ewha.ac.kr](mailto:ayhan@ewha.ac.kr) | [Phone:]{style="color: green"} 02-3277-4628 |
 | [Office Hours/ Office Location]{style="color: green"} | [Make an appointment here](https://calendly.com/kadirayhan/officehours)      |                                             |
 
-# [**I. Course Overview**]{style="color: green"}
+# [**Course Overview**]{style="color: green"}
 
-## **1. Course Description** {style="color: black"}
+## **Course Description** {style="color: black"}
 
 The main target of this course is graduate students who are interested in international security. The course aims to provide students with a theoretical understanding of various aspects of international security. The course begins with an overview of international relations theories, and levels of analysis in its study. Throughout the course, we will continue to discuss different international relations theories' approaches to security, without being limited to only "mainstream" theories. More specifically, we will cover different strands of realism, liberalism, neo-institutionalism, constructivism, the English School, the Copenhagen School, poststructuralism, and feminism, among others. We will delve into major concepts related to international security beginning with security itself, followed by anarchy, and order. This will be followed by discussions on the role of international institutions and security communities for international security. We will then discuss securitization theory, ontological security, and the role of reputation and status for security. Finally, we will learn about security in the digital age. There are many active learning exercises embedded into the course throughout the semester, including a simulation and games, to help visualize abstract theoretical concepts to facilitate students' meaningful learning.
 
-## **2. Prerequisites** {style="color:black"}
+## **Prerequisites** {style="color:black"}
 
 None.
 
-## **3. Course Format** {style="color:black"}
+## **Course Format** {style="color:black"}
 
 |                                 |                                                  |                                               |
-|-------------------|----------------------------|--------------------------|
+|-------------------|---------------------------|--------------------------|
 | [Lecture]{style="color: green"} | [Discussion/ Presentation]{style="color: green"} | [Experiment/ Practicum]{style="color: green"} |
 | 20%                             | 40%                                              | 40%                                           |
 
@@ -93,7 +102,7 @@ Active participation in discussion is strongly encouraged for this course. In or
 
 I expect students to attend classes, to arrive on time, and to come to class prepared to engage in class discussion by reading at least the required readings, taking note of the key arguments, and identifying strengths, weaknesses, and contradictions in these arguments.
 
-## **4. Course Objectives**
+## **Course Objectives**
 
 Learning objectives:
 
@@ -101,7 +110,7 @@ Learning objectives:
 -   Comparing and interpreting strengths and weaknesses of different approaches to international security, as well as inferring their implications.
 -   Applying theoretical understanding of international security to case studies (presentation), and to other new settings (games); and analyzing and critiquing these cases.
 
-## **5. Evaluation System**
+## **Evaluation System**
 
 | [Mid-term Paper]{style="color: green"} | [Final Paper]{style="color: green"} | [Response Papers]{style="color: green"} | [Presentation]{style="color: green"} | [Participation and Discussion]{style="color: green"} |
 |---------------|---------------|---------------|---------------|---------------|
@@ -156,23 +165,23 @@ If you want to write a publishable article (by improving your final paper later)
 
 There will be bonus points for the winners of the Diplomacy game. This bonus point scheme and rules will be explained during the semester.
 
-# [**Ⅱ. Course Materials and Additional Readings**]{style="color: green"}
+# [**Course Materials and Additional Readings**]{style="color: green"}
 
-## 1. Required Materials {style="color: black"}
+## Required Materials {style="color: black"}
 
 No required textbooks. Refer to the detailed course schedule below.
 
-## 2. Supplementary Materials
+## Supplementary Materials
 
 Refer to the detailed course schedule below.
 
-## 3. Optional Additional Readings
+## Optional Additional Readings
 
 Refer to the detailed course schedule below.
 
-# [**Ⅲ. Course Policies**]{style="color: green"}
+# [**Course Policies**]{style="color: green"}
 
-## 1. Citation and Plagiarism {style="color: black"}
+## Citation and Plagiarism {style="color: black"}
 
 Students must use proper citation and avoid plagiarism. Any citation style is fine as long as it is consistent throughout the paper. Plagiarism will not be tolerated and severely punished. The papers will be uploaded to Turnitin (via Cyber Campus).
 
@@ -192,23 +201,23 @@ For late submissions, you will get 80% of your grading unless you have a valid e
 
 {{< pagebreak >}}
 
-# [Ⅳ. Course Schedule]{style="color: green"}
+# [Course Schedule]{style="color: green"}
 
 ```{r}
-df[,1:3] %>% kbl() %>% kable_styling()
+df[,1:3] %>% gt::gt() #kbl() %>% kable_styling()
 ```
 
 {{< pagebreak >}}
 
-# [V. Detailed Course Schedule with Readings]{style="color: green"}
+# [Detailed Course Schedule with Readings]{style="color: green"}
 
-## Week 1: `r df[1, 3]`
+## Week 1: `r df[1, 3]`{.unnumbered}
 
 Introduction of the course including course contents, assignments, and expectations.
 
-## Week 2: `r df[2, 3]`
+## Week 2: `r df[2, 3]`{.unnumbered}
 
-## Week 3: `r df[3, 3]`
+## Week 3: `r df[3, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -229,7 +238,7 @@ Introduction of the course including course contents, assignments, and expectati
 -   Wendt, A. (1992). Anarchy is what states make of it: the social construction of power politics. International Organization, 46(02), 391-425.
 -   Zehfuss, Maja (2013). Critical Theory, Poststructuralism, and Postcolonialism. In W. Carlsnaes, T. Risse, & B. A. Simmons (Eds.), Handbook of International Relations (145-169). London: SAGE Publications.
 
-## Week 4: `r df[4, 3]`
+## Week 4: `r df[4, 3]`{.unnumbered}
 
 Here are the [guidelines](diplomacy-game.qmd) for the game, and the [instructions for the essay](mid-term-instructions.qmd) based on the game.
 
@@ -239,7 +248,7 @@ Here are the [guidelines](diplomacy-game.qmd) for the game, and the [instruction
 -   Wendt, Alexander (1999). Social Theory of International Politics. Cambridge, UK: Cambridge University Press. Chapter 6.
 -   Wight, Martin (1991). The Three Traditions of International Theory. In International Theory: The Three Traditions, eds. G. Wight and N. Porter. Leicester: Leicester University Press, 7--24.
 
-## Week 5: `r df[5, 3]`
+## Week 5: `r df[5, 3]`{.unnumbered}
 
 In the latter half of the class, we will discuss what we have learned from this active learning exercise in an interactive session.
 
@@ -252,7 +261,7 @@ In the latter half of the class, we will discuss what we have learned from this 
 -   Snyder, G. H. (1984). The Security Dilemma in Alliance Politics. World Politics, 36(4), 461-495.
 -   Walt, S. M. (1985). Alliance Formation and the Balance of World Power. International Security, 9(4), 3-43.
 
-## Week 6: `r df[6, 3]`
+## Week 6: `r df[6, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -276,7 +285,7 @@ In the latter half of the class, we will discuss what we have learned from this 
 -   Pratt, Nicola (2014). Reconceptualizing Gender, Reinscribing Racial--Sexual Boundaries in International Security: The Case of UN Security Council Resolution 1325 on "Women, Peace and Security". International Studies Quarterly, 57(4), 772-783.
 -   Suganami, H. (2017). The causes of war. In J. George, R. Devetak, & S. Percy (Eds.), An Introduction to International Relations (3rd ed., pp. 224-234). Cambridge: Cambridge University Press.
 
-## Week 7: `r df[7, 3]`
+## Week 7: `r df[7, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -299,11 +308,11 @@ Recommended Readings:
 -   Park, Seo-Hyun (2017). Sovereignty and Status in East Asian International Relations. Cambridge: Cambridge University Press.
 -   Wohlforth, W. C. (1999). The Stability of a Unipolar World. International Security, 24(1), 5-41.
 
-## Week 8: `r df[8, 3]`
+## Week 8: `r df[8, 3]`{.unnumbered}
 
 See Mid-term Section (@sec-mid-term) for details.
 
-## Week 9: `r df[9, 3]`
+## Week 9: `r df[9, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -319,7 +328,7 @@ See Mid-term Section (@sec-mid-term) for details.
 -   Pouliot, V. (2016). Hierarchy in Practice: Multilateral Diplomacy and the Governance of International Security, European Journal of International Security, 1(1), 5-26.
 -   Ruggie, J. G. (1982). International regimes, transactions, and change: embedded liberalism in the postwar economic order. International Organization, 36(2), 379-415.
 
-## Week 10: `r df[10, 3]`
+## Week 10: `r df[10, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -337,7 +346,7 @@ See Mid-term Section (@sec-mid-term) for details.
 -   Koschut, S. (2014). Emotional (security) communities: the significance of emotion norms in inter-allied conflict management. Review of International Studies, 40(3), 533-558.
 -   Pouliot, Vincent (2008). The Logic of Practicality: A Theory of Practice of Security Communities. International Organization, 62(2), 257-288.
 
-## Week 11: `r df[11, 3]`
+## Week 11: `r df[11, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -354,7 +363,7 @@ See Mid-term Section (@sec-mid-term) for details.
 -   Vaughan-Williams, N., & Stevens, D. (2015). Vernacular theories of everyday (in)security: The disruptive potential of non-elite knowledge. Security Dialogue, 47(1), 40-58.
 -   Wæver, O. (2011). Politics, security, theory. Security Dialogue, 42(4-5), 465-480.
 
-## Week 12: `r df[12, 3]`
+## Week 12: `r df[12, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -371,11 +380,11 @@ See Mid-term Section (@sec-mid-term) for details.
 -   Pratt, S. F. (2017). A relational view of ontological security in international relations. International Studies Quarterly, 61(1), 78-85.
 -   Zarakol, Ayşe (2016). States and ontological security: A historical rethinking. Cooperation and Conflict, 52(1), 48-68.
 
-## Week 13: `r df[13, 3]`
+## Week 13: `r df[13, 3]`{.unnumbered}
 
 See Final Paper Section (@sec-final) for details.
 
-## Week 14: `r df[14, 3]`
+## Week 14: `r df[14, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -395,7 +404,7 @@ See Final Paper Section (@sec-final) for details.
 -   Wohlforth, W. C. (2009). Unipolarity, status competition, and great power war. World Politics, 61(1), 28-57.
 -   Yarhi-Milo, Keren (2018). Who fights for reputation: the psychology of leaders in international conflict. Princeton University Press. Introduction chapter.
 
-## Week 15: `r df[15, 3]`
+## Week 15: `r df[15, 3]`{.unnumbered}
 
 There will be an invited speaker for this class. I will give the required readings list later in the semester.
 
@@ -410,17 +419,17 @@ There will be an invited speaker for this class. I will give the required readin
 -   Nye Jr, J. S. (2016). Deterrence and dissuasion in cyberspace. International security, 41(3), 44-71.
 -   Reinsberg, B. (2021). Fully-automated liberalism? Blockchain technology and international cooperation in an anarchic world. International Theory, 13(2), 287-313.
 
-## Week 16: `r df[16, 3]`
+## Week 16: `r df[16, 3]`{.unnumbered}
 
 See Final Paper Section (@sec-final) for details.
 
-# [VI. Special Accommodations]{style="color: green"}
+# [Special Accommodations]{style="color: green"}
 
 ::: border
 -   According to the University regulation section #57-3, students with disabilities can request for special accommodations related to attendance, lectures, assignments, or tests by contacting the course professor at the beginning of semester. Based on the nature of the students' request, students can receive support for such accommodations from the course professor or from the Support Center for Students with Disabilities (SCSD). Please refer to the below examples of the types of support available in the lectures, assignments, and evaluations.
 
 | Lecture                                                                                                                                                             | Assignments                                         | Evaluation                                                                                                                                                                                                                                                    |
-|---------------------|------------------|---------------------------------|
+|---------------------|-------------------|--------------------------------|
 | Visual impairment: braille, enlarged reading materials. Hearing impairment: note-taking assistant. Physical impairment: access to classroom, note-taking assistant. | Extra days for submission, alternative assignments. | Visual impairment: braille examination paper, examination with voice support, longer examination hours, note-taking assistant. Hearing impairment: written examination instead of oral. Physical impairment: longer examination hours, note-taking assistant. |
 
 -   Actual support may vary depending on the course.
@@ -428,11 +437,11 @@ See Final Paper Section (@sec-final) for details.
 -   If you have other special needs, please let me know. I will do my best to flexibly accommodate your needs.
 :::
 
-# [VII. Notes]{style="color: green"}
+# [Notes]{style="color: green"} {.unnumbered}
 
 The contents of this syllabus are not final. I may update them later.
 
-# [VIII. Read the Syllabus!]{style="color: green"}
+# [Read the Syllabus!]{style="color: green"} {.unnumbered}
 
 {{< video https://www.youtube.com/watch?v=xQJ1vQ4RJ5I&t=1s >}}
 
