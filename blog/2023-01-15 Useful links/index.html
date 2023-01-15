@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2023-01-01">
 <meta name="description" content="<strong>?meta:website.description</strong>">
 
-<title>Dr.&nbsp;Kadir Jun Ayhan - About Ewha GSIS Computational Social Science Workshop</title>
+<title>Dr.&nbsp;Kadir Jun Ayhan - Useful links</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -156,7 +156,7 @@ gtag('config', 'G-W257WPSHMV', { 'anonymize_ip': true});
     <div class="quarto-title-banner page-columns page-full">
                 <div class="back-nav"><a href="../../research/">← Back to research</a></div>
                 <div class="quarto-title column-body">
-            <h1 class="title">About Ewha GSIS Computational Social Science Workshop</h1>
+            <h1 class="title">Useful links</h1>
 
             
             
@@ -193,13 +193,13 @@ gtag('config', 'G-W257WPSHMV', { 'anonymize_ip': true});
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#why-computational-social-science" id="toc-why-computational-social-science" class="nav-link active" data-scroll-target="#why-computational-social-science">Why Computational Social Science?</a></li>
-  <li><a href="#why-r" id="toc-why-r" class="nav-link" data-scroll-target="#why-r">Why R?</a></li>
-  <li><a href="#i-dont-know-anything-about-coding-indeed-i-am-frustrated-about-coding" id="toc-i-dont-know-anything-about-coding-indeed-i-am-frustrated-about-coding" class="nav-link" data-scroll-target="#i-dont-know-anything-about-coding-indeed-i-am-frustrated-about-coding">“I don’t know anything about coding! Indeed, I am frustrated about coding!”</a></li>
-  <li><a href="#how-should-i-prepare-for-the-workshop" id="toc-how-should-i-prepare-for-the-workshop" class="nav-link" data-scroll-target="#how-should-i-prepare-for-the-workshop">How should I prepare for the workshop?</a></li>
-  <li><a href="#what-next" id="toc-what-next" class="nav-link" data-scroll-target="#what-next">What next?</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
-  <li><a href="#note" id="toc-note" class="nav-link" data-scroll-target="#note">Note</a></li>
+  <li><a href="#self-studying-statistics" id="toc-self-studying-statistics" class="nav-link active" data-scroll-target="#self-studying-statistics">Self-studying statistics</a>
+  <ul class="collapse">
+  <li><a href="#statistical-rethinking" id="toc-statistical-rethinking" class="nav-link" data-scroll-target="#statistical-rethinking">Statistical Rethinking</a></li>
+  <li><a href="#regression-and-other-stories" id="toc-regression-and-other-stories" class="nav-link" data-scroll-target="#regression-and-other-stories">Regression and Other Stories</a></li>
+  <li><a href="#the-effect-an-introduction-to-research-design-and-causality" id="toc-the-effect-an-introduction-to-research-design-and-causality" class="nav-link" data-scroll-target="#the-effect-an-introduction-to-research-design-and-causality">The Effect: An Introduction to Research Design and Causality</a></li>
+  </ul></li>
+  <li><a href="#resources-for-r" id="toc-resources-for-r" class="nav-link" data-scroll-target="#resources-for-r">Resources for R</a></li>
   </ul>
 </nav>
 </nav>
@@ -211,55 +211,33 @@ gtag('config', 'G-W257WPSHMV', { 'anonymize_ip': true});
 
 
 
-<p>Dear <a href="http://gsis.ewha.ac.kr/">Ewha GSIS</a> Students,</p>
-<p>Recently, I had to repeat myself while talking to a few students about Ewha GSIS Computational Social Science Workshop(s). Now, you and future students have this post instead!</p>
-<section id="why-computational-social-science" class="level1">
-<h1>Why Computational Social Science?</h1>
-<p>Simply put, there is so much more data out there that is useful for social science research, and we have faster computers, and handy tools to analyze such data.</p>
-<p>Ewha GSIS curriculum is quite rich in terms of theoretical and practical courses that equip you with theories and analytical frameworks to understand social issues. We also have courses that teach you quantitative and qualitative methodologies and research design. Yet, we don’t have courses that teach computational methods/ tools that can handle big or complex data.</p>
-<p>I want to provide you with this workshop opportunity basically to expose you to such methods/ tools so that you can continue learning them on your own.</p>
-<p>In the age that we live in, I strongly believe that these computational methods/ tools will empower you in the job market given wide range of prospective jobs our graduates seek/ find (corporations, international organizations, think tanks, NGOs, media, academia etc.).</p>
+<section id="self-studying-statistics" class="level1">
+<h1>Self-studying statistics</h1>
+<section id="statistical-rethinking" class="level2">
+<h2 class="anchored" data-anchor-id="statistical-rethinking">Statistical Rethinking</h2>
+<p>A great <a href="https://xcelab.net/rm/statistical-rethinking/">book</a> and even greater <a href="https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN">lectures</a> by a top scholar, <a href="https://xcelab.net/rm/">Richard McElreath</a>. (He is recently uploading the 2023 version of the lectures <a href="https://youtube.com/playlist?list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus">here</a>.</p>
+<p>There is a tidyverse translation of the book <a href="https://bookdown.org/content/4857/">here</a> by <a href="https://solomonkurz.netlify.app/">A. Solomon Kurz</a>.</p>
+<p>All the better, “rethinking” involves Bayesian approach to inference, rather than a frequentist one.</p>
 </section>
-<section id="why-r" class="level1">
-<h1>Why R?</h1>
-<p>R is free! There are so many packages that are rich with a wide range of functions that you would need in all kinds of research, analysis, and reporting. Many more are being built as we speak. You can do from simple math to data pre-processing, from data visualization to regressions, from building your CV to building your website, from analyzing tweets to machine learning.</p>
-<p>Python is probably getting more popular in the industry jobs in recent years. Yet, I think, for the time being, R is better suited for social science research. At least there are more books, tutorials, examples that you can learn from, I think.</p>
-<p>Once exposed to R, you may also consider learning Python as well if it seems more attractive for you.</p>
+<section id="regression-and-other-stories" class="level2">
+<h2 class="anchored" data-anchor-id="regression-and-other-stories">Regression and Other Stories</h2>
+<p>A great book by three legends of Bayesian Data Analysis: <a href="https://avehtari.github.io/ROS-Examples/">Regression and Other Stories</a> by <a href="http://www.stat.columbia.edu/~gelman/">Andrew Gelman</a>, <a href="https://steinhardt.nyu.edu/people/jennifer-hill">Jennifer Hill</a>, and <a href="https://users.aalto.fi/~ave/">Aki Vehtari</a>. You can find <a href="https://users.aalto.fi/~ave/ROS.pdf">free online pdf of the book</a>, <a href="https://avehtari.github.io/ROS-Examples/examples.html">the code and data for the examples</a> and more from the links.</p>
+<p>Once you are done with this book, the next stage could be <a href="http://www.stat.columbia.edu/~gelman/book/">Bayesian Data Analysis</a> by Andrew Gelman, John Carlin, Hal Stern, David Dunson, Aki Vehtari, and Donald Rubin. This book’s <a href="http://www.stat.columbia.edu/~gelman/book/BDA3.pdf">pdf is also freely available on their website</a>.</p>
+<p>Aki Vehtari also provide <a href="https://avehtari.github.io/BDA_course_Aalto/">freely available course</a> using this book. However, both BDA and Aki’s lectures are more advanced than Statistical Rethinking, and Regression and Other Stories.</p>
 </section>
-<section id="i-dont-know-anything-about-coding-indeed-i-am-frustrated-about-coding" class="level1">
-<h1>“I don’t know anything about coding! Indeed, I am frustrated about coding!”</h1>
-<p>Then this workshop is very much for you! I don’t expect the students to have any prior knowledge of R, coding, or other statistical software. I organize this workshop mainly to expose students to R so that they&nbsp;can continue learning it. Learning curve is steep in the beginning. So you may need a trigger to begin and NOT GIVE UP. The workshop plays this role. So, long story short, no need to be intimidated by R (or your lack of background with coding).</p>
-<p>But… continue to read the next section.</p>
+<section id="the-effect-an-introduction-to-research-design-and-causality" class="level2">
+<h2 class="anchored" data-anchor-id="the-effect-an-introduction-to-research-design-and-causality">The Effect: An Introduction to Research Design and Causality</h2>
+<p>This <a href="https://theeffectbook.net/">book</a> by <a href="https://www.nickchk.com/">Nick Huntington-Klein</a> is more student-friendly I should say. It is a great introduction to econometrics with <a href="https://theeffectbook.net/">code examples in R, Stata and Python</a></p>
+<p>You can find the course lectures <a href="https://youtube.com/playlist?list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8">here</a>.</p>
 </section>
-<section id="how-should-i-prepare-for-the-workshop" class="level1">
-<h1>How should I prepare for the workshop?</h1>
-<p>This is a one-day workshop on a Saturday. Don’t expect to learn R in one-day! Equally, don’t expect that we would be able to teach you R in one day. I designed the workshop mainly for practicing R, and troubleshooting with the help of the tutors. You will also learn from each other while collaborating in teams.</p>
-<p>It means YOU MUST watch the&nbsp;<a href="https://sicss.io/boot_camp/">videos&nbsp;(Installing RStudio, R Basics, Data “Wrangling”, Visualization, Modeling)</a>, install R and RStudio on your computers and follow the exercises in the videos BEFORE coming to the workshop.</p>
-<p>Don’t forget to bring your laptops (chargers etc.).</p>
 </section>
-<section id="what-next" class="level1">
-<h1>What next?</h1>
-<p>Since 2022 Fall Semester, I organize two Ewha GSIS Computational Social Science Workshop(s) every semester. The first one is about the ABCs of R.</p>
-<p>In the second workshop, I assume that you have at least some basic prior knowledge R (through the first workshop, self-study, taken a course etc.). The contents of the second workshop is still quite the basics of R, but if you don’t have this prior knowledge, please watch the aforementioned videos and practice. That should get you going.</p>
-<p>For those students who want to continue learning R, I can help facilitate a student-run (there must be volunteers for this) book club beginning with the&nbsp;<a href="https://r4ds.had.co.nz/">R for Data Science</a>&nbsp;book.</p>
-<p>If there is enough interest, we may consider offering a Data Science course in the future.</p>
-</section>
-<section id="resources" class="level1">
-<h1>Resources</h1>
-<p><a href="https://github.com/kjayhan/Ewha_CSS_Workshop">This is our workshop’s repository.</a></p>
-<p>And here are more resources to help you study R.</p>
-<p>R Book: <a href="https://r4ds.had.co.nz/">R for Data Science</a></p>
-<p>Data Visualization Book: <a href="https://handsondataviz.org/">Hands-on Data Visualization</a></p>
-<p>Book on Computational Social Science: <a href="https://www.bitbybitbook.com/en/1st-ed/preface/">Bit by Bit</a></p>
+<section id="resources-for-r" class="level1">
+<h1>Resources for R</h1>
+<p><a href="https://r4ds.had.co.nz/">R for Data Science</a></p>
+<p><a href="https://handsondataviz.org/">Hands-on Data Visualization</a></p>
 <p>Course: <a href="https://www.edx.org/course/data-science-r-basics">Harvard on Edx - Data Science: R Basics</a></p>
 <p>Hands-on-practice: <a href="https://www.datacamp.com">Datacamp</a></p>
 <p>For more free R books, see <a href="https://www.learnr4free.com/en/index.html">Dr.&nbsp;Mine Dogucu’s website</a></p>
-<p>Twitter: <a href="https://developer.twitter.com/en/products/twitter-api/academic-research">Apply for Twitter’s Academic API</a></p>
-<p>A Guide for a CSS Career: <a href="https://osf.io/preprints/socarxiv/kgjn2/">A Three-Step Guide to Training Computational Social Science Ph.D.&nbsp;Students for Academic and Non-Academic Careers</a></p>
-</section>
-<section id="note" class="level1">
-<h1>Note</h1>
-<p>Please remember that this is an extracurricular activity that I organize on a Saturday. The preperations take a lot of my and Ms.&nbsp;Law’s time. The only reason why I organize this is because I want to empower Ewha GSIS students with computational skills (or at least expose you to resources that would empower you). So take good advantage of the workshop.</p>
 
 
 </section>
