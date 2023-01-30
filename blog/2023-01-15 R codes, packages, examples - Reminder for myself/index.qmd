@@ -2,7 +2,7 @@
 title: "R codes, packages, examples - Reminder for myself"
 author: "Kadir Jun Ayhan"
 date: last-modified
-draft: false
+draft: true
 categories: [useful links, R]
 ---
 
@@ -26,9 +26,4 @@ Embedding social media posts: an extension: [quarto-social-embeds](https://githu
 
 # Bayesian Data Analysis
 
-Bayestest: [ROPE](https://easystats.github.io/bayestestR/articles/region_of_practical_equivalence.html)
-Bayestest: [HDI](https://easystats.github.io/bayestestR/reference/hdi.html)
-Bayestest: [Guidelines](https://easystats.github.io/bayestestR/articles/guidelines.html)
-[Marginal effects](https://vincentarelbundock.github.io/marginaleffects/articles/brms.html)
-[A guide to correctly calculating posterior predictions and average marginal effects with multilievel Bayesian models - Andrew Heiss](https://www.andrewheiss.com/blog/2021/11/10/ame-bayes-re-guide/)
-[brmsmargins: A package that has functions to calculate marginal effects from brms models](https://joshuawiley.com/brmsmargins/)
+Bayestest: [ROPE](https://easystats.github.io/bayestestR/articles/region_of_practical_equivalence.html) Bayestest: [HDI](https://easystats.github.io/bayestestR/reference/hdi.html) Bayestest: [Guidelines](https://easystats.github.io/bayestestR/articles/guidelines.html) [Marginal effects](https://vincentarelbundock.github.io/marginaleffects/articles/brms.html) [A guide to correctly calculating posterior predictions and average marginal effects with multilievel Bayesian models - Andrew Heiss](https://www.andrewheiss.com/blog/2021/11/10/ame-bayes-re-guide/) [brmsmargins: A package that has functions to calculate marginal effects from brms models](https://joshuawiley.com/brmsmargins/)

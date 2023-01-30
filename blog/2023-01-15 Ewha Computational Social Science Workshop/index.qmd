@@ -1,7 +1,7 @@
 ---
 title: "About Ewha GSIS Computational Social Science Workshop"
 author: "Kadir Jun Ayhan"
-date: last-modified
+date: 2023-01-15
 categories: [Ewha GSIS, R]
 draft: false
 ---
@@ -52,7 +52,7 @@ Since 2022 Fall Semester, I organize two Ewha GSIS Computational Social Science 
 
 In the second workshop, I assume that you have at least some basic prior knowledge R (through the first workshop, self-study, taken a course etc.). The contents of the second workshop is still quite the basics of R, but if you don't have this prior knowledge, please watch the aforementioned videos and practice. That should get you going.
 
-For those students who want to continue learning R, I can help facilitate a student-run (there must be volunteers for this) book club beginning with the [R for Data Science](https://r4ds.had.co.nz/) book.
+For those students who want to continue learning R, I can help facilitate a student-run (there must be volunteers for this) book club beginning with the [R for Data Science](https://r4ds.had.co.nz/) book.
 
 If there is enough interest, we may consider offering a Data Science course in the future.
 
@@ -62,13 +62,15 @@ If there is enough interest, we may consider offering a Data Science course in t
 
 And here are more resources to help you study R.
 
-R Book: [R for Data Science](https://r4ds.had.co.nz/)
+R Book: [R for Data Science](https://r4ds.had.co.nz/) by [Hadley Wickham](https://hadley.nz), [Mine Çetinkaya-Rundel](https://mine-cr.com/), and [Garrett Grolemund](https://www.rstudio.com/authors/garrett-grolemund/).
 
 Data Visualization Book: [Hands-on Data Visualization](https://handsondataviz.org/)
 
 Book on Computational Social Science: [Bit by Bit](https://www.bitbybitbook.com/en/1st-ed/preface/)
 
 Course: [Harvard on Edx - Data Science: R Basics](https://www.edx.org/course/data-science-r-basics)
+
+[8-week R course with great best-practices tips](https://www.stephaniehicks.com/jhustatcomputing2022/schedule) by [Stephanie Hicks](https://www.stephaniehicks.com/)
 
 Hands-on-practice: [Datacamp](https://www.datacamp.com)
 

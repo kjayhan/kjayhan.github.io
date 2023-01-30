@@ -6,6 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Kadir Jun Ayhan">
+<meta name="dcterms.date" content="2023-01-30">
 
 <title>Dr.&nbsp;Kadir Jun Ayhan - Useful Links</title>
 <style>
@@ -98,6 +100,9 @@ gtag('config', 'G-W257WPSHMV', { 'anonymize_ip': true});
   <li class="nav-item">
     <a class="nav-link" href="../ongoing.html">Ongoing Research</a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blog.html">Blog</a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -145,7 +150,19 @@ gtag('config', 'G-W257WPSHMV', { 'anonymize_ip': true});
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#self-studying-statistics" id="toc-self-studying-statistics" class="nav-link active" data-scroll-target="#self-studying-statistics">Self-studying statistics</a>
+  <ul class="collapse">
+  <li><a href="#statistical-rethinking" id="toc-statistical-rethinking" class="nav-link" data-scroll-target="#statistical-rethinking">Statistical Rethinking</a></li>
+  <li><a href="#regression-and-other-stories" id="toc-regression-and-other-stories" class="nav-link" data-scroll-target="#regression-and-other-stories">Regression and Other Stories</a></li>
+  <li><a href="#the-effect-an-introduction-to-research-design-and-causality" id="toc-the-effect-an-introduction-to-research-design-and-causality" class="nav-link" data-scroll-target="#the-effect-an-introduction-to-research-design-and-causality">The Effect: An Introduction to Research Design and Causality</a></li>
+  </ul></li>
+  <li><a href="#resources-for-r" id="toc-resources-for-r" class="nav-link" data-scroll-target="#resources-for-r">Resources for R</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -159,16 +176,55 @@ gtag('config', 'G-W257WPSHMV', { 'anonymize_ip': true});
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kadir Jun Ayhan </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 30, 2023</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<p>I may add some useful links here later.</p>
+<section id="self-studying-statistics" class="level1">
+<h1>Self-studying statistics</h1>
+<section id="statistical-rethinking" class="level2">
+<h2 class="anchored" data-anchor-id="statistical-rethinking">Statistical Rethinking</h2>
+<p>A great <a href="https://xcelab.net/rm/statistical-rethinking/">book</a> and even greater <a href="https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN">lectures</a> by a top scholar, <a href="https://xcelab.net/rm/">Richard McElreath</a>. (He is recently uploading the 2023 version of the lectures <a href="https://youtube.com/playlist?list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus">here</a>.</p>
+<p>There is a tidyverse translation of the book <a href="https://bookdown.org/content/4857/">here</a> by <a href="https://solomonkurz.netlify.app/">A. Solomon Kurz</a>.</p>
+<p>All the better, “rethinking” involves Bayesian approach to inference, rather than a frequentist one.</p>
+</section>
+<section id="regression-and-other-stories" class="level2">
+<h2 class="anchored" data-anchor-id="regression-and-other-stories">Regression and Other Stories</h2>
+<p>A great book by three legends of Bayesian Data Analysis: <a href="https://avehtari.github.io/ROS-Examples/">Regression and Other Stories</a> by <a href="http://www.stat.columbia.edu/~gelman/">Andrew Gelman</a>, <a href="https://steinhardt.nyu.edu/people/jennifer-hill">Jennifer Hill</a>, and <a href="https://users.aalto.fi/~ave/">Aki Vehtari</a>. You can find <a href="https://users.aalto.fi/~ave/ROS.pdf">free online pdf of the book</a>, <a href="https://avehtari.github.io/ROS-Examples/examples.html">the code and data for the examples</a> and more from the links.</p>
+<p>Once you are done with this book, the next stage could be <a href="http://www.stat.columbia.edu/~gelman/book/">Bayesian Data Analysis</a> by Andrew Gelman, John Carlin, Hal Stern, David Dunson, Aki Vehtari, and Donald Rubin. This book’s <a href="http://www.stat.columbia.edu/~gelman/book/BDA3.pdf">pdf is also freely available on their website</a>.</p>
+<p>Aki Vehtari also provide <a href="https://avehtari.github.io/BDA_course_Aalto/">freely available course</a> using this book. However, both BDA and Aki’s lectures are more advanced than Statistical Rethinking, and Regression and Other Stories.</p>
+</section>
+<section id="the-effect-an-introduction-to-research-design-and-causality" class="level2">
+<h2 class="anchored" data-anchor-id="the-effect-an-introduction-to-research-design-and-causality">The Effect: An Introduction to Research Design and Causality</h2>
+<p>This <a href="https://theeffectbook.net/">book</a> by <a href="https://www.nickchk.com/">Nick Huntington-Klein</a> is more student-friendly I should say. It is a great introduction to econometrics with <a href="https://theeffectbook.net/">code examples in R, Stata and Python</a></p>
+<p>You can find the course lectures <a href="https://youtube.com/playlist?list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8">here</a>.</p>
+</section>
+</section>
+<section id="resources-for-r" class="level1">
+<h1>Resources for R</h1>
+<p><a href="https://r4ds.had.co.nz/">R for Data Science</a></p>
+<p><a href="https://handsondataviz.org/">Hands-on Data Visualization</a></p>
+<p>Course: <a href="https://www.edx.org/course/data-science-r-basics">Harvard on Edx - Data Science: R Basics</a></p>
+<p>Hands-on-practice: <a href="https://www.datacamp.com">Datacamp</a></p>
+<p>For more free R books, see <a href="https://www.learnr4free.com/en/index.html">Dr.&nbsp;Mine Dogucu’s website</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
