@@ -188,13 +188,13 @@ Refer to the detailed course schedule below.
 
 Students must use proper citation and avoid plagiarism. Any citation style is fine as long as it is consistent throughout the paper. Plagiarism will not be tolerated and severely punished. The papers will be uploaded to Turnitin (via Cyber Campus).
 
-["Plagiarism: presenting others' work without adequate acknowledgement of its source, as though it were one's own. Plagiarism is a form of fraud. We all stand on the shoulders of others, and we must give credit to the creators of the works that we incorporate into products that we call our own. Some examples of plagiarism:]((https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html))
+"Plagiarism: presenting others' work without adequate acknowledgement of its source, as though it were one's own. Plagiarism is a form of fraud. We all stand on the shoulders of others, and we must give credit to the creators of the works that we incorporate into products that we call our own. Some examples of plagiarism:]
 
--   [a sequence of words incorporated without quotation marks;]((https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html))
+-   a sequence of words incorporated without quotation marks;
 
--   [an unacknowledged passage paraphrased from another's word;]((https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html))
+-   an unacknowledged passage paraphrased from another's word;
 
--   [the use of ideas, sound recordings, computer data or images created by others as though it were one's own."]((https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html))
+-   the use of ideas, sound recordings, computer data or images created by others as though it were one's own." [Source](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html).
 
 See [also this link](https://owl.purdue.edu/owl/research_and_citation/resources.html).
 

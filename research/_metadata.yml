@@ -6,7 +6,7 @@ description-meta: "{{< meta website.description >}}"
 date-format: "YYYY"
 
 # Enable banner style title blocks
-title-block-banner: "#CF4446"
+title-block-banner: "#004440"
 
 # Default for table of contents
 toc: true
