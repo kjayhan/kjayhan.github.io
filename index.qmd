@@ -1,8 +1,8 @@
 ---
-title: "About me"
+title: "Dr. Kadir Jun Ayhan's Website"
 ---
 
-![](profiles/kf_pd_week_small.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Dr. Kadir Jun Ayhan at KF 3rd PD Week" width="348"}
+!\[\](profiles/kf_pd_week.png){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Dr. Kadir Jun Ayhan" width="200"}
 
 Hi. My name is Kadir Jun Ayhan.
 
@@ -10,8 +10,10 @@ I am an Assistant Professor of International Relations at [Ewha Womans Universit
 
 My main research interests include public diplomacy, power in world politics, Korean foreign policy, status and reputation, and international student mobility. I serve as the Editor-in-chief of [Journal of Public Diplomacy](https://www.journalofpd.com).
 
-I regularly consult for governmental public diplomacy projects in Korea, including as a member of [Korea Foundation](https://www.kf.or.kr/) Steering Advisory Committee for Empowerment of Cultural Exchanges and Cooperation. I served as a member of the [Korean Presidential (Transition Panel) Committee for National Cohesion](https://en.yna.co.kr/view/AEN20220330011000315) in 2022.
+I regularly consult for governmental public diplomacy projects in Korea, including as a member of [Korea Foundation](https://www.kf.or.kr/) Steering Advisory Committee for Empowerment of Cultural Exchanges and Cooperation. I served as a member of the [Korean Presidential (Transition Panel) National Unity Committee](https://en.yna.co.kr/view/AEN20220330011000315) in 2022.
 
 I received my Ph.D. (2016) and M.I.S. (2010) from [Seoul National University in International Studies](https://gsis.snu.ac.kr/) and Bachelor of Commerce (2008) in Economics and International Trade from the [University of Auckland](https://www.auckland.ac.nz/).
 
-I published peer-reviewed articles in numerous journals such as *International Studies Perspectives*, *Korea Observer*, *The Hague Journal of Diplomacy*, *Asia Pacific Education Review*, *Politics & Policy*, *Place Branding and Public Diplomacy*, and *Asian International Studies Review* among others.
+I published peer-reviewed articles in numerous journals such as *International Studies Perspectives*, *Korea Observer*, *Asia Pacific Education Review*, *Politics & Policy*, *Place Branding and Public Diplomacy*, and *Asian International Studies Review* among others.
+
+![](profiles/kf_pd_week.png){fig-align="center" width="60%"}

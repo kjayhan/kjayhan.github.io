@@ -56,7 +56,7 @@ df$'Topics & Class Materials, Assignments' <- c(
   "The Concepts of Soft Power and Smart Power",
   "Skeptical Views on Soft Power",
   "Measuring (Soft) Power",
-  "Workshop: What Do Soft Power Indices Actually Measure?", 
+  "Workshop: Measuring Power/ Influence in World Politics?", 
   "Mid-term Week", 
   "Mid-term Paper Presentations and Debriefing",
   "Legitimacy and Power",
@@ -84,7 +84,7 @@ myopts <- RefManageR::BibOptions(bib.style = "authoryear",
 # Syllabus (2023 Spring) {.unnumbered .unlisted style="color: green"}
 
 |                                                       |                                                                              |                                             |
-|----------------------|-------------------------------|-------------------|
+|-------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------|
 | [Course Title]{style="color: green"}                  | Soft Power in World Politics                                                 | [Course No.:]{style="color: green"} IS639   |
 | [Department/ Major]{style="color: green"}             | GSIS                                                                         | [Credit/ Hours:]{style="color: green"} 3    |
 | [Class time/ Classroom]{style="color: green"}         | Thursday 15:30 -- 18:15 / IEB 902                                            |                                             |
@@ -105,7 +105,7 @@ Students are expected to have at least introduction-level knowledge of internati
 ## **Course Format** {style="color:black"}
 
 |                                 |                                                  |                                               |
-|-------------------|---------------------------|--------------------------|
+|---------------------------------|--------------------------------------------------|-----------------------------------------------|
 | [Lecture]{style="color: green"} | [Discussion/ Presentation]{style="color: green"} | [Experiment/ Practicum]{style="color: green"} |
 | 20%                             | 40%                                              | 40%                                           |
 
@@ -128,7 +128,7 @@ Learning objectives:
 ## **Evaluation System**
 
 | [Mid-term Paper]{style="color: green"} | [Final Paper]{style="color: green"} | [Response Papers]{style="color: green"} | [Presentation]{style="color: green"} | [Participation and Discussion]{style="color: green"} |
-|---------------|---------------|---------------|---------------|---------------|
+|----------------------------------------|-------------------------------------|-----------------------------------------|--------------------------------------|------------------------------------------------------|
 | 30%                                    | 30%                                 | 10%                                     | 15%                                  | 15%                                                  |
 
 Explanation of the evaluation system:
@@ -181,7 +181,7 @@ Refer to the detailed course schedule below.
 
 Refer to the detailed course schedule below.
 
-# [**Ⅲ. Course Policies**]{style="color: green"}
+# **Course Policies** {style="color: green"}
 
 ## Citation and Plagiarism {style="color: black"}
 
@@ -284,6 +284,8 @@ Introduction of the course including course contents, assignments, and expectati
 
 **Recommended Readings:**
 
+-   [@ungerer2007influence]
+-   [@yecies2019cultural]
 -   Barnett, G. A., Xu, W. W., Chu, J., Jiang, K., Huh, C., Park, J. Y., & Park, H. W. (2017). Measuring international relations in social media conversations. Government Information Quarterly, 34(1), 37-44. https://doi.org/10.1016/j.giq.2016.12.004
 -   Hart, J. (1976). Three Approaches to the Measurement of Power in International Relations. International Organization, 30(2), 289-305. doi:10.1017/S0020818300018282
 -   Mcclory, J. (Ed.). (2019). Soft Power 30: A Global Ranking of Soft Power 2019. Portland.
@@ -447,7 +449,7 @@ See Final Paper Section (@sec-final) for details.
 -   According to the University regulation section #57-3, students with disabilities can request for special accommodations related to attendance, lectures, assignments, or tests by contacting the course professor at the beginning of semester. Based on the nature of the students' request, students can receive support for such accommodations from the course professor or from the Support Center for Students with Disabilities (SCSD). Please refer to the below examples of the types of support available in the lectures, assignments, and evaluations.
 
 | Lecture                                                                                                                                                             | Assignments                                         | Evaluation                                                                                                                                                                                                                                                    |
-|---------------------|------------------|---------------------------------|
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Visual impairment: braille, enlarged reading materials. Hearing impairment: note-taking assistant. Physical impairment: access to classroom, note-taking assistant. | Extra days for submission, alternative assignments. | Visual impairment: braille examination paper, examination with voice support, longer examination hours, note-taking assistant. Hearing impairment: written examination instead of oral. Physical impairment: longer examination hours, note-taking assistant. |
 
 -   Actual support may vary depending on the course.
