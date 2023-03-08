@@ -37,12 +37,12 @@ library(tinytex)
 library(kableExtra)
 library(RefManageR)
 
-Week <- 1:17 
+Week <- 1:15
 df <- as.data.frame(Week)
 
 posixct.in <- parse_date_time(x = "2023-03-02", orders = "ymd", tz = "Asia/Seoul")
 
-df$Date <- posixct.in %m+% weeks(x = seq.int(from = 0, to = 16, by = 1)) 
+df$Date <- posixct.in %m+% weeks(x = seq.int(from = 0, to = 14, by = 1)) 
 
 df$Date <- format(df$Date, format = "%d %b")
 
@@ -52,22 +52,22 @@ df$Date <- format(df$Date, format = "%d %b")
 df$'Topics & Class Materials, Assignments' <- c(
   "Introduction of the Course",
   "The Concept of Political Power",
-  "No class - (Make-up class later)",
   "The Concepts of Soft Power and Smart Power",
   "Skeptical Views on Soft Power",
+  "Legitimacy and Power",
   "Measuring (Soft) Power",
   "Workshop: Measuring Power/ Influence in World Politics?", 
   "Mid-term Week", 
   "Mid-term Paper Presentations and Debriefing",
-  "Legitimacy and Power",
   "Reputation, Status and Power",
   "Compulsory Power",
   "Institutional Power", 
   "Structural Power", 
   "Productive Power", 
-  "Submission of Final Papers",
-  ""
+  "Submission of Final Papers"
 )
+
+df$Date[3] <- "20 Mar"
 
 # df$'Readings' <- c("")
 
@@ -84,7 +84,7 @@ myopts <- RefManageR::BibOptions(bib.style = "authoryear",
 # Syllabus (2023 Spring) {.unnumbered .unlisted style="color: green"}
 
 |                                                       |                                                                              |                                             |
-|-------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------|
+|----------------------|-------------------------------|-------------------|
 | [Course Title]{style="color: green"}                  | Soft Power in World Politics                                                 | [Course No.:]{style="color: green"} IS639   |
 | [Department/ Major]{style="color: green"}             | GSIS                                                                         | [Credit/ Hours:]{style="color: green"} 3    |
 | [Class time/ Classroom]{style="color: green"}         | Thursday 15:30 -- 18:15 / IEB 902                                            |                                             |
@@ -105,7 +105,7 @@ Students are expected to have at least introduction-level knowledge of internati
 ## **Course Format** {style="color:black"}
 
 |                                 |                                                  |                                               |
-|---------------------------------|--------------------------------------------------|-----------------------------------------------|
+|-------------------|----------------------------|--------------------------|
 | [Lecture]{style="color: green"} | [Discussion/ Presentation]{style="color: green"} | [Experiment/ Practicum]{style="color: green"} |
 | 20%                             | 40%                                              | 40%                                           |
 
@@ -128,7 +128,7 @@ Learning objectives:
 ## **Evaluation System**
 
 | [Mid-term Paper]{style="color: green"} | [Final Paper]{style="color: green"} | [Response Papers]{style="color: green"} | [Presentation]{style="color: green"} | [Participation and Discussion]{style="color: green"} |
-|----------------------------------------|-------------------------------------|-----------------------------------------|--------------------------------------|------------------------------------------------------|
+|---------------|---------------|---------------|---------------|---------------|
 | 30%                                    | 30%                                 | 10%                                     | 15%                                  | 15%                                                  |
 
 Explanation of the evaluation system:
@@ -157,7 +157,7 @@ Please note that there will not be a class on `r df$Date[8]` in lieu of mid-term
 
 ### ***Final Paper*** {#sec-final}
 
-Due date: `r df$Date[16]` 23:59
+Due date: `r df$Date[15]` 23:59
 
 Students will watch a film (to be confirmed later), and write an essay (1600-2000 words -- excluding references), identifying different kinds of power relations in the film based on what we covered in this class (in particular in reference to Barnett and Duvall's power typology). I will upload the guidelines for the essay on Cyber Campus.
 
@@ -206,7 +206,7 @@ For late submissions, you will get 80% of your grading unless you have a valid e
 # [Course Schedule]{style="color: green"}
 
 ```{r}
-df[,1:3] %>% gt::gt() # %>% kbl() %>% kable_styling()
+df[,1:3] %>% kbl() %>% kable_styling() #%>% gt::gt()
 
 
 ```
@@ -227,15 +227,13 @@ Introduction of the course including course contents, assignments, and expectati
 -   [@barnett_power_2005]
 -   [@berenskoetter_felix_thinking_2007]
 
-**Recommended Readings:** {.unnumbered}
+**Recommended Readings:**
 
 -   Baldwin, D. A. (2012). Power and International Relations. Handbook of International Relations. Walter Carlsnaes, T. Risse and B. A. Simmons. London, UK, SAGE.
 -   Avant, D. D., Finnemore, M., & Sell, S. K. (2010). Who Governs the Globe? In D. D. Avant, M. Finnemore, & S. K. Sell (Eds.), Who Governs the Globe?. Cambridge, UK: Cambridge University Press.
 -   Murphy, J. B. (2011). "Perspectives on power." Journal of Political Power 4(1): 87-103.
 
 ## Week 3: `r df[3, 3]` {.unnumbered}
-
-## Week 4: `r df[4, 3]` {.unnumbered}
 
 **Required Readings:**
 
@@ -261,7 +259,7 @@ Introduction of the course including course contents, assignments, and expectati
 
 -   Walker, C., & Ludwig, J. (Eds.). (2017). Sharp Power: Rising Authoritarian Influence. National Endowment for Democracy.
 
-## Week 5: `r df[5, 3]` {.unnumbered}
+## Week 4: `r df[4, 3]` {.unnumbered}
 
 **Required Readings:**
 
@@ -273,6 +271,27 @@ Introduction of the course including course contents, assignments, and expectati
 -   Ayhan, K. J. (2021). Rethinking Soft Power: Instilling Fear, Satisfying Appetite or Appealing to Spirit. (Unpublished manuscript)
 -   Lebow, R. N. (2005). Power, Persuasion and Justice. Millennium, 33(3), 551-581.
 -   Manor, I. (2019, October 3). The Banality of Soft Power. https://digdipblog.com/2019/10/03/the-banality-of-soft-power/
+
+## Week 5: `r df[5, 3]` {.unnumbered}
+
+**Required Readings:**
+
+-   [@finnemore_legitimacy_2009]
+-   [@hurd_legitimacy_1999]
+
+**Recommended Readings:**
+
+-   Bukovansky, M. (2002). Legitimacy and Power Politics: The American and French Revolutions in International Political Culture. Princeton University Press.
+-   Clark, I. (2005). Legitimacy in International Society. Oxford University Press.
+-   Clark, I. (2007). International Legitimacy and World Society. Oxford University Press.
+-   Franck, T. M. (1990). The Power of Legitimacy Among Nations. Oxford University Press.
+-   Franck, T. M. (1995). Fairness in International Law and Institutions. Oxford University Press.
+-   Hall, R. B. (1997). Moral Authority as a Power Resource. International Organization, 51(4), 591-622.
+-   Hurd, I. (2008). After Anarchy: Legitimacy and Power in the United Nations Security Council. Princeton University Press.
+-   Kavalski, E. (2013). The struggle for recognition of normative powers: Normative power Europe and normative power China in context. Cooperation and Conflict, 48(2), 247-267.
+-   Mulligan, S. P. (2006). The uses of legitimacy in international relations. Millennium, 34(2), 349-375.
+-   Suchman, M. C. (1995). Managing legitimacy: Strategic and institutional approaches. Academy of management Review, 20(3), 571-610.
+-   Weber, M. (2019). Economy and Society: A New Translation (K. Tribe, Ed. & Trans.). Harvard University Press.
 
 ## Week 6: `r df[6, 3]` {.unnumbered}
 
@@ -307,27 +326,6 @@ See Workshop and Mid-term Section (@sec-workshop) for details.
 
 **Required Readings:**
 
--   [@finnemore_legitimacy_2009]
--   [@hurd_legitimacy_1999]
-
-**Recommended Readings:**
-
--   Bukovansky, M. (2002). Legitimacy and Power Politics: The American and French Revolutions in International Political Culture. Princeton University Press.
--   Clark, I. (2005). Legitimacy in International Society. Oxford University Press.
--   Clark, I. (2007). International Legitimacy and World Society. Oxford University Press.
--   Franck, T. M. (1990). The Power of Legitimacy Among Nations. Oxford University Press.
--   Franck, T. M. (1995). Fairness in International Law and Institutions. Oxford University Press.
--   Hall, R. B. (1997). Moral Authority as a Power Resource. International Organization, 51(4), 591-622.
--   Hurd, I. (2008). After Anarchy: Legitimacy and Power in the United Nations Security Council. Princeton University Press.
--   Kavalski, E. (2013). The struggle for recognition of normative powers: Normative power Europe and normative power China in context. Cooperation and Conflict, 48(2), 247-267.
--   Mulligan, S. P. (2006). The uses of legitimacy in international relations. Millennium, 34(2), 349-375.
--   Suchman, M. C. (1995). Managing legitimacy: Strategic and institutional approaches. Academy of management Review, 20(3), 571-610.
--   Weber, M. (2019). Economy and Society: A New Translation (K. Tribe, Ed. & Trans.). Harvard University Press.
-
-## Week 11: `r df[11, 3]` {.unnumbered}
-
-**Required Readings:**
-
 -   [@khong_power_2019]
 -   [@lebow_power_2005]
 -   [@wohlforth_moral_2017]
@@ -344,7 +342,7 @@ See Workshop and Mid-term Section (@sec-workshop) for details.
 -   Lebow, R. N. (2008). A Cultural Theory of International Relations. Cambridge, Cambridge University Press. Ch. 2
 -   Renshon, J. (2016). "Status Deficits and War." International Organization 70(3): 513-550. Wood, S. (2013). "Prestige in world politics: History, theory, expression." International Politics 50(3): 387-411.
 
-## Week 12: `r df[12, 3]` {.unnumbered}
+## Week 11: `r df[11, 3]` {.unnumbered}
 
 Note: Compulsory power through material threats is rather straightforward and you read articles on these topics in other courses. Therefore, I will spend more time on compulsory power through naming and shaming and other symbolic strategies.
 
@@ -361,7 +359,7 @@ Note: Compulsory power through material threats is rather straightforward and yo
 -   Risse, T., et al., Eds. (2013). The Persistent Power of Human Rights: From Commitment to Compliance. Cambridge, Cambridge University Press.
 -   Vadlamannati, K. C., et al. (2018). "Human Rights Shaming and FDI: Effects of the UN Human Rights Commission and Council." World Development 104: 222-237.
 
-## Week 13: `r df[13, 3]` {.unnumbered}
+## Week 12: `r df[12, 3]` {.unnumbered}
 
 **Required Readings:**
 
@@ -382,7 +380,7 @@ Note: Compulsory power through material threats is rather straightforward and yo
 -   Pouliot, V. (2014). Setting Status in Stone: The Negotiation of International Institutional Privileges. In D. Welch Larson, - T. Shaffer, G. (2004). Power, governance, and the WTO: a comparative institutional approach. Power in Global Governance. M. Barnett and R. Duvall. Cambridge, Cambridge University Press: 130-160.
 -   Paul, V. & W. C. Wohlforth (Eds.), Status in World Politics (pp. 192-216). Cambridge University Press. https://doi.org/DOI: 10.1017/CBO9781107444409.012
 
-## Week 14: `r df[14, 3]` {.unnumbered}
+## Week 13: `r df[13, 3]` {.unnumbered}
 
 **Required Readings:**
 
@@ -410,7 +408,7 @@ Note: Compulsory power through material threats is rather straightforward and yo
 -   Strange, S. (1990). Finance, information and power. Review of International Studies, 16(3), 259-274.
 -   Worth, O. (2010). Recasting Gramsci in international politics. Review of International Studies 37(1), 373-392.
 
-## Week 15: `r df[15, 3]` {.unnumbered}
+## Week 14: `r df[14, 3]` {.unnumbered}
 
 **Required Readings:**
 
@@ -435,7 +433,7 @@ Note: Compulsory power through material threats is rather straightforward and yo
 -   Payne, R. A. (2001). "Persuasion, Frames and Norm Construction." European Journal of International Relations 7(1): 37-61.
 -   Risse, T. (2011). "Ideas, discourse, power and the end of the Cold War: 20 years on." International Politics 48(4-5): 591-606.
 
-## Week 16: `r df[16, 3]` {.unnumbered}
+## Week 15: `r df[15, 3]` {.unnumbered}
 
 See Final Paper Section (@sec-final) for details.
 
@@ -449,7 +447,7 @@ See Final Paper Section (@sec-final) for details.
 -   According to the University regulation section #57-3, students with disabilities can request for special accommodations related to attendance, lectures, assignments, or tests by contacting the course professor at the beginning of semester. Based on the nature of the students' request, students can receive support for such accommodations from the course professor or from the Support Center for Students with Disabilities (SCSD). Please refer to the below examples of the types of support available in the lectures, assignments, and evaluations.
 
 | Lecture                                                                                                                                                             | Assignments                                         | Evaluation                                                                                                                                                                                                                                                    |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------|-----------------|----------------------------------|
 | Visual impairment: braille, enlarged reading materials. Hearing impairment: note-taking assistant. Physical impairment: access to classroom, note-taking assistant. | Extra days for submission, alternative assignments. | Visual impairment: braille examination paper, examination with voice support, longer examination hours, note-taking assistant. Hearing impairment: written examination instead of oral. Physical impairment: longer examination hours, note-taking assistant. |
 
 -   Actual support may vary depending on the course.

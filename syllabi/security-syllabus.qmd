@@ -38,12 +38,12 @@ library(tinytex)
 library(kableExtra)
 library(RefManageR)
 
-Week <- 1:17 
+Week <- 1:15 
 df <- as.data.frame(Week)
 
 posixct.in <- parse_date_time(x = "2023-03-07", orders = "ymd", tz = "Asia/Seoul")
 
-df$Date <- posixct.in %m+% weeks(x = seq.int(from = 0, to = 16, by = 1)) 
+df$Date <- posixct.in %m+% weeks(x = seq.int(from = 0, to = 14, by = 1)) 
 
 df$Date <- format(df$Date, format = "%d %b")
 
@@ -52,23 +52,24 @@ df$Date <- format(df$Date, format = "%d %b")
 
 df$'Topics & Class Materials, Assignments' <- c(
   "Introduction of the Course",
-  "No class - (Make-up class later)",
   "Overview of International Relations Theories",
   "Diplomacy Game 1",
   "Diplomacy Game 2 and Debriefing",
   "Working with Security-related Data",
   "Anarchy, Order, and Security",
-  "Mid-term Week", 
   "International Institutions and Security",
+  "Mid-term Week", 
   "Security Communities",
   "Securitization Theory",
   "Ontological Security",
   "Final Paper Proposals", 
   "Reputation and Status for Security", 
   "Cybersecurity", 
-  "Submission of Final Papers",
-  ""
+  "Submission of Final Papers"
 )
+
+df$Date[2] <- df$Date[3]
+df$Date[3] <- df$Date[4]
 ```
 
 # Syllabus (2023 Spring) {.unnumbered .unlisted style="color: green"}
@@ -125,7 +126,27 @@ Explanation of the evaluation system:
 
 Length: Less than half a page.
 
-In order to prepare for class discussion, you must read all required articles and submit weekly response papers beginning from Week 6. Each student needs to submit at least four response papers (that is for four different weeks). The presenter(s) should not submit a response paper. The weekly response paper consists of two parts. The first part will be a short summary of required articles, linking them together based on common themes. Make sure to include MAIN puzzles, and arguments. In the second part, you will criticize the articles by identifying problems in them. Weekly response papers need to be submitted to Cyber Campus before class time. You are encouraged to, but you don't have to, make comments to your colleagues' response papers.
+In order to prepare for class discussion, you must read all required articles and submit weekly response papers beginning from Week 6. Each student needs to submit at least four response papers (that is for four different weeks). The presenter(s) should not submit a response paper. For the response paper, you will feed [ChatGPT](https://openai.com/blog/chatgpt) some concepts/ theories/ frameworks based on the readings and ask it to write a one-page essay applying it to a specific case study. Then critique this essay. You need to submit weekly response papers to Cyber Campus before class time. You are encouraged to, but you don't have to, make comments to your colleagues' response papers.
+
+**Example:**
+
+::: {.border style="color: green"}
+Question: Apply Barnett and Duvall's power taxonomy to a case study.
+:::
+
+::: {.border style="color: blue"}
+Answer: Sure, let's consider the case of the United States' intervention in Iraq in 2003.
+
+1.  Material power: The United States possessed significant military and economic resources that it used to exert power over Iraq. The U.S. military intervention was a clear demonstration of material power, as the United States was able to overpower the Iraqi military and control territory.
+
+2.  Institutional power: The United States used its institutional power to shape the rules and norms that governed the international community's response to Iraq. The U.S. government made a case to the international community that Iraq posed a threat to international security and violated international law, which allowed the United States to justify its intervention. The United States also formed a "coalition of the willing" to support its intervention and gain legitimacy in the international community.
+
+3.  Discursive power: The United States used its discursive power to shape the way the public and the international community perceived Iraq and the legitimacy of its intervention. The U.S. government used language and imagery to portray Iraq as a threat to international security and to justify its intervention as a necessary response to this threat.
+
+Overall, the U.S. intervention in Iraq in 2003 can be seen as an exercise of power that relied on a combination of material, institutional, and discursive capacities. The intervention relied on the United States' military and economic resources to exert direct control over Iraq, while also using its institutional and discursive power to shape the rules and norms that governed international relations and the perception of the intervention.
+:::
+
+You would be critiquing this essay based on your reading of Barnett and Duvall's power taxonomy and its application to the case study.
 
 ### ***Presentations***
 
@@ -137,15 +158,19 @@ All students will make one presentation on a case study. The presenter must read
 
 Due date: `r df$Date[8]` 23:59
 
-We will play the [Diplomacy board game which simulates the European balance of power at the time of World War I](https://www.playdiplomacy.com/). You will write a short paper (900-1100 words) connecting what happened in the game with different theoretical approaches to international security. You can find the guidelines for the essay [here](mid-term-instructions.qmd). You will submit your mid-term to Cyber Campus (Turnitin).
+We will play the [Diplomacy board game which simulates the European balance of power at the time of World War I](https://www.playdiplomacy.com/). You will write a short paper (900-1100 words) connecting what happened in the game with different theoretical approaches to international security.
+
+You can find the game instructions and information [here](diplomacy-game.qmd).
+
+You can find the guidelines for the essay [here](mid-term-instructions.qmd). You will submit your mid-term to Cyber Campus (Turnitin).
 
 Please note that there will not be a class on `r df$Date[8]` in lieu of mid-term exam week.
 
 ### ***Final Paper*** {#sec-final}
 
-Proposal date: `r df$Date[13]` Class time
+Proposal date: `r df$Date[12]` Class time
 
-Due date: `r df$Date[16]` 23:59
+Due date: `r df$Date[15]` 23:59
 
 Word count: 4000-6000 words
 
@@ -207,7 +232,7 @@ For late submissions, you will get 80% of your grading unless you have a valid e
 # [Course Schedule]{style="color: green"}
 
 ```{r}
-df[,1:3] %>% gt::gt() #kbl() %>% kable_styling()
+df[,1:3] %>% kbl() %>% kable_styling()  #%>% gt::gt()
 ```
 
 {{< pagebreak >}}
@@ -219,8 +244,6 @@ df[,1:3] %>% gt::gt() #kbl() %>% kable_styling()
 Introduction of the course including course contents, assignments, and expectations.
 
 ## Week 2: `r df[2, 3]`{.unnumbered}
-
-## Week 3: `r df[3, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -257,7 +280,7 @@ Introduction of the course including course contents, assignments, and expectati
 -   Wendt, A. (1992). Anarchy is what states make of it: the social construction of power politics. International Organization, 46(02), 391-425.
 -   Zehfuss, Maja (2013). Critical Theory, Poststructuralism, and Postcolonialism. In W. Carlsnaes, T. Risse, & B. A. Simmons (Eds.), Handbook of International Relations (145-169). London: SAGE Publications.
 
-## Week 4: `r df[4, 3]`{.unnumbered}
+## Week 3: `r df[3, 3]`{.unnumbered}
 
 Here are the [guidelines](diplomacy-game.qmd) for the game, and the [instructions for the essay](mid-term-instructions.qmd) based on the game.
 
@@ -267,7 +290,7 @@ Here are the [guidelines](diplomacy-game.qmd) for the game, and the [instruction
 -   Wendt, Alexander (1999). Social Theory of International Politics. Cambridge, UK: Cambridge University Press. Chapter 6.
 -   Wight, Martin (1991). The Three Traditions of International Theory. In International Theory: The Three Traditions, eds. G. Wight and N. Porter. Leicester: Leicester University Press, 7--24.
 
-## Week 5: `r df[5, 3]`{.unnumbered}
+## Week 4: `r df[4, 3]`{.unnumbered}
 
 In the latter half of the class, we will discuss what we have learned from this active learning exercise in an interactive session.
 
@@ -280,7 +303,7 @@ In the latter half of the class, we will discuss what we have learned from this 
 -   Snyder, G. H. (1984). The Security Dilemma in Alliance Politics. World Politics, 36(4), 461-495.
 -   Walt, S. M. (1985). Alliance Formation and the Balance of World Power. International Security, 9(4), 3-43.
 
-## Week 6: `r df[6, 3]`{.unnumbered}
+## Week 5: `r df[5, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -314,7 +337,7 @@ In the latter half of the class, we will discuss what we have learned from this 
 
 -   [R for Data Science, 2nd Edition by Hadley Wickham and Garrett Grolemund](https://r4ds.hadley.nz/)
 
-## Week 7: `r df[7, 3]`{.unnumbered}
+## Week 6: `r df[6, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -337,11 +360,7 @@ Recommended Readings:
 -   Park, Seo-Hyun (2017). Sovereignty and Status in East Asian International Relations. Cambridge: Cambridge University Press.
 -   Wohlforth, W. C. (1999). The Stability of a Unipolar World. International Security, 24(1), 5-41.
 
-## Week 8: `r df[8, 3]`{.unnumbered}
-
-See Mid-term Section (@sec-mid-term) for details.
-
-## Week 9: `r df[9, 3]`{.unnumbered}
+## Week 7: `r df[7, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -357,7 +376,11 @@ See Mid-term Section (@sec-mid-term) for details.
 -   Pouliot, V. (2016). Hierarchy in Practice: Multilateral Diplomacy and the Governance of International Security, European Journal of International Security, 1(1), 5-26.
 -   Ruggie, J. G. (1982). International regimes, transactions, and change: embedded liberalism in the postwar economic order. International Organization, 36(2), 379-415.
 
-## Week 10: `r df[10, 3]`{.unnumbered}
+## Week 8: `r df[8, 3]`{.unnumbered}
+
+See Mid-term Section (@sec-mid-term) for details.
+
+## Week 9: `r df[9, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -375,7 +398,7 @@ See Mid-term Section (@sec-mid-term) for details.
 -   Koschut, S. (2014). Emotional (security) communities: the significance of emotion norms in inter-allied conflict management. Review of International Studies, 40(3), 533-558.
 -   Pouliot, Vincent (2008). The Logic of Practicality: A Theory of Practice of Security Communities. International Organization, 62(2), 257-288.
 
-## Week 11: `r df[11, 3]`{.unnumbered}
+## Week 10: `r df[10, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -392,7 +415,7 @@ See Mid-term Section (@sec-mid-term) for details.
 -   Vaughan-Williams, N., & Stevens, D. (2015). Vernacular theories of everyday (in)security: The disruptive potential of non-elite knowledge. Security Dialogue, 47(1), 40-58.
 -   Wæver, O. (2011). Politics, security, theory. Security Dialogue, 42(4-5), 465-480.
 
-## Week 12: `r df[12, 3]`{.unnumbered}
+## Week 11: `r df[11, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -409,11 +432,11 @@ See Mid-term Section (@sec-mid-term) for details.
 -   Pratt, S. F. (2017). A relational view of ontological security in international relations. International Studies Quarterly, 61(1), 78-85.
 -   Zarakol, Ayşe (2016). States and ontological security: A historical rethinking. Cooperation and Conflict, 52(1), 48-68.
 
-## Week 13: `r df[13, 3]`{.unnumbered}
+## Week 12: `r df[12, 3]`{.unnumbered}
 
 See Final Paper Section (@sec-final) for details.
 
-## Week 14: `r df[14, 3]`{.unnumbered}
+## Week 13: `r df[13, 3]`{.unnumbered}
 
 **Required Readings:**
 
@@ -433,7 +456,7 @@ See Final Paper Section (@sec-final) for details.
 -   Wohlforth, W. C. (2009). Unipolarity, status competition, and great power war. World Politics, 61(1), 28-57.
 -   Yarhi-Milo, Keren (2018). Who fights for reputation: the psychology of leaders in international conflict. Princeton University Press. Introduction chapter.
 
-## Week 15: `r df[15, 3]`{.unnumbered}
+## Week 14: `r df[14, 3]`{.unnumbered}
 
 There will be an invited speaker for this class. I will give the required readings list later in the semester.
 
@@ -448,7 +471,7 @@ There will be an invited speaker for this class. I will give the required readin
 -   Nye Jr, J. S. (2016). Deterrence and dissuasion in cyberspace. International security, 41(3), 44-71.
 -   Reinsberg, B. (2021). Fully-automated liberalism? Blockchain technology and international cooperation in an anarchic world. International Theory, 13(2), 287-313.
 
-## Week 16: `r df[16, 3]`{.unnumbered}
+## Week 15: `r df[15, 3]`{.unnumbered}
 
 See Final Paper Section (@sec-final) for details.
 

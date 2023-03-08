@@ -5,18 +5,20 @@ author: Dr. Kadir Jun Ayhan
 ---
 
 ::: border
-"At the beginning of the 20th century, Europe was a complicated cauldron of political intrigue. You are about to travel back to those times and change the course of history in your favor." -- Diplomacy Rulebook
+*"At the beginning of the 20th century, Europe was a complicated cauldron of political intrigue. You are about to travel back to those times and change the course of history in your favor."*
+
+Diplomacy Rulebook
 :::
 
 # Instructions and Information[^1]
 
-[^1]: Much of this content is adapted from the supplamentary file provided by [Eric R Rittinger](https://www.salisbury.edu/faculty-and-staff/errittinger). I appreciate him for making these materials available for adaptation.
+[^1]: Much of this content is adapted from the supplementary file provided by [Eric R Rittinger](https://www.salisbury.edu/faculty-and-staff/errittinger). I appreciate him for making these materials available for adaptation.
 
     Rittinger, E. R. (2020). Inspiring students to think theoretically about international relations through the game of diplomacy. *Journal of Political Science Education*, *16*(1), 41-56. doi: [10.1080/15512169.2018.1516556](https://doi.org/10.1080/15512169.2018.1516556).
 
 1.  There are seven countries representing the European great powers of the early 20th century: England, Germany, France, Russia, Austria, Italy, and Turkey.
 
-2.  We will use an online platform to play the game (http://www.playdiplomacy.com/). I will distribute id's and passwords to all team members.
+2.  We will use an [online platform](http://www.playdiplomacy.com/) to play the game. I will distribute id's and passwords to all team members.
 
 3.  Everyone must study the game rules, which are available [here](http://www.playdiplomacy.com/help.php?sub_page=Game_Rules).
 
@@ -28,7 +30,7 @@ author: Dr. Kadir Jun Ayhan
 
 4.  Knowing the rules is essential to winning the game.
 
-5.  You will play both in and outside of class. In-class game sessions will progress at a much quicker pace. Outside the class, you will make moves every 24 hours.
+5.  ~~You will play both in and outside of class. In-class game sessions will progress at a much quicker pace. Outside the class, you will make moves every 24 hours.~~
 
 6.  Make sure to communicate with other teams, using the in-game messaging.
 
@@ -38,17 +40,17 @@ author: Dr. Kadir Jun Ayhan
 
 9.  The bonus point scheme is as follows:
 
--   1 winner: 6 points
+-   1 winner: 4 points
 
--   2 winners: 6 points to be allocated among the winners
+-   2 winners: 5 points to be allocated among the winners
 
--   3 winners: 6 points to be allocated among the winners
+-   3 winners: 5 points to be allocated among the winners
 
--   4 winners: 7 points to be allocated among the winners
+-   4 winners: 5 points to be allocated among the winners
 
--   5 winners: 7 points to be allocated among the winners
+-   5 winners: 6 points to be allocated among the winners
 
--   6 winners: 8 points to be allocated among the winners
+-   6 winners: 7 points to be allocated among the winners
 
 -   7 winners: 8 points to be allocated among the winners
 
