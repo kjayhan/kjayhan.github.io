@@ -85,7 +85,7 @@ myopts <- RefManageR::BibOptions(bib.style = "authoryear",
 # Syllabus (2023 Spring) {.unnumbered .unlisted style="color: green"}
 
 |                                                       |                                                                              |                                             |
-|----------------------|-------------------------------|-------------------|
+|-------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------|
 | [Course Title]{style="color: green"}                  | Soft Power in World Politics                                                 | [Course No.:]{style="color: green"} IS639   |
 | [Department/ Major]{style="color: green"}             | GSIS                                                                         | [Credit/ Hours:]{style="color: green"} 3    |
 | [Class time/ Classroom]{style="color: green"}         | Thursday 15:30 -- 18:15 / IEB 902                                            |                                             |
@@ -106,7 +106,7 @@ Students are expected to have at least introduction-level knowledge of internati
 ## **Course Format** {style="color:black"}
 
 |                                 |                                                  |                                               |
-|-------------------|---------------------------|--------------------------|
+|---------------------------------|--------------------------------------------------|-----------------------------------------------|
 | [Lecture]{style="color: green"} | [Discussion/ Presentation]{style="color: green"} | [Experiment/ Practicum]{style="color: green"} |
 | 20%                             | 40%                                              | 40%                                           |
 
@@ -129,7 +129,7 @@ Learning objectives:
 ## **Evaluation System**
 
 | [Mid-term Paper]{style="color: green"} | [Final Paper]{style="color: green"} | [Response Papers]{style="color: green"} | [Presentation]{style="color: green"} | [Participation and Discussion]{style="color: green"} |
-|---------------|---------------|---------------|---------------|---------------|
+|----------------------------------------|-------------------------------------|-----------------------------------------|--------------------------------------|------------------------------------------------------|
 | 30%                                    | 30%                                 | 10%                                     | 15%                                  | 15%                                                  |
 
 Explanation of the evaluation system:
@@ -244,7 +244,7 @@ Introduction of the course including course contents, assignments, and expectati
 
 **Recommended Readings:**
 
--   Armitage, R. L., & Nye, J. S. (2007). CSIS Commission on Smart Power: A Smarter, More Secure America: CSIS. Vuving, A. (2009). How soft power works. American Political Science Association Annual Meeting. Toronto.
+-   Armitage, R. L., & Nye, J. S. (2007). CSIS Commission on Smart Power: A Smarter, More Secure America: CSIS.
 
 -   Hayden, C. (2012). The Rhetoric of Soft Power. Lexington Books. Ohnesorge, H. W. (2020). Soft Power: The Forces of Attraction in International Relations. Springer.
 
@@ -259,6 +259,8 @@ Introduction of the course including course contents, assignments, and expectati
 -   Nye, J. S. (2021). Soft power: the evolution of a concept. Journal of Political Power, 14(1), 196-208. https://doi.org/10.1080/2158379X.2021.1879572
 
 -   Van Ham, P. (2010). Social Power in International Politics. New York, Routledge. Lukes, S. (2005). "Power and the Battle for Hearts and Minds." Millennium 33(3): 477-493.
+
+-   Vuving, A. (2009). How soft power works. American Political Science Association Annual Meeting. Toronto.
 
 -   Walker, C., & Ludwig, J. (Eds.). (2017). Sharp Power: Rising Authoritarian Influence. National Endowment for Democracy.
 
@@ -450,7 +452,7 @@ See Final Paper Section (@sec-final) for details.
 -   According to the University regulation section #57-3, students with disabilities can request for special accommodations related to attendance, lectures, assignments, or tests by contacting the course professor at the beginning of semester. Based on the nature of the students' request, students can receive support for such accommodations from the course professor or from the Support Center for Students with Disabilities (SCSD). Please refer to the below examples of the types of support available in the lectures, assignments, and evaluations.
 
 | Lecture                                                                                                                                                             | Assignments                                         | Evaluation                                                                                                                                                                                                                                                    |
-|---------------------|------------------|---------------------------------|
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Visual impairment: braille, enlarged reading materials. Hearing impairment: note-taking assistant. Physical impairment: access to classroom, note-taking assistant. | Extra days for submission, alternative assignments. | Visual impairment: braille examination paper, examination with voice support, longer examination hours, note-taking assistant. Hearing impairment: written examination instead of oral. Physical impairment: longer examination hours, note-taking assistant. |
 
 -   Actual support may vary depending on the course.
