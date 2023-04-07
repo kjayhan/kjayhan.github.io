@@ -980,6 +980,13 @@
     "text": "This book by Nick Huntington-Klein is more student-friendly I should say. It is a great introduction to econometrics with code examples in R, Stata and Python\nYou can find the course lectures here."
   },
   {
+    "objectID": "blog/2023-04-08 Korean Diplomatic Missions Abroad/index.html",
+    "href": "blog/2023-04-08 Korean Diplomatic Missions Abroad/index.html",
+    "title": "Korean Diplomatic Missions Abroad",
+    "section": "",
+    "text": "I wish the actual post was here, but I had to move it to a different link since gh-pages does not seem to protect API privately.\nAnyways, the blog post is here."
+  },
+  {
     "objectID": "blog/2023-01-15 Ewha Computational Social Science Workshop/index.html",
     "href": "blog/2023-01-15 Ewha Computational Social Science Workshop/index.html",
     "title": "About Ewha GSIS Computational Social Science Workshop",
@@ -1320,7 +1327,7 @@
     "href": "syllabi/security-syllabus.html#week-5-working-with-security-related-data",
     "title": "International Security",
     "section": "Week 5: Working with Security-related Data",
-    "text": "Week 5: Working with Security-related Data\nRequired Readings:\n\nAllen, M. A., Flynn, M. E., & Machain, C. M. (2022). US global military deployments, 1950–2020*. Conflict Management and Peace Science, 39(3), 351–370. https://doi.org/10.1177/07388942211030885\nGibler, D. M., & Miller, S. V. (2022). An Appraisal of Project Mars and the Divided Armies Argument. International Studies Quarterly, 66(2). https://doi.org/10.1093/isq/sqac011\nMiller, S. V. (2022). peacesciencer: An R package for quantitative peace science research. Conflict Management and Peace Science, 39(6), 755–779. https://doi.org/10.1177/07388942221077926\n\nRecommended Readings:\n\nGibler, D. M., Miller, S. V., & Little, E. K. (2017). An Analysis of the Militarized Interstate Dispute (MID) Dataset, 1816–2001. International Studies Quarterly, 60(4), 719–730. https://doi.org/10.1093/isq/sqw045\nLyall, J. (2020). Divided armies: Inequality and battlefield performance in modern war. Princeton University Press.\nPoast, P. (2017). (Mis)using dyadic data to analyze multilateral events. Political Analysis, 18(4), 403–425. https://doi.org/10.1093/pan/mpq024\nSchvitz, G., Girardin, L., Rüegger, S., Weidmann, N. B., Cederman, L.-E., & Gleditsch, K. S. (2022). Mapping the international system, 1886-2019: The CShapes 2.0 dataset. Journal of Conflict Resolution, 66(1), 144–161.\nCorrelates of War\nMichael Flynn’s Github repositories\nSteven V. Miller’s Github repositories\nA collection of conflict analysis and resolution-related datasets hosted by GMU\nThe Peace Research Institute Oslo (PRIO) datasets\nInternational Interactions journal\nR for Data Science, 2nd Edition by Hadley Wickham and Garrett Grolemund"
+    "text": "Week 5: Working with Security-related Data\nRequired Readings:\n\nAllen, M. A., Flynn, M. E., & Machain, C. M. (2022). US global military deployments, 1950–2020*. Conflict Management and Peace Science, 39(3), 351–370. https://doi.org/10.1177/07388942211030885\nGibler, D. M., & Miller, S. V. (2022). An Appraisal of Project Mars and the Divided Armies Argument. International Studies Quarterly, 66(2). https://doi.org/10.1093/isq/sqac011\nMiller, S. V. (2022). peacesciencer: An R package for quantitative peace science research. Conflict Management and Peace Science, 39(6), 755–779. https://doi.org/10.1177/07388942221077926\n\nRecommended Readings:\n\nGibler, D. M., Miller, S. V., & Little, E. K. (2017). An Analysis of the Militarized Interstate Dispute (MID) Dataset, 1816–2001. International Studies Quarterly, 60(4), 719–730. https://doi.org/10.1093/isq/sqw045\nLyall, J. (2020). Divided armies: Inequality and battlefield performance in modern war. Princeton University Press.\nPoast, P. (2017). (Mis)using dyadic data to analyze multilateral events. Political Analysis, 18(4), 403–425. https://doi.org/10.1093/pan/mpq024\nSchvitz, G., Girardin, L., Rüegger, S., Weidmann, N. B., Cederman, L.-E., & Gleditsch, K. S. (2022). Mapping the international system, 1886-2019: The CShapes 2.0 dataset. Journal of Conflict Resolution, 66(1), 144–161.\nCorrelates of War\nMichael Flynn’s Github repositories\nSteven V. Miller’s Github repositories\nA collection of conflict analysis and resolution-related datasets hosted by GMU\nThe Peace Research Institute Oslo (PRIO) datasets\nInternational Interactions journal\nHarvard Dataverse\nR for Data Science, 2nd Edition by Hadley Wickham and Garrett Grolemund"
   },
   {
     "objectID": "syllabi/security-syllabus.html#week-6-anarchy-order-and-security",
@@ -1691,6 +1698,6 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Useful links\n\n\n\nuseful links\n\n\n\n\n\n\n\nKadir Jun Ayhan\n\n\nFeb 8, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Ewha GSIS Computational Social Science Workshop\n\n\n\nEwha GSIS\n\n\nR\n\n\n\n\n\n\n\nKadir Jun Ayhan\n\n\nJan 15, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Korean Diplomatic Missions Abroad\n\n\n\nIR\n\n\nmap\n\n\ndata visualization\n\n\nKorean diplomacy\n\n\n\n\n\n\n\nKadir Jun Ayhan\n\n\nApr 8, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nUseful links\n\n\n\nuseful links\n\n\n\n\n\n\n\nKadir Jun Ayhan\n\n\nFeb 8, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Ewha GSIS Computational Social Science Workshop\n\n\n\nEwha GSIS\n\n\nR\n\n\n\n\n\n\n\nKadir Jun Ayhan\n\n\nJan 15, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -61,9 +61,8 @@ Tutorials about using quarto for your blog or website:
 
 -   [Building a Blog with Quarto](https://www.youtube.com/live/CVcvXfRyfE0?feature=share)
 
-```{=html}
 <!-- -->
-```
+
 -   [Switching to Quarto](https://jollydata.blog/posts/2022-08-06-switching-to-quarto/switching-to-quarto.html)
 
 ## Article authoring
