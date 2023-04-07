@@ -984,7 +984,7 @@
     "href": "blog/2023-04-08 Korean Diplomatic Missions Abroad/index.html",
     "title": "Korean Diplomatic Missions Abroad",
     "section": "",
-    "text": "This is a simple blog post with visualization of Korean diplomatic missions abroad. I will (hopefully) add more details later.\nThe data is from Korean Ministry of Foreign Affairs as of 31 December 2020.\nThe first map is created with Google Map’s API and the googleway package.\nNOTE: I temporarily disabled the Google Map because of a compromised API. Will figure this out and update the blog.\n\n\n\n\n\n\n\n\n\n\n\nGrouped by Country"
+    "text": "I wish the actual post was here, but I had to move it to a different link since gh-pages does not seem to protect API privately.\nAnyways, the blog post is here."
   },
   {
     "objectID": "blog/2023-01-15 Ewha Computational Social Science Workshop/index.html",
