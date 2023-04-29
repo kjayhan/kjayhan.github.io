@@ -46,6 +46,10 @@ website:
       #  file: media.qmd
       - text: "Blog"
         file: blog.qmd
+      - text: "PD in Other Words"
+        href: https://pdother.netlify.app
+      - text: "Korean Diplomacy Data Hub"
+        href: https://kdiplo.netlify.app
       #- text: "Useful Links"
       #  file: links.qmd
 format:

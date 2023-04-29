@@ -38,12 +38,12 @@ library(tinytex)
 library(kableExtra)
 library(RefManageR)
 
-Week <- 1:15 
+Week <- 1:16 
 df <- as.data.frame(Week)
 
 posixct.in <- parse_date_time(x = "2023-03-07", orders = "ymd", tz = "Asia/Seoul")
 
-df$Date <- posixct.in %m+% weeks(x = seq.int(from = 0, to = 14, by = 1)) 
+df$Date <- posixct.in %m+% weeks(x = seq.int(from = 0, to = 15, by = 1)) 
 
 df$Date <- format(df$Date, format = "%d %b")
 
@@ -64,18 +64,20 @@ df$'Topics & Class Materials, Assignments' <- c(
   "Ontological Security",
   "Final Paper Proposals", 
   "Reputation and Status for Security", 
-  "Cybersecurity", 
+  "Cyber Warfare",
+  "Wrap Up: So, What is Security?",
   "Submission of Final Papers"
 )
 
 df$Date[2] <- df$Date[3]
 df$Date[3] <- df$Date[4]
+df$Date[15] <- "10 Jun"
 ```
 
 # Syllabus (2023 Spring) {.unnumbered .unlisted style="color: green"}
 
 |                                                       |                                                                              |                                             |
-|-------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------|
+|-----------------------|------------------------------|-------------------|
 | [Course Title]{style="color: green"}                  | International Security                                                       | [Course No.:]{style="color: green"} IS518   |
 | [Department/ Major]{style="color: green"}             | GSIS                                                                         | [Credit/ Hours:]{style="color: green"} 3    |
 | [Class time/ Classroom]{style="color: green"}         | Tuesday 15:30 -- 18:15 / IEB 902                                             |                                             |
@@ -96,7 +98,7 @@ None.
 ## **Course Format** {style="color:black"}
 
 |                                 |                                                  |                                               |
-|---------------------------------|--------------------------------------------------|-----------------------------------------------|
+|-------------------|---------------------------|--------------------------|
 | [Lecture]{style="color: green"} | [Discussion/ Presentation]{style="color: green"} | [Experiment/ Practicum]{style="color: green"} |
 | 20%                             | 40%                                              | 40%                                           |
 
@@ -117,7 +119,7 @@ Learning objectives:
 ## **Evaluation System**
 
 | [Mid-term Paper]{style="color: green"} | [Final Paper]{style="color: green"} | [Response Papers]{style="color: green"} | [Presentation]{style="color: green"} | [Participation and Discussion]{style="color: green"} |
-|----------------------------------------|-------------------------------------|-----------------------------------------|--------------------------------------|------------------------------------------------------|
+|---------------|---------------|---------------|---------------|---------------|
 | 15%                                    | 40%                                 | 10%                                     | 15%                                  | 20%                                                  |
 
 Explanation of the evaluation system:
@@ -253,30 +255,14 @@ Introduction of the course including course contents, assignments, and expectati
 
 **Recommended Readings:**
 
--   Barkawi, T., & Laffey, M. (2006). The Postcolonial Moment in Security Studies. Review of International Studies, 32(2), 329-352.
--   Barkawi, Tarak (2016). Decolonising war. European Journal of International Security, 1(2), 199-214.
--   Browning, C. S. (2013). International security: A very short introduction. Oxford: Oxford University Press.
--   [@burke_security_2017]
--   [@buzan_evolution_2009], Chapter 2.
--   Buzan, Barry (2015). The English School: A neglected approach to international security studies. Security Dialogue, 46(2), 126-143.
--   Buzan, Barry, and Lene Hansen (2009). The Evolution of International Security Studies. Cambridge University Press. Chapters 1, 3.
 -   Buzan, B. (2014). An Introduction to the English School of International Relations: The Societal Approach. Cambridge: Polity Press. (12-39)
--   Haftendorn, Helga (1991). The Security Puzzle: Theory-Building and Discipline-Building in International Security. International Studies Quarterly, 35(1), 3-17.
 -   Hobden, S., & Jones, R. W. (2014). Marxist theories of international relations. In J. Baylis, S. Smith, & P. Owens (Eds.), The globalization of world politics: An introduction to international relations (6th Edition ed., 141-154). Oxford: Oxford University Press.
--   Hudson, Valerie M., Mary Caprioli, Bonnie Ballif-Spanvill, Rose McDermott, and Chad F. Emmett (2009). The heart of the matter: The security of women and the security of states. International security, 33(3), 7-45.
 -   Keohane, R. O., & Nye, J. S. (2012 \[1997\]). Power and Interdependence (4th ed.). Boston: Longman, Chapters 1-3.
--   Lebow, R. Ned (2010). Why Nations Fight: Past and Future Motives for War. Cambridge: Cambridge University Press. Chapter 1.
--   Levy, Jack S. (1998). The Causes of War and the Conditions of Peace. Annual Review of Political Science, 1(1), 139-165.
 -   Mearsheimer, J. J. (2013). Structural Realism. In T. Dunne, M. Kurki, & S. Smith (Eds.), International Relations Theories: Discipline and Diversity (3rd Edition ed., 77-93). Oxford: Oxford University Press.
 -   Mingst, Karen and Arreguin-Toft, Ivan M. (2017). Essentials of International Relations (7th Edition), W.W. Norton Company, Ch. 3
 -   Nau, H. R. (2019). Perspectives on international relations: power, institutions, and ideas (6th ed.). Thousand Oaks, California: CQ Press, 52-54, 151-161.
--   Paris, R. (2001). Human Security: Paradigm Shift or Hot Air? International Security, 26(2), 87-102.
--   Pasha, M. K. (1996). Security as Hegemony. Alternatives: Global, Local, Political, 21(3), 283-302.
--   Pratt, Nicola (2014). Reconceptualizing Gender, Reinscribing Racial--Sexual Boundaries in International Security: The Case of UN Security Council Resolution 1325 on "Women, Peace and Security". International Studies Quarterly, 57(4), 772-783.
--   [@rothschild_what_1995]
 -   Singer, J. D. (1961). The Level-of-Analysis Problem in International Relations. World Politics, 14(1), 77-92. Simmons (Eds.), Handbook of International Relations (170-194). London: SAGE Publications.
 -   Sjoberg, Laura, & Tickner, J. Ann (2013). Feminist Perspectives on International Relations. In W. Carlsnaes, T. Risse, & B. - A. Slaughter, Anne-Marie (2011). International Relations, Principal Theories. In R. Wolfrum (Ed.), Max Planck Encyclopedia of Public International Law.
--   Suganami, H. (2017). The causes of war. In J. George, R. Devetak, & S. Percy (Eds.), An Introduction to International Relations (3rd ed., pp. 224-234). Cambridge: Cambridge University Press.
 -   Wendt, A. (1992). Anarchy is what states make of it: the social construction of power politics. International Organization, 46(02), 391-425.
 -   Zehfuss, Maja (2013). Critical Theory, Poststructuralism, and Postcolonialism. In W. Carlsnaes, T. Risse, & B. A. Simmons (Eds.), Handbook of International Relations (145-169). London: SAGE Publications.
 
@@ -461,9 +447,79 @@ See Final Paper Section (@sec-final) for details.
 
 ## Week 14: `r df[14, 3]`{.unnumbered}
 
-There will be an invited speaker for this class. I will give the required readings list later in the semester.
+::: grid
+::: g-col-4
+![Dr. Precious Chatterje-Doody, The Open University](precious.jpeg)
+:::
+
+::: g-col-8
+Distinguished Lecture by Dr. Precious Chatterje-Doody, The Open University
+
+**Title:** When media and military operations go hand in hand: emotion, identity and legitimation in Russia's war on Ukraine
+
+**Moderator:** Professor Kadir Jun Ayhan
+
+::: {.border}
+**Lecturer Bio:** Dr Precious Chatterje-Doody is a lecturer in Politics and International Studies at The Open University in the UK. She has published widely on Russian foreign and security policy, with a particular focus on its information politics and propaganda, as well as how global audiences engage with different types of news and information. Her last book 'Russia Today and Conspiracy Theories: People, Power and Politics on RT,' (co-authored with Ilya Yablokov) was published by Routledge last year.
+:::
+:::
+:::
+
+**Required Readings:**
+
+Chatterje-Doody, Precious and Crilley, Rhys (2022). [Three lessons for the future of public service broadcasting: Information, confrontation and Russia's war on Ukraine](https://oro.open.ac.uk/83370/). IPPR Progressive Review, 29(1) pp. 28--36.
+
+-   Short, easy-read introduction to communication challenges around Russia-Ukraine war with specific focus on role/responsibilities of public service broadcasters.
+
+Rodgers J and Lanoszka A (2021) '[Russia's rising military and communication power: from](https://journals.sagepub.com/doi/10.1177/17506352211027084)
+
+[Chechnya to Crimea](https://journals.sagepub.com/doi/10.1177/17506352211027084)', Media, War & Conflict, doi: 10.1177/17506352211027084
+
+-   Comprehensive discussion of the evolution of an integrated Russian media-military strategy from the late-nineties to today.
+
+Crilley, Rhys and Chatterje-Doody, Precious N. (2020). [Emotions and war on YouTube: affective investments in RT's visual narratives of the conflict in Syria](https://oro.open.ac.uk/67619/). Cambridge Review of International Affairs, 33(5) pp. 713--733.
+
+-   Application of innovative qualitative method of analysing audiences' affective responses to online videos about war and conflict.
 
 **Recommended Readings:**
+
+Crilley, R. and Chatterje-Doody, P. N. (2021). [Government disinformation in war and conflict](https://oro.open.ac.uk/76390/). In: Tumber, H. and Waisbord, S. eds. The Routledge Companion to Media Disinformation and Populism. Routledge, pp. 242--252.
+
+-   Accessible overview of the history, core concepts, and future research trajectories for studying government disinformation in war and conflict.
+
+Crilley, Rhys and Chatterje-Doody, Precious (2021). [From Russia with Lols: Humour, RT, and the Legitimation of Russian Foreign Policy](https://oro.open.ac.uk/73646/). Global Society, 35(2) pp. 269--288.
+
+-   Analysis of how Russia uses humorous social media content as a means of foreign policy legitimation.
+
+Feklyunina, Valentina. [Soft power and identity: Russia, Ukraine and the 'Russian world (s)'](https://journals.sagepub.com/doi/pdf/10.1177/1354066115601200). European Journal of International Relations 22.4 (2016): 773-796.
+
+-   Constructivist take on soft power as a function of continually re-negotiated collective identities. Case study focused on Russia and Ukraine pre-Crimean annexation.
+
+Khaldarova, Irina. [Brother or 'Other'? Transformation of strategic narratives in Russian television news during the Ukrainian crisis](https://journals.sagepub.com/doi/pdf/10.1177/1750635219846016). Media, War & Conflict 14.1 (2021): 3-20.
+
+-   Analysis of evolution of Russian state TV's identity narratives about Ukrainians in the context of a deepening Russia-Ukraine crisis.
+
+Khaldarova, I., & Pantti, M. (2021). [Visual images as affective anchors: Strategic narratives in Russia's Channel One coverage of the Syrian and Ukrainian conflicts](https://helda.helsinki.fi/bitstream/handle/10138/333038/Visual_images_as_affective_anchors_strategic_narratives_in_Russia_s_Channel_One_coverage_of_the_Syrian_and_Ukrainian_conflicts.pdf?sequence=1). Russian Journal of Communication , 13(2), 140-162.
+
+-   Visual application of strategic narrative analysis in context of state propaganda/disinformation about war and conflict.
+
+Koltsova, Olessia, and Sergei Pashakhin. "[Agenda divergence in a developing conflict: Quantitative evidence from Ukrainian and Russian TV newsfeeds](https://journals.sagepub.com/doi/pdf/10.1177/1750635219829876)." Media, War & Conflict 13.3 (2020): 237-257
+
+-   Comparative analysis of Ukrainian and Russian TV content about conflict between the two states revealing vastly diverging coverage.
+
+Makhortykh, Mykola, and Maryna Sydorova. [Social media and visual framing of the conflict in Eastern Ukraine (sagepub.com)](https://journals.sagepub.com/doi/pdf/10.1177/1750635217702539), Media, war & conflict 10.3 (2017): 359-381.
+
+-   Analysis of contrasting visual framing of Russia-Ukraine conflict on social media, and related competing claims about the nature of the conflict.
+
+Szostek, J.  (2020) [What happens to public diplomacy during information war? Critical reflections on the conceptual framing of international communication](https://eprints.gla.ac.uk/215949/1/215949.pdf). International Journal of Communication, 14, pp. 2728-2748.
+
+-   Deconstruction of some of the conceptual baggage around ideas of public diplomacy and information war -- what assumptions are embedded in the language we use and how does this influence the validity of research?
+
+Szostek, J.  (2017) [The power and limits of Russia's strategic narrative in Ukraine: the role of linkage](https://eprints.gla.ac.uk/167897/1/167897.pdf). Perspectives on Politics, 15(2), pp. 379-395. (doi: 10.1017/S153759271700007X)
+
+-   This article shifts the focus from how states attempt to project narratives and onto the individual behaviours that feed into acceptance/rejection of those narratives.
+
+**Other Recommended Readings:**
 
 -   Branch, Jordan (2021). What's in a Name? Metaphors and Cybersecurity. International Organization, 75(1), 39-70.
 -   Choucri, N., & Goldsmith, D. (2012). Lost in cyberspace: Harnessing the Internet, international relations, and global security. Bulletin of the Atomic Scientists, 68(2), 70-77.
@@ -476,6 +532,30 @@ There will be an invited speaker for this class. I will give the required readin
 
 ## Week 15: `r df[15, 3]`{.unnumbered}
 
+**Required Readings:**
+
+-   [@burke_security_2017]
+-   [@buzan_evolution_2009], Chapter 2.
+-   [@rothschild_what_1995]
+
+**Recommended Readings:**
+
+-   Barkawi, T., & Laffey, M. (2006). The Postcolonial Moment in Security Studies. Review of International Studies, 32(2), 329-352.
+-   Barkawi, Tarak (2016). Decolonising war. European Journal of International Security, 1(2), 199-214.
+-   Browning, C. S. (2013). International security: A very short introduction. Oxford: Oxford University Press.
+-   Buzan, Barry (2015). The English School: A neglected approach to international security studies. Security Dialogue, 46(2), 126-143.
+-   Buzan, Barry, and Lene Hansen (2009). The Evolution of International Security Studies. Cambridge University Press. Chapters 1, 3.
+-   Haftendorn, Helga (1991). The Security Puzzle: Theory-Building and Discipline-Building in International Security. International Studies Quarterly, 35(1), 3-17.
+-   Hudson, Valerie M., Mary Caprioli, Bonnie Ballif-Spanvill, Rose McDermott, and Chad F. Emmett (2009). The heart of the matter: The security of women and the security of states. International security, 33(3), 7-45.
+-   Lebow, R. Ned (2010). Why Nations Fight: Past and Future Motives for War. Cambridge: Cambridge University Press. Chapter 1.
+-   Levy, Jack S. (1998). The Causes of War and the Conditions of Peace. Annual Review of Political Science, 1(1), 139-165.
+-   Paris, R. (2001). Human Security: Paradigm Shift or Hot Air? International Security, 26(2), 87-102.
+-   Pasha, M. K. (1996). Security as Hegemony. Alternatives: Global, Local, Political, 21(3), 283-302.
+-   Pratt, Nicola (2014). Reconceptualizing Gender, Reinscribing Racial--Sexual Boundaries in International Security: The Case of UN Security Council Resolution 1325 on "Women, Peace and Security". International Studies Quarterly, 57(4), 772-783.
+-   Suganami, H. (2017). The causes of war. In J. George, R. Devetak, & S. Percy (Eds.), An Introduction to International Relations (3rd ed., pp. 224-234). Cambridge: Cambridge University Press.
+
+## Week 16: `r df[16, 3]`{.unnumbered}
+
 See Final Paper Section (@sec-final) for details.
 
 # [Special Accommodations]{style="color: green"}
@@ -484,7 +564,7 @@ See Final Paper Section (@sec-final) for details.
 -   According to the University regulation section #57-3, students with disabilities can request for special accommodations related to attendance, lectures, assignments, or tests by contacting the course professor at the beginning of semester. Based on the nature of the students' request, students can receive support for such accommodations from the course professor or from the Support Center for Students with Disabilities (SCSD). Please refer to the below examples of the types of support available in the lectures, assignments, and evaluations.
 
 | Lecture                                                                                                                                                             | Assignments                                         | Evaluation                                                                                                                                                                                                                                                    |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------|-------------------|---------------------------------|
 | Visual impairment: braille, enlarged reading materials. Hearing impairment: note-taking assistant. Physical impairment: access to classroom, note-taking assistant. | Extra days for submission, alternative assignments. | Visual impairment: braille examination paper, examination with voice support, longer examination hours, note-taking assistant. Hearing impairment: written examination instead of oral. Physical impairment: longer examination hours, note-taking assistant. |
 
 -   Actual support may vary depending on the course.
