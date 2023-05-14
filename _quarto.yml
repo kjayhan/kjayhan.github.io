@@ -6,8 +6,8 @@ website:
   google-analytics: "G-W257WPSHMV"
   title: "Dr. Kadir Jun Ayhan"
   page-footer:
-    left: "© 2022 Kadir Jun Ayhan"
-    center: "Prepared with [Quarto](https://quarto.org)"
+    left: "© 2023 Kadir Jun Ayhan"
+    center: "Designed with [Quarto](https://quarto.org)"
   navbar:
     right:
       #- text: Blog
@@ -29,23 +29,10 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/kadirjunayhan/
     left:
-      - href: index.qmd
-        text: "About"
+      - text: "About"
         file: index.qmd
-      - text: "Research"
-        file: research/index.qmd
-      - text: "Teaching"
-        file: teaching.qmd
-      - text: "CV"
-        file: contents/cv/Kadir_Jun_Ayhan_CV.pdf
-      - text: "Ongoing Research"
-        file: ongoing.qmd
-      #- text: "Special Lectures - 특강"
-      #  file: lecture.qmd
-      #- text: "Media"
-      #  file: media.qmd
-      - text: "Blog"
-        file: blog.qmd
+      - text: "My website"
+        href: https://ayhan.phd
       - text: "PD in Other Words"
         href: https://pdother.netlify.app
       - text: "Korean Diplomacy Data Hub"

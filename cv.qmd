@@ -1,8 +1,0 @@
----
-title: "CV"
-editor: visual
----
-
-You can download my CV from [here](https://github.com/kjayhan/cv/raw/main/docs/Kadir_Jun_Ayhan_CV.pdf).
-
-Updated: October 16, 2022

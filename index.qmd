@@ -1,44 +1,19 @@
 ---
-title: "Dr. Kadir Jun Ayhan's Website"
-pagetitle: "{{< meta website.title >}}"
-description-meta: "{{< meta website.description >}}"
-main-photo: /profiles/kf_pd_week.png
-main-photo-square: /profiles/kf_pd_week.png
-title-block-banner: "#004440"
+#title: "Dr. Kadir Jun Ayhan's Website"
+#pagetitle: "{{< meta website.title >}}"
+#description-meta: "{{< meta website.description >}}"
+#main-photo: /profiles/kf_pd_week.png
+#main-photo-square: /profiles/kf_pd_week.png
+#title-block-banner: "#004440"
 format:
   html:
     quarto-template-params:
       banner-header-class: "home"
 ---
 
-::: grid
-::: {.g-col-12 .g-col-sm-5}
-```{=html}
-<div class="grid" style="--bs-columns: 5; row-gap: 0;">
-  <div class="g-col-1 g-col-sm-0"></div>
-  <div class="g-col-3 g-col-sm-5">
-    <picture>
-      <source media="(max-width: 576px)" srcset="{{< meta main-photo-square >}}">
-      <source media="(min-width: 576px)" srcset="{{< meta main-photo >}}">
-      <img class="img-fluid" src="{{< meta main-photo >}}" alt="{{< meta author-meta >}}">
-    </picture>
-  </div>
-  <div class="g-col-1 g-col-sm-0"></div>
-</div>
-```
+::: {.border style="font-size: 3em"}
+I have moved my website to 
+
+[ayhan.phd](https://ayhan.phd).
 :::
 
-::: {.g-col-12 .g-col-sm-7}
-Hi. My name is Kadir Jun Ayhan.
-
-I am an Assistant Professor of International Relations at [Ewha Womans University Graduate School of International Studies](http://gsis.ewha.ac.kr/).
-
-My main research interests include public diplomacy, power in world politics, Korean foreign policy, status and reputation, and international student mobility. I serve as the Editor-in-chief of [Journal of Public Diplomacy](https://www.journalofpd.com).
-
-I regularly consult for governmental public diplomacy projects in Korea, including as a member of [Korea Foundation](https://www.kf.or.kr/) Steering Advisory Committee for Empowerment of Cultural Exchanges and Cooperation. I served as a member of the [Korean Presidential (Transition Panel) National Unity Committee](https://en.yna.co.kr/view/AEN20220330011000315) in 2022.
-
-I received my Ph.D. (2016) and M.I.S. (2010) from [Seoul National University in International Studies](https://gsis.snu.ac.kr/) and Bachelor of Commerce (2008) in Economics and International Trade from the [University of Auckland](https://www.auckland.ac.nz/).
-
-I published peer-reviewed articles in numerous journals such as *International Studies Perspectives*, *Korea Observer*, *Asia Pacific Education Review*, *Politics & Policy*, *The Hague Journal of Diplomacy*, and *Place Branding and Public Diplomacy*, among others.
-:::
-:::

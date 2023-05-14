@@ -1,9 +1,0 @@
----
-title: "Research"
-listing: 
-  contents: research
-  type: table 
-  sort: "date desc"
-  categories: true
-  fields: [date, title, citation]
----
