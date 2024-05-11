@@ -1,0 +1,11 @@
+---
+format:
+  html:
+    quarto-template-params:
+      banner-header-class: "home"
+---
+
+::: {.alert .alert-info style="font-size: 5em"}
+[Visit my updated website at:
+ayhan.phd](https://ayhan.phd).
+:::

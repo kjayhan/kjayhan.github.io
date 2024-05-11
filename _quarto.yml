@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Dr. Kadir Jun Ayhan"
+  page-footer:
+    left: "© 2024 Kadir Jun Ayhan"
+    center: "Prepared with [Quarto](https://quarto.org)"
+  navbar:
+    right:
+      - icon: envelope
+        href: mailto:k@ayhan.phd
+      - icon: github
+        href: https://github.com/kjayhan
+      - text: "{{< ai google-scholar >}}"
+        href: https://scholar.google.co.kr/citations?user=TdrkBOUAAAAJ&hl=en
+      - text: "{{< ai orcid >}}"
+        href: https://orcid.org/0000-0001-8052-1938
+      - icon: twitter
+        href: https://twitter.com/kadirayhan
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kadirjunayhan/
+    left:
+      - text: "About"
+        file: index.qmd
+      - text: "My website"
+        href: https://ayhan.phd
+      - text: "R for Korean Studies"
+        href: https://r4ks.com      
+      - text: "PD in Other Words"
+        href: https://pdother.netlify.app
+      - text: "Korean Diplomacy Data Hub"
+        href: https://kdiplo.com
+format:
+  html:
+    theme: flatly
+    css: 
+    - styles.css
+    toc: true
+
+editor: visual
+
