@@ -27,7 +27,7 @@ website:
       - text: "My website"
         href: https://ayhan.phd
       - text: "R for Korean Studies"
-        href: https://r4ks.com      
+        href: https://r4ks.com
       - text: "PD in Other Words"
         href: https://pdother.netlify.app
       - text: "Korean Diplomacy Data Hub"
@@ -35,7 +35,7 @@ website:
 format:
   html:
     theme: flatly
-    css: 
+    css:
     - styles.css
     toc: true
 
